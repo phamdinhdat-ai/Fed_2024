@@ -5,7 +5,8 @@ import numpy as np
 import time
 import torch.nn.functional as F
 from flcore.clients.clientbase import Client
-from flcore.clients.helper_function import ContrastiveLoss , HardTripletLoss
+from flcore.clients.helper_function import ContrastiveLoss , HardTripletLoss, lipschitz_constant_v2
+import random 
 # import scipy.linalg as la
 # from flcore.clients.helper_function import 
 # from scipy.sparse.linalg import svds
@@ -58,6 +59,8 @@ class clientKDX(Client):
             loss_g_h = 0
             loss_nkd_e = 0
             loss_ct_e = 0
+            l_const_e  = 0 
+            l_const_g_e = 0
             for i, (x, y) in enumerate(trainloader):
                 if type(x) == type([]):
                     x[0] = x[0].to(self.device)
@@ -106,7 +109,15 @@ class clientKDX(Client):
                 #triplet loss
                 # tpl_local = self.triplet_loss(rep, label)
                 # tpl_global = self.triplet_loss(rep_g, label)
-                
+                # data_add_noise = x + torch.randn_like(x) * 0.1  
+                samples = random.choices(x, k=2)
+                x1 = samples[0].unsqueeze(0)
+                x2 = samples[1].unsqueeze(0)
+
+                l_const = lipschitz_constant_v2(self.model, x1, x2)
+                l_const_g = lipschitz_constant_v2(self.global_model, x1, x2)
+
+
                 CE_loss = self.loss(output, y)
                 CE_loss_g = self.loss(output_g, y)
                 
@@ -136,9 +147,11 @@ class clientKDX(Client):
                 loss_g_h += L_d_g.item()
                 loss_nkd_e += loss_nkd.item()
                 loss_ct_e += loss_ct.item()
-                
+                l_const_e += l_const.item()
+                l_const_g_e += l_const_g.item()
             print(f"Epoch: {epoch}|  NKD Loss: {round(loss_nkd_e/len(trainloader), 4)} | CT Loss: {round(loss_ct_e/len(trainloader), 4)}")
             print(f"Epoch: {epoch}|  Loss:  {round(loss_e/len(trainloader), 4)} |Global loss: {round(loss_g_e/len(trainloader), 4)}| Local H loss: {round(loss_h/len(trainloader), 4)}  | Global H loss: {round(loss_g_h/len(trainloader), 4)}")
+            print(f"\033[94m Lipschitz constant: {l_const_e/len(trainloader)} | Lipschitz constant global:  {l_const_g_e/len(trainloader)} \033[0m")
             
         # self.model.cpu()
 
@@ -267,3 +280,9 @@ class clientKDX(Client):
                 compressed_param_cpu=param_cpu
 
             self.compressed_param[name] = compressed_param_cpu
+
+
+
+    def lipschitz_constant(self, params, inputs):
+        
+        pass 

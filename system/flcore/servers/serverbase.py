@@ -232,15 +232,16 @@ class Server(object):
         accs = []
         f1_values = []
         rc_values = []
-        
+        l_cvl = []
         for c in self.clients:
-            ct, ns, auc, f1_s, rc_s = c.test_metrics()
+            ct, ns, auc, f1_s, rc_s,l_vl = c.test_metrics()
             tot_correct.append(ct*1.0)
             tot_auc.append(round(auc*ns, 3))
             num_samples.append(ns)
             accs.append(round(ct*1.0 / ns, 3))
             f1_values.append(round(f1_s, 3))
             rc_values.append(round(rc_s, 3))
+            l_cvl.append(round(l_vl, 3))
             
             
             
@@ -251,11 +252,12 @@ class Server(object):
         print("AUC in each clients: ", tot_auc)
         print("F1 Score: ", f1_values)
         print("Recall Score: ", rc_values)
+        print(f"\033[96m Lipschitz Constant: {l_cvl} \033[0m")
         print("Number of sample in client: ", num_samples)
         
         
     
-        self.all_client_results.append([ids, num_samples, tot_correct, tot_auc, f1_values, rc_values]) 
+        self.all_client_results.append([ids, num_samples, tot_correct, tot_auc, f1_values, rc_values, l_cvl]) 
         return ids, num_samples, tot_correct, tot_auc, f1_values, rc_values
 
     def train_metrics(self):

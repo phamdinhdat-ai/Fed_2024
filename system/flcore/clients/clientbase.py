@@ -25,8 +25,8 @@ from sklearn.preprocessing import label_binarize
 from sklearn import metrics
 from utils.data_utils import read_client_data
 from sklearn.metrics import accuracy_score, f1_score, recall_score
-
-
+import random
+from flcore.clients.helper_function import lipschitz_constant_v2
 
 
 class Client(object):
@@ -126,7 +126,7 @@ class Client(object):
         test_num = 0
         y_prob = []
         y_true = []
-        
+        l_const_test = []
         with torch.no_grad():
             for x, y in testloaderfull:
                 if type(x) == type([]):
@@ -135,7 +135,14 @@ class Client(object):
                     x = x.to(self.device)
                 y = y.to(self.device)
                 output = self.model(x)
-
+                
+                # data_add_noise = x + torch.randn_like(x) * 0.1  
+                samples = random.choices(x,  k=2)
+                x1 = samples[0].unsqueeze(0)
+                x2 = samples[1].unsqueeze(0)
+                # print(len(x1))
+                # print(len(x2))
+                l_const = lipschitz_constant_v2(self.model, x1, x2)
                 test_acc += (torch.sum(torch.argmax(output, dim=1) == y)).item()
                 test_num += y.shape[0]
 
@@ -147,7 +154,7 @@ class Client(object):
                 if self.num_classes == 2:
                     lb = lb[:, :2]
                 y_true.append(lb)
-
+                l_const_test.append(l_const.item())
         # self.model.cpu()
         # self.save_model(self.model, 'model')
 
@@ -161,8 +168,8 @@ class Client(object):
         rc_s = recall_score(np.argmax(y_true, axis=-1), np.argmax(y_prob,axis=-1), average='macro')
         # print("f1_score: ", f1_s)
         # print("recall: ", rc_s)
-        
-        return test_acc, test_num, auc, f1_s, rc_s
+        l_value  = sum(l_const_test)/len(l_const_test)
+        return test_acc, test_num, auc, f1_s, rc_s , l_value
 
     def train_metrics(self):
         trainloader = self.load_train_data()

@@ -7,7 +7,26 @@ from sklearn.preprocessing import normalize
 
 
 # unsupervised contrastive loss
+@torch.enable_grad()
+def lipschitz_constant_v2(model, input_1, input_2):
+    if torch.cuda.is_available():
+        input_1 = input_1.cuda()
+        input_2 = input_2.cuda()
+    input_1.requires_grad = True
+    input_2.requires_grad = True 
+    output_1 = model(input_1)
+    output_2 = model(input_2)
 
+    grad_1 = torch.autograd.grad(outputs=output_1, inputs=input_1, grad_outputs=torch.ones_like(output_1), create_graph=True, retain_graph=True, only_inputs=True)[0]
+    grad_2 = torch.autograd.grad(outputs=output_2, inputs=input_2, grad_outputs=torch.ones_like(output_2), create_graph=True, retain_graph=True, only_inputs=True)[0]
+
+    grad_1 = grad_1.view(grad_1.size(0), -1)
+    grad_2 = grad_2.view(grad_2.size(0), -1)
+   
+    lipschitz = torch.norm(grad_1 - grad_2, p=2, dim=1).mean()    
+    return lipschitz
+
+# def lipschitz_constant_v3()
 class ContrastiveLoss(nn.Module):
     def __init__(self, temperature=0.5):
         super(ContrastiveLoss, self).__init__()
@@ -231,3 +250,57 @@ def robust_svd(matrix):
 # triplet_loss = HardTripletLoss(margin=0.1, hardest=False, squared=False)
 # loss = triplet_loss(embeddings, labels)
 # print(loss)
+
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
+def compute_gradient_norm(model, input_tensor):
+    """
+    Compute the norm of the gradient of the model's output with respect to its input.
+
+    Parameters:
+        model (torch.nn.Module): The neural network model.
+        input_tensor (torch.Tensor): The input tensor for which to compute the gradient norm.
+
+    Returns:
+        float: The norm of the gradient.
+    """
+    input_tensor = input_tensor.requires_grad_()
+    output = model(input_tensor)
+    grad_outputs = torch.ones_like(output)
+
+    gradients = torch.autograd.grad(
+        outputs=output,
+        inputs=input_tensor,
+        grad_outputs=grad_outputs,
+        create_graph=True,
+        retain_graph=True,
+        only_inputs=True
+    )[0]
+
+    grad_norm = gradients.view(gradients.size(0), -1).norm(2, dim=1).max().item()
+    return grad_norm
+
+def estimate_lipschitz_constant(model, input_range, num_samples=100):
+    """
+    Estimate the Lipschitz constant for a neural network model.
+
+    Parameters:
+        model (torch.nn.Module): The neural network model.
+        input_range (tuple): A tuple (low, high) specifying the range of input values.
+        num_samples (int): The number of random samples to evaluate.
+
+    Returns:
+        float: The estimated Lipschitz constant.
+    """
+    low, high = input_range
+    max_grad_norm = 0
+
+    for _ in range(num_samples):
+        input_tensor = torch.rand((1, *low.shape)) * (high - low) + low
+        grad_norm = compute_gradient_norm(model, input_tensor)
+        max_grad_norm = max(max_grad_norm, grad_norm)
+
+    return max_grad_norm
