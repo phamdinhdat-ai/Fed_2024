@@ -31,5 +31,5 @@ COPY . /fed_2024/
 
 RUN pip install -r /fed_2024/requirements.txt
 
-RUN python3 /fed_2024/dataset/generate_Cifar10.py noniid  -dir 
+RUN python3 /fed_2024/dataset/generate_Cifar10.py noniid  
 RUN bash /fed_2024/run_kdx.sh
