@@ -206,7 +206,27 @@ def run(args):
             elif args.dataset  == "PAMAP2":
                 args.model = HARCNNBN(9, dim_hidden=3712, num_classes=args.num_classes, conv_kernel_size=(1, 9)).to(args.device)
                 print("total Parameters: ", sum([p.numel() for p in args.model.parameters()]))
+
+        elif model_str == 'hybridbn':
+            if args.dataset == "HAR":
+                args.model = HybridBN(9, dim_hidden=16*60, num_classes=args.num_classes, conv_kernel_size=(1, 9), 
+                                    pool_kernel_size=(1, 2)).to(args.device)  
+                print("total Parameters: ", sum([p.numel() for p in args.model.parameters()]))
+                
+            # elif args.dataset  == "SLEEP":
+            #     args.model = HARCNNBN(3, dim_hidden=1472, num_classes=args.num_classes, conv_kernel_size=(1, 3)).to(args.device)
+            #     print("total Parameters: ", sum([p.numel() for p in args.model.parameters()]))
             
+            
+            elif args.dataset  == "SLEEP":
+                args.model = HybridBN(3, dim_hidden=16 * 49, num_classes=args.num_classes, conv_kernel_size=(1, 3)).to(args.device)
+                print("total Parameters: ", sum([p.numel() for p in args.model.parameters()]))
+            
+            
+            elif args.dataset  == "PAMAP2":
+                args.model = HybridBN(9, dim_hidden=16*124, num_classes=args.num_classes, conv_kernel_size=(1, 9)).to(args.device)
+                print("total Parameters: ", sum([p.numel() for p in args.model.parameters()]))
+ 
             
         elif model_str == "transformer":
             if args.dataset == "SLEEP":
