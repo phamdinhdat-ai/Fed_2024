@@ -603,3 +603,32 @@ class TextCNN(nn.Module):
 #   @staticmethod
 #   def backward(ctx, grad_output):
 #     return grad_output
+
+
+
+
+class HybridBN(nn.Module):
+    def __init__(self, in_channels=9, dim_hidden=16*60, num_classes=6, conv_kernel_size=(1, 9), pool_kernel_size=(1, 2)):
+        super().__init__()
+        self.conv1 = nn.Sequential(
+            nn.Conv2d(in_channels, 32, kernel_size=conv_kernel_size),
+            nn.BatchNorm2d(32),
+            nn.ReLU(),
+            nn.MaxPool2d(kernel_size=pool_kernel_size, stride=2)
+        )
+        self.lstm = nn.LSTM(32, 16, batch_first=True)
+        self.fc = nn.Sequential(
+            nn.Linear(dim_hidden, 128),
+            nn.ReLU(), 
+            nn.Linear(128, 64),
+            nn.ReLU(), 
+            nn.Linear(64, num_classes)
+        )
+
+    def forward(self, x):
+        out = self.conv1(x)
+        out = out.squeeze(2).permute(0, 2, 1)
+        out, _ = self.lstm(out)
+        out = torch.flatten(out, 1)
+        out = self.fc(out)
+        return out

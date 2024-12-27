@@ -5,7 +5,8 @@ import numpy as np
 import time
 import torch.nn.functional as F
 from flcore.clients.clientbase import Client
-from flcore.clients.helper_function import ContrastiveLoss , HardTripletLoss
+from flcore.clients.helper_function import ContrastiveLoss , HardTripletLoss, lipschitz_constant_v2
+import random
 # import scipy.linalg as la
 # from flcore.clients.helper_function import 
 # from scipy.sparse.linalg import svds
@@ -58,6 +59,9 @@ class clientKDX(Client):
             loss_g_h = 0
             loss_nkd_e = 0
             loss_ct_e = 0
+            l_rep_e = 0
+            # random choice 2 batch data in loader 
+            
             for i, (x, y) in enumerate(trainloader):
                 if type(x) == type([]):
                     x[0] = x[0].to(self.device)
@@ -74,7 +78,10 @@ class clientKDX(Client):
                 N, c = output.shape 
                 s_i = F.log_softmax(output)
                 t_i = F.softmax(output_g, dim=1)
-                
+                # random choice 2 sample in batch 
+                # data_add_noise = x + torch.randn_like(x) * 0.1
+                # l_const = lipschitz_constant_v2(self.model, x, data_add_noise)
+
                 if len(y.size()) > 1:
                     label = torch.max(y, dim=1, keepdim=True)[1]
                 else:
@@ -103,6 +110,7 @@ class clientKDX(Client):
 
                 #contrastive loss
                 loss_ct = self.contras_loss(rep, rep_g)
+            
                 #triplet loss
                 # tpl_local = self.triplet_loss(rep, label)
                 # tpl_global = self.triplet_loss(rep_g, label)
@@ -110,13 +118,25 @@ class clientKDX(Client):
                 CE_loss = self.loss(output, y)
                 CE_loss_g = self.loss(output_g, y)
                 
+
+                
+
+
                 L_d = self.KL(F.log_softmax(output, dim=1), F.softmax(output_g, dim=1)) / (CE_loss + CE_loss_g)
                 L_d_g = self.KL(F.log_softmax(output_g, dim=1), F.softmax(output, dim=1)) / (CE_loss + CE_loss_g)
-                # L_h = self.MSE(rep, self.W_h(rep_g)) / (CE_loss + CE_loss_g)
-                # L_h_g = self.MSE(rep, self.W_h(rep_g)) / (CE_loss + CE_loss_g)
                 
-                loss = CE_loss + L_d  + loss_nkd + loss_ct 
-                loss_g = CE_loss_g + L_d_g  + loss_nkd + loss_ct 
+
+
+                L_h = self.MSE(rep, self.W_h(rep_g)) / (CE_loss + CE_loss_g)
+
+                samples = random.choices(x, k=2)
+                x1 = samples[0].unsqueeze(0)
+                x2 = samples[1].unsqueeze(0)
+
+                # l_const_g = lipschitz_constant_v2(self.global_model, x1, x2)
+                    
+                loss = CE_loss + L_d  + loss_nkd + loss_ct  + L_h
+                loss_g = CE_loss_g + L_d_g  + loss_nkd + loss_ct + L_h
 
                 self.optimizer.zero_grad()
                 self.optimizer_g.zero_grad()
@@ -136,9 +156,11 @@ class clientKDX(Client):
                 loss_g_h += L_d_g.item()
                 loss_nkd_e += loss_nkd.item()
                 loss_ct_e += loss_ct.item()
-                
-            print(f"Epoch: {epoch}|  NKD Loss: {round(loss_nkd_e/len(trainloader), 4)} | CT Loss: {round(loss_ct_e/len(trainloader), 4)}")
-            print(f"Epoch: {epoch}|  Loss:  {round(loss_e/len(trainloader), 4)} |Global loss: {round(loss_g_e/len(trainloader), 4)}| Local H loss: {round(loss_h/len(trainloader), 4)}  | Global H loss: {round(loss_g_h/len(trainloader), 4)}")
+                l_rep_e += L_h.item()
+                # l_const_g_e += l_const_g.item()
+            print(f"\033[94mEpoch: {epoch}|  NKD Loss: {round(loss_nkd_e/len(trainloader), 4)} | CT Loss: {round(loss_ct_e/len(trainloader), 4)}| Loss Rep: {round(l_rep_e/len(trainloader), 4) } \033[0m")
+            print(f"\033[91mEpoch: {epoch}|  Loss:  {round(loss_e/len(trainloader), 4)} |Global loss: {round(loss_g_e/len(trainloader), 4)}| Local H loss: {round(loss_h/len(trainloader), 4)}  | Global H loss: {round(loss_g_h/len(trainloader), 4)} \033[0m")
+            # print(f"\033[94m Lipschitz constant: {l_const_e/len(trainloader)} | Lipschitz constant global:  {l_const_g_e/len(trainloader)} \033[0m")
             
         # self.model.cpu()
 
@@ -238,10 +260,6 @@ class clientKDX(Client):
             # refer to https://github.com/wuch15/FedKD/blob/main/run.py#L187
             if param_cpu.shape[0]>1 and len(param_cpu.shape)>1 and 'embeddings' not in name:
                 u, sigma, v = np.linalg.svd(param_cpu, full_matrices=False)
-                # u, sigma, v = svds(param_cpu, k=param_cpu.shape[0]//2)
-                # u, sigma, v = la.svd(param_cpu, full_matrices=False)
-                # u, sigma, v = robust_svd(param_cpu)
-                # support high-dimensional CNN param
                 if len(u.shape)==4:
                     u = np.transpose(u, (2, 3, 0, 1))
                     sigma = np.transpose(sigma, (2, 0, 1))
@@ -266,4 +284,4 @@ class clientKDX(Client):
             elif 'embeddings' not in name:
                 compressed_param_cpu=param_cpu
 
-            self.compressed_param[name] = compressed_param_cpu
+            self.compressed_param[name] = compressed_param_cpu 

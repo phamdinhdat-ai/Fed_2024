@@ -4,9 +4,42 @@ import torch.nn.functional as F
 import numpy as np
 from scipy.linalg import svd
 from sklearn.preprocessing import normalize
+import numpy as np
 
 
 # unsupervised contrastive loss
+
+#lipschitz constant for deaeplearning model 
+def lipschitz_constant(model, data):
+    if torch.cuda.is_available():
+        data = data.cuda()
+
+    data.requires_grad = True
+    output = model(data)
+    grad = torch.autograd.grad(outputs=output, inputs=data, grad_outputs=torch.ones_like(output), create_graph=True, retain_graph=True, only_inputs=True)[0]
+    grad = grad.view(grad.size(0), -1)
+    lipschitz = torch.norm(grad, p=2, dim=1).mean()
+    return lipschitz
+
+def lipschitz_constant_v2(model, input_1, input_2):
+    if torch.cuda.is_available():
+        input_1 = input_1.cuda()
+        input_2 = input_2.cuda()
+    input_1.requires_grad = True
+    input_2.requires_grad = True 
+    output_1 = model(input_1)
+    output_2 = model(input_2)
+
+    grad_1 = torch.autograd.grad(outputs=output_1, inputs=input_1, grad_outputs=torch.ones_like(output_1), create_graph=True, retain_graph=True, only_inputs=True)[0]
+    grad_2 = torch.autograd.grad(outputs=output_2, inputs=input_2, grad_outputs=torch.ones_like(output_2), create_graph=True, retain_graph=True, only_inputs=True)[0]
+
+    grad_1 = grad_1.view(grad_1.size(0), -1)
+    grad_2 = grad_2.view(grad_2.size(0), -1)
+
+    lipschitz = torch.norm(grad_1 - grad_2, p=2, dim=1).mean() 
+    return lipschitz
+
+
 
 class ContrastiveLoss(nn.Module):
     def __init__(self, temperature=0.5):
@@ -53,12 +86,6 @@ class RKDLoss(nn.Module):
         js_div2 = F.kl_div(F.log_softmax(inputs2, dim=1), F.softmax(targets, dim=1), reduction='batchmean')
         
         return (js_div1 + js_div2) / 2.0 
-        
-# Triplet Loss 
-
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
 
 
 class HardTripletLoss(nn.Module):
