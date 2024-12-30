@@ -1,0 +1,1 @@
+{"client_id":14,"average_accuracy":0.32273333333333337,"f1_score":0.255,"recall_score":0.313,"_runtime":86.058941022,"average_f1_score":0.2554666666666667,"average_auc":104.19846666666668,"average_recall_score":0.36606666666666665,"_wandb":{"runtime":88},"_step":495,"auc":103.039,"accuracy":0.275,"_timestamp":1.7355475060655735e+09}

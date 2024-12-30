@@ -1,0 +1,11 @@
+{"time":"2024-12-30T16:33:48.463979209+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-30T16:33:48.463989486+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/capstone/Fed_2024/system/wandb/run-20241230_163348-9zvyfwwl/logs/debug-core.log"}
+{"time":"2024-12-30T16:33:48.566891206+07:00","level":"INFO","msg":"created new stream","id":"9zvyfwwl"}
+{"time":"2024-12-30T16:33:48.566911203+07:00","level":"INFO","msg":"stream: started","id":"9zvyfwwl"}
+{"time":"2024-12-30T16:33:48.566921216+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"9zvyfwwl"}
+{"time":"2024-12-30T16:33:48.566925007+07:00","level":"INFO","msg":"handler: started","stream_id":"9zvyfwwl"}
+{"time":"2024-12-30T16:33:48.566935804+07:00","level":"INFO","msg":"sender: started","stream_id":"9zvyfwwl"}
+{"time":"2024-12-30T16:33:49.039178747+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-30T16:36:57.627834328+07:00","level":"INFO","msg":"stream: closing","id":"9zvyfwwl"}
+{"time":"2024-12-30T16:36:57.627853582+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-30T16:36:57.628189755+07:00","level":"INFO","msg":"Stopped system monitor"}

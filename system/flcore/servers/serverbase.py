@@ -10,6 +10,8 @@ import datetime
 import pickle
 from utils.data_utils import read_client_data
 from utils.dlg import DLG
+import wandb
+
 
 
 class Server(object):
@@ -36,7 +38,8 @@ class Server(object):
         self.save_folder_name = args.save_folder_name
         self.top_cnt = 100
         self.auto_break = args.auto_break
-        self.model_name = 'harcnn'
+        # self.model_name = 'harcnn'
+        self.model_name = args.model_name
         
 
         self.clients = []
@@ -69,7 +72,12 @@ class Server(object):
         self.new_clients = []
         self.eval_new_clients = False
         self.fine_tuning_epoch_new = args.fine_tuning_epoch_new
-
+        self.round_id = 0
+        self.wandb = args.wandb
+        # tracking performance of each client
+        if self.wandb:
+            wandb.init(project='PFL', name="server_" + str(self.model_name) + "_" + str(self.dataset) + "_" + str(self.algorithm) + "_" + str(self.num_classes))
+            
     def set_clients(self, clientObj):
         for i, train_slow, send_slow in zip(range(self.num_clients), self.train_slow_clients, self.send_slow_clients):
             train_data = read_client_data(self.dataset, i, is_train=True)
@@ -253,8 +261,27 @@ class Server(object):
         print("Recall Score: ", rc_values)
         print("Number of sample in client: ", num_samples)
         
-        
-    
+        for i in range(len(ids)):
+            wandb.log({
+                f"Client_{ids[i]}/F1_Score": f1_values[i],
+                f"Client_{ids[i]}/Accuracy": accs[i],
+                f"Client_{ids[i]}/AUC": tot_auc[i],
+                f"Client_{ids[i]}/Recall": rc_values[i],
+                f"Client_{ids[i]}/Num_Samples": num_samples[i],
+                "Round": self.round_id
+            })
+        average_accuracy = sum(accs) / len(accs)
+        average_auc = sum(tot_auc) / len(tot_auc)
+        average_f1_score = sum(f1_values) / len(f1_values)
+        average_recall_score = sum(rc_values) / len(rc_values)
+
+        wandb.log({
+            "average_accuracy": average_accuracy,
+            "average_auc": average_auc,
+            "average_f1_score": average_f1_score,
+            "average_recall_score": average_recall_score
+        })
+        self.round_id += 1
         self.all_client_results.append([ids, num_samples, tot_correct, tot_auc, f1_values, rc_values]) 
         return ids, num_samples, tot_correct, tot_auc, f1_values, rc_values
 

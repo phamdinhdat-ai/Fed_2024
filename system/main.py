@@ -73,7 +73,7 @@ def run(args):
     time_list = []
     reporter = MemReporter()
     model_str = args.model
-
+    args.model_name = model_str
     for i in range(args.prev, args.times):
         print(f"\n============= Running time: {i}th =============")
         print("Creating server and clients ...")
@@ -447,6 +447,7 @@ if __name__ == "__main__":
     parser.add_argument('-data', "--dataset", type=str, default="MNIST")
     parser.add_argument('-nb', "--num_classes", type=int, default=10)
     parser.add_argument('-m', "--model", type=str, default="cnn")
+    parser.add_argument('-m_n', "--model_name", type=str, default="harcnn")
     parser.add_argument('-lbs', "--batch_size", type=int, default=10)
     parser.add_argument('-lr', "--local_learning_rate", type=float, default=0.005,
                         help="Local learning rate")
@@ -543,7 +544,8 @@ if __name__ == "__main__":
     parser.add_argument('-gam', "--gamma", type=float, default=0.1)
     parser.add_argument('-opt', "--optimizer", type=str, default=None)
     parser.add_argument('-lfn', "--loss_fn", type=str, default="ce")
-    
+    parser.add_argument('-wb', "--wandb", type=bool, default=False)
+
 
 
     args = parser.parse_args()

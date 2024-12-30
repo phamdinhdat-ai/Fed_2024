@@ -23,8 +23,10 @@ import os
 from torch.utils.data import DataLoader
 from sklearn.preprocessing import label_binarize
 from sklearn import metrics
+import wandb.integration
 from utils.data_utils import read_client_data
 from sklearn.metrics import accuracy_score, f1_score, recall_score
+import wandb
 
 
 
@@ -49,6 +51,16 @@ class Client(object):
         self.batch_size = args.batch_size
         self.learning_rate = args.local_learning_rate
         self.local_epochs = args.local_epochs
+        self.wandb = args.wandb
+        # if self.wandb:
+        #     wandb.init(project='PFL', 
+        #                name="client_" + str(self.id) + "_" + str(self.model) + "_" + str(self.dataset) + "_" + str(self.algorithm) + "_" + str(self.num_classes),
+        #     )
+            
+            
+
+
+
 
         # check BatchNorm
         self.has_BatchNorm = False
@@ -62,7 +74,7 @@ class Client(object):
         self.train_time_cost = {'num_rounds': 0, 'total_cost': 0.0}
         self.send_time_cost = {'num_rounds': 0, 'total_cost': 0.0}
         # set up loss function
-
+        
         if args.loss_fn == 'mse':
             self.loss = nn.MSELoss()
         elif args.loss_fn == 'bce':
@@ -161,7 +173,7 @@ class Client(object):
         rc_s = recall_score(np.argmax(y_true, axis=-1), np.argmax(y_prob,axis=-1), average='macro')
         # print("f1_score: ", f1_s)
         # print("recall: ", rc_s)
-        
+        # wandb.log({"test_acc": test_acc/test_num, "test_auc": auc, "test_f1": f1_s, "test_recall": rc_s})
         return test_acc, test_num, auc, f1_s, rc_s
 
     def train_metrics(self):

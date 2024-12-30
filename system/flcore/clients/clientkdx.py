@@ -127,16 +127,13 @@ class clientKDX(Client):
                 
 
 
-                L_h = self.MSE(rep, self.W_h(rep_g)) / (CE_loss + CE_loss_g)
+                # L_h = self.MSE(rep, self.W_h(rep_g)) / (CE_loss + CE_loss_g)
 
-                samples = random.choices(x, k=2)
-                x1 = samples[0].unsqueeze(0)
-                x2 = samples[1].unsqueeze(0)
 
                 # l_const_g = lipschitz_constant_v2(self.global_model, x1, x2)
                     
-                loss = CE_loss + L_d  + loss_nkd + loss_ct  + L_h
-                loss_g = CE_loss_g + L_d_g  + loss_nkd + loss_ct + L_h
+                loss = CE_loss + L_d  + loss_nkd + loss_ct  
+                loss_g = CE_loss_g + L_d_g  + loss_nkd + loss_ct 
 
                 self.optimizer.zero_grad()
                 self.optimizer_g.zero_grad()
@@ -156,9 +153,9 @@ class clientKDX(Client):
                 loss_g_h += L_d_g.item()
                 loss_nkd_e += loss_nkd.item()
                 loss_ct_e += loss_ct.item()
-                l_rep_e += L_h.item()
+                # l_rep_e += L_h.item()
                 # l_const_g_e += l_const_g.item()
-            print(f"\033[94mEpoch: {epoch}|  NKD Loss: {round(loss_nkd_e/len(trainloader), 4)} | CT Loss: {round(loss_ct_e/len(trainloader), 4)}| Loss Rep: {round(l_rep_e/len(trainloader), 4) } \033[0m")
+            print(f"\033[94mEpoch: {epoch}|  NKD Loss: {round(loss_nkd_e/len(trainloader), 4)} | CT Loss: {round(loss_ct_e/len(trainloader), 4)}| \033[0m")
             print(f"\033[91mEpoch: {epoch}|  Loss:  {round(loss_e/len(trainloader), 4)} |Global loss: {round(loss_g_e/len(trainloader), 4)}| Local H loss: {round(loss_h/len(trainloader), 4)}  | Global H loss: {round(loss_g_h/len(trainloader), 4)} \033[0m")
             # print(f"\033[94m Lipschitz constant: {l_const_e/len(trainloader)} | Lipschitz constant global:  {l_const_g_e/len(trainloader)} \033[0m")
             

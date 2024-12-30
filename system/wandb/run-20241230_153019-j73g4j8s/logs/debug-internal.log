@@ -1,0 +1,16 @@
+{"time":"2024-12-30T15:30:20.008659882+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-30T15:30:20.008675933+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/capstone/Fed_2024/system/wandb/run-20241230_153019-j73g4j8s/logs/debug-core.log"}
+{"time":"2024-12-30T15:30:20.113236999+07:00","level":"INFO","msg":"created new stream","id":"j73g4j8s"}
+{"time":"2024-12-30T15:30:20.113285635+07:00","level":"INFO","msg":"stream: started","id":"j73g4j8s"}
+{"time":"2024-12-30T15:30:20.113328073+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"j73g4j8s"}
+{"time":"2024-12-30T15:30:20.11336225+07:00","level":"INFO","msg":"handler: started","stream_id":"j73g4j8s"}
+{"time":"2024-12-30T15:30:20.113424733+07:00","level":"INFO","msg":"sender: started","stream_id":"j73g4j8s"}
+{"time":"2024-12-30T15:30:20.695436513+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-30T15:31:48.763474081+07:00","level":"INFO","msg":"stream: closing","id":"j73g4j8s"}
+{"time":"2024-12-30T15:31:48.76349404+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-30T15:31:48.763939064+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-30T15:31:50.859800311+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-30T15:31:51.408914763+07:00","level":"INFO","msg":"handler: closed","stream_id":"j73g4j8s"}
+{"time":"2024-12-30T15:31:51.409042172+07:00","level":"INFO","msg":"sender: closed","stream_id":"j73g4j8s"}
+{"time":"2024-12-30T15:31:51.409001973+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"j73g4j8s"}
+{"time":"2024-12-30T15:31:51.409247714+07:00","level":"INFO","msg":"stream: closed","id":"j73g4j8s"}

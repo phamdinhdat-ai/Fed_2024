@@ -1,0 +1,18 @@
+{"time":"2024-12-30T15:17:26.558623664+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-30T15:17:26.558634522+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/capstone/Fed_2024/system/wandb/run-20241230_151726-dzrjz1ri/logs/debug-core.log"}
+{"time":"2024-12-30T15:17:26.66365291+07:00","level":"INFO","msg":"created new stream","id":"dzrjz1ri"}
+{"time":"2024-12-30T15:17:26.663735159+07:00","level":"INFO","msg":"stream: started","id":"dzrjz1ri"}
+{"time":"2024-12-30T15:17:26.663854284+07:00","level":"INFO","msg":"sender: started","stream_id":"dzrjz1ri"}
+{"time":"2024-12-30T15:17:26.66384685+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"dzrjz1ri"}
+{"time":"2024-12-30T15:17:26.664050398+07:00","level":"INFO","msg":"handler: started","stream_id":"dzrjz1ri"}
+{"time":"2024-12-30T15:17:27.10966307+07:00","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-12-30T15:17:27.109814094+07:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403 Forbidden: {\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2024-12-30T15:17:27.122100045+07:00","level":"INFO","msg":"stream: closing","id":"dzrjz1ri"}
+{"time":"2024-12-30T15:17:27.12235851+07:00","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2024-12-30T15:17:27.435140829+07:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-12-30T15:17:27.435373983+07:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project pfl/PFL not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2024-12-30T15:17:27.437916872+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-30T15:17:27.438101982+07:00","level":"INFO","msg":"handler: closed","stream_id":"dzrjz1ri"}
+{"time":"2024-12-30T15:17:27.438151951+07:00","level":"INFO","msg":"sender: closed","stream_id":"dzrjz1ri"}
+{"time":"2024-12-30T15:17:27.438152106+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dzrjz1ri"}
+{"time":"2024-12-30T15:17:27.438315906+07:00","level":"INFO","msg":"stream: closed","id":"dzrjz1ri"}

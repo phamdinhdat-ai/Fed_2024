@@ -1,0 +1,2168 @@
+
+Join ratio / total clients: 0.4 / 15
+Finished creating server and clients.
+Chosen Clients:  [7, 0, 11, 8, 3, 12]
+
+-------------Round number: 0-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067]
+AUC in each clients:  [61.674, 62.267, 61.577, 60.87, 61.827, 61.234, 61.995, 61.47, 61.178, 61.266, 62.158, 62.669, 60.302, 60.288, 61.196]
+F1 Score:  [0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Recall Score:  [0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.3155
+Averaged Test Accurancy: 0.0667
+Averaged Test AUC: 0.5122
+Averaged Test F1_score: 0.0100
+Averaged Test Recal score: 0.0830
+Std Test Accurancy: 0.0000
+Std Test AUC: 0.0054
+Std Test F1: 0.0000
+Std Test Recall: 0.0000
+[94mEpoch: 0|  NKD Loss: 2.3202 | CT Loss: 4.3344| [0m
+[91mEpoch: 0|  Loss:  9.1413 |Global loss: 9.142| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3203 | CT Loss: 4.1092| [0m
+[91mEpoch: 1|  Loss:  8.9108 |Global loss: 8.9132| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3203 | CT Loss: 4.0024| [0m
+[91mEpoch: 2|  Loss:  8.7996 |Global loss: 8.8039| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3204 | CT Loss: 3.9567| [0m
+[91mEpoch: 3|  Loss:  8.7494 |Global loss: 8.7558| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3204 | CT Loss: 4.4399| [0m
+[91mEpoch: 0|  Loss:  9.2461 |Global loss: 9.2466| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3201 | CT Loss: 4.2198| [0m
+[91mEpoch: 1|  Loss:  9.0244 |Global loss: 9.0264| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3202 | CT Loss: 4.0279| [0m
+[91mEpoch: 2|  Loss:  8.8276 |Global loss: 8.8312| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3202 | CT Loss: 3.9081| [0m
+[91mEpoch: 3|  Loss:  8.704 |Global loss: 8.7092| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3203 | CT Loss: 4.4713| [0m
+[91mEpoch: 0|  Loss:  9.2775 |Global loss: 9.2781| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3201 | CT Loss: 4.213| [0m
+[91mEpoch: 1|  Loss:  9.0168 |Global loss: 9.0192| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3202 | CT Loss: 4.0076| [0m
+[91mEpoch: 2|  Loss:  8.8063 |Global loss: 8.8103| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3203 | CT Loss: 3.9068| [0m
+[91mEpoch: 3|  Loss:  8.7013 |Global loss: 8.7072| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.32 | CT Loss: 4.3499| [0m
+[91mEpoch: 0|  Loss:  9.1577 |Global loss: 9.1584| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3198 | CT Loss: 4.1333| [0m
+[91mEpoch: 1|  Loss:  8.938 |Global loss: 8.9405| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.32 | CT Loss: 4.0005| [0m
+[91mEpoch: 2|  Loss:  8.7991 |Global loss: 8.8037| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3201 | CT Loss: 3.9426| [0m
+[91mEpoch: 3|  Loss:  8.736 |Global loss: 8.7431| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3198 | CT Loss: 4.305| [0m
+[91mEpoch: 0|  Loss:  9.114 |Global loss: 9.1147| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3198 | CT Loss: 4.1179| [0m
+[91mEpoch: 1|  Loss:  8.9227 |Global loss: 8.9253| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3199 | CT Loss: 4.0074| [0m
+[91mEpoch: 2|  Loss:  8.8071 |Global loss: 8.8117| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3201 | CT Loss: 3.9537| [0m
+[91mEpoch: 3|  Loss:  8.7485 |Global loss: 8.7552| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3201 | CT Loss: 4.2743| [0m
+[91mEpoch: 0|  Loss:  9.0814 |Global loss: 9.0821| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3205 | CT Loss: 4.0578| [0m
+[91mEpoch: 1|  Loss:  8.8576 |Global loss: 8.8604| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3202 | CT Loss: 3.9698| [0m
+[91mEpoch: 2|  Loss:  8.7668 |Global loss: 8.7719| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3204 | CT Loss: 3.9323| [0m
+[91mEpoch: 3|  Loss:  8.7237 |Global loss: 8.7311| Local H loss: 0.0  | Global H loss: 0.0 [0m
+------------------------- time cost ------------------------- 3.2200818061828613
+Chosen Clients:  [3, 11, 10, 4, 5, 13]
+
+-------------Round number: 1-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067]
+AUC in each clients:  [64.857, 62.267, 61.577, 65.984, 61.827, 61.234, 61.995, 69.118, 66.665, 61.266, 62.158, 65.648, 68.074, 60.288, 61.196]
+F1 Score:  [0.011, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Recall Score:  [0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.5263
+Averaged Test Accurancy: 0.0667
+Averaged Test AUC: 0.5301
+Averaged Test F1_score: 0.0101
+Averaged Test Recal score: 0.0830
+Std Test Accurancy: 0.0000
+Std Test AUC: 0.0228
+Std Test F1: 0.0000
+Std Test Recall: 0.0000
+[94mEpoch: 0|  NKD Loss: 2.3189 | CT Loss: 4.5708| [0m
+[91mEpoch: 0|  Loss:  9.3591 |Global loss: 9.3753| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3185 | CT Loss: 4.2416| [0m
+[91mEpoch: 1|  Loss:  9.0258 |Global loss: 9.0457| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3185 | CT Loss: 4.182| [0m
+[91mEpoch: 2|  Loss:  8.9602 |Global loss: 8.9839| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3186 | CT Loss: 4.1337| [0m
+[91mEpoch: 3|  Loss:  8.9041 |Global loss: 8.9321| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3191 | CT Loss: 4.5851| [0m
+[91mEpoch: 0|  Loss:  9.3752 |Global loss: 9.3894| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3191 | CT Loss: 4.2067| [0m
+[91mEpoch: 1|  Loss:  8.9933 |Global loss: 9.0092| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.319 | CT Loss: 4.1498| [0m
+[91mEpoch: 2|  Loss:  8.9322 |Global loss: 8.9512| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3186 | CT Loss: 4.0861| [0m
+[91mEpoch: 3|  Loss:  8.8645 |Global loss: 8.8875| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3203 | CT Loss: 4.9321| [0m
+[91mEpoch: 0|  Loss:  9.7381 |Global loss: 9.7377| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3198 | CT Loss: 4.3159| [0m
+[91mEpoch: 1|  Loss:  9.1143 |Global loss: 9.1202| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3197 | CT Loss: 4.2028| [0m
+[91mEpoch: 2|  Loss:  8.9947 |Global loss: 9.0047| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3196 | CT Loss: 4.144| [0m
+[91mEpoch: 3|  Loss:  8.9295 |Global loss: 8.9437| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.321 | CT Loss: 5.0505| [0m
+[91mEpoch: 0|  Loss:  9.8595 |Global loss: 9.8553| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3208 | CT Loss: 4.3255| [0m
+[91mEpoch: 1|  Loss:  9.1283 |Global loss: 9.1277| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3203 | CT Loss: 4.2197| [0m
+[91mEpoch: 2|  Loss:  9.016 |Global loss: 9.0208| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3199 | CT Loss: 4.1743| [0m
+[91mEpoch: 3|  Loss:  8.9663 |Global loss: 8.9753| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3208 | CT Loss: 5.1427| [0m
+[91mEpoch: 0|  Loss:  9.9513 |Global loss: 9.9477| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3205 | CT Loss: 4.3383| [0m
+[91mEpoch: 1|  Loss:  9.1422 |Global loss: 9.1419| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3202 | CT Loss: 4.219| [0m
+[91mEpoch: 2|  Loss:  9.0174 |Global loss: 9.0217| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3202 | CT Loss: 4.1619| [0m
+[91mEpoch: 3|  Loss:  8.9535 |Global loss: 8.9613| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3209 | CT Loss: 4.9446| [0m
+[91mEpoch: 0|  Loss:  9.7529 |Global loss: 9.7493| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3204 | CT Loss: 4.2841| [0m
+[91mEpoch: 1|  Loss:  9.0878 |Global loss: 9.0882| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3202 | CT Loss: 4.2026| [0m
+[91mEpoch: 2|  Loss:  8.9993 |Global loss: 9.0044| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3201 | CT Loss: 4.1648| [0m
+[91mEpoch: 3|  Loss:  8.9572 |Global loss: 8.9653| Local H loss: 0.0  | Global H loss: 0.0 [0m
+------------------------- time cost ------------------------- 2.8404312133789062
+Chosen Clients:  [7, 10, 4, 1, 13, 12]
+
+-------------Round number: 2-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.067, 0.067, 0.067, 0.15, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.125, 0.067, 0.067, 0.067]
+AUC in each clients:  [64.857, 62.267, 61.577, 78.861, 67.44, 68.496, 61.995, 69.118, 66.665, 61.266, 70.698, 76.273, 68.074, 68.072, 61.196]
+F1 Score:  [0.011, 0.01, 0.01, 0.109, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.011, 0.059, 0.01, 0.011, 0.01]
+Recall Score:  [0.083, 0.083, 0.083, 0.194, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.167, 0.083, 0.083, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.5218
+Averaged Test Accurancy: 0.0761
+Averaged Test AUC: 0.5594
+Averaged Test F1_score: 0.0201
+Averaged Test Recal score: 0.0960
+Std Test Accurancy: 0.0245
+Std Test AUC: 0.0429
+Std Test F1: 0.0002
+Std Test Recall: 0.0003
+[94mEpoch: 0|  NKD Loss: 2.3188 | CT Loss: 4.5278| [0m
+[91mEpoch: 0|  Loss:  9.3139 |Global loss: 9.3324| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3187 | CT Loss: 4.2327| [0m
+[91mEpoch: 1|  Loss:  9.0134 |Global loss: 9.0349| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3187 | CT Loss: 4.1545| [0m
+[91mEpoch: 2|  Loss:  8.9315 |Global loss: 8.9552| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3187 | CT Loss: 4.1158| [0m
+[91mEpoch: 3|  Loss:  8.8862 |Global loss: 8.9135| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3181 | CT Loss: 4.4721| [0m
+[91mEpoch: 0|  Loss:  9.2503 |Global loss: 9.2763| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3181 | CT Loss: 4.2152| [0m
+[91mEpoch: 1|  Loss:  8.9882 |Global loss: 9.0175| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3178 | CT Loss: 4.1678| [0m
+[91mEpoch: 2|  Loss:  8.9358 |Global loss: 8.9692| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3175 | CT Loss: 4.1381| [0m
+[91mEpoch: 3|  Loss:  8.8995 |Global loss: 8.9383| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3185 | CT Loss: 4.4818| [0m
+[91mEpoch: 0|  Loss:  9.2686 |Global loss: 9.2879| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3185 | CT Loss: 4.2221| [0m
+[91mEpoch: 1|  Loss:  9.0044 |Global loss: 9.026| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3182 | CT Loss: 4.1716| [0m
+[91mEpoch: 2|  Loss:  8.951 |Global loss: 8.9759| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3183 | CT Loss: 4.1278| [0m
+[91mEpoch: 3|  Loss:  8.9021 |Global loss: 8.9294| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3206 | CT Loss: 4.875| [0m
+[91mEpoch: 0|  Loss:  9.6828 |Global loss: 9.6809| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3205 | CT Loss: 4.3447| [0m
+[91mEpoch: 1|  Loss:  9.1468 |Global loss: 9.148| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3201 | CT Loss: 4.2144| [0m
+[91mEpoch: 2|  Loss:  9.0126 |Global loss: 9.0177| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3202 | CT Loss: 4.1699| [0m
+[91mEpoch: 3|  Loss:  8.9621 |Global loss: 8.9699| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3191 | CT Loss: 4.495| [0m
+[91mEpoch: 0|  Loss:  9.2816 |Global loss: 9.2985| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.319 | CT Loss: 4.2155| [0m
+[91mEpoch: 1|  Loss:  8.9976 |Global loss: 9.0173| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3189 | CT Loss: 4.1694| [0m
+[91mEpoch: 2|  Loss:  8.9471 |Global loss: 8.9698| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3187 | CT Loss: 4.1344| [0m
+[91mEpoch: 3|  Loss:  8.9078 |Global loss: 8.9339| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.319 | CT Loss: 4.5314| [0m
+[91mEpoch: 0|  Loss:  9.3157 |Global loss: 9.3346| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3187 | CT Loss: 4.1981| [0m
+[91mEpoch: 1|  Loss:  8.9791 |Global loss: 9.0009| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3186 | CT Loss: 4.1172| [0m
+[91mEpoch: 2|  Loss:  8.8926 |Global loss: 8.9183| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3182 | CT Loss: 4.077| [0m
+[91mEpoch: 3|  Loss:  8.8483 |Global loss: 8.878| Local H loss: 0.0  | Global H loss: 0.0 [0m
+------------------------- time cost ------------------------- 2.8195760250091553
+Chosen Clients:  [4, 14, 9, 3, 7, 12]
+
+-------------Round number: 3-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.067, 0.067, 0.067, 0.15, 0.125, 0.067, 0.067, 0.125, 0.067, 0.067, 0.242, 0.125, 0.2, 0.125, 0.067]
+AUC in each clients:  [64.857, 65.502, 61.577, 78.861, 77.132, 68.496, 61.995, 80.323, 66.665, 61.266, 84.675, 76.273, 80.652, 74.72, 61.196]
+F1 Score:  [0.011, 0.01, 0.01, 0.109, 0.064, 0.01, 0.01, 0.095, 0.01, 0.01, 0.099, 0.059, 0.168, 0.044, 0.01]
+Recall Score:  [0.083, 0.083, 0.083, 0.194, 0.167, 0.083, 0.083, 0.167, 0.083, 0.083, 0.24, 0.167, 0.25, 0.167, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.5475
+Averaged Test Accurancy: 0.1083
+Averaged Test AUC: 0.5912
+Averaged Test F1_score: 0.0479
+Averaged Test Recal score: 0.1344
+Std Test Accurancy: 0.0535
+Std Test AUC: 0.0667
+Std Test F1: 0.0004
+Std Test Recall: 0.0005
+[94mEpoch: 0|  NKD Loss: 2.3178 | CT Loss: 4.4465| [0m
+[91mEpoch: 0|  Loss:  9.2175 |Global loss: 9.2496| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3176 | CT Loss: 4.1779| [0m
+[91mEpoch: 1|  Loss:  8.9436 |Global loss: 8.9803| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3175 | CT Loss: 4.131| [0m
+[91mEpoch: 2|  Loss:  8.8904 |Global loss: 8.9313| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3173 | CT Loss: 4.1063| [0m
+[91mEpoch: 3|  Loss:  8.8602 |Global loss: 8.9055| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3206 | CT Loss: 4.6525| [0m
+[91mEpoch: 0|  Loss:  9.4594 |Global loss: 9.458| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3205 | CT Loss: 4.2649| [0m
+[91mEpoch: 1|  Loss:  9.0658 |Global loss: 9.0676| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3198 | CT Loss: 4.1869| [0m
+[91mEpoch: 2|  Loss:  8.9824 |Global loss: 8.9902| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3198 | CT Loss: 4.155| [0m
+[91mEpoch: 3|  Loss:  8.9435 |Global loss: 8.9555| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3204 | CT Loss: 4.6505| [0m
+[91mEpoch: 0|  Loss:  9.4591 |Global loss: 9.457| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3199 | CT Loss: 4.2543| [0m
+[91mEpoch: 1|  Loss:  9.0566 |Global loss: 9.0599| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3198 | CT Loss: 4.1772| [0m
+[91mEpoch: 2|  Loss:  8.9732 |Global loss: 8.9807| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3194 | CT Loss: 4.1454| [0m
+[91mEpoch: 3|  Loss:  8.9369 |Global loss: 8.9485| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3172 | CT Loss: 4.4222| [0m
+[91mEpoch: 0|  Loss:  9.1888 |Global loss: 9.2262| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3172 | CT Loss: 4.1904| [0m
+[91mEpoch: 1|  Loss:  8.9506 |Global loss: 8.992| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3168 | CT Loss: 4.1605| [0m
+[91mEpoch: 2|  Loss:  8.9162 |Global loss: 8.9619| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3167 | CT Loss: 4.1302| [0m
+[91mEpoch: 3|  Loss:  8.8791 |Global loss: 8.9297| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3175 | CT Loss: 4.3951| [0m
+[91mEpoch: 0|  Loss:  9.1605 |Global loss: 9.1969| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3175 | CT Loss: 4.1334| [0m
+[91mEpoch: 1|  Loss:  8.8958 |Global loss: 8.9342| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3175 | CT Loss: 4.0981| [0m
+[91mEpoch: 2|  Loss:  8.8536 |Global loss: 8.8958| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3172 | CT Loss: 4.0737| [0m
+[91mEpoch: 3|  Loss:  8.8244 |Global loss: 8.8708| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3176 | CT Loss: 4.3917| [0m
+[91mEpoch: 0|  Loss:  9.1537 |Global loss: 9.193| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3171 | CT Loss: 4.1079| [0m
+[91mEpoch: 1|  Loss:  8.8676 |Global loss: 8.9106| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3169 | CT Loss: 4.0586| [0m
+[91mEpoch: 2|  Loss:  8.8124 |Global loss: 8.86| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.317 | CT Loss: 4.0308| [0m
+[91mEpoch: 3|  Loss:  8.7771 |Global loss: 8.8294| Local H loss: 0.0  | Global H loss: 0.0 [0m
+------------------------- time cost ------------------------- 2.8041024208068848
+Chosen Clients:  [12, 11, 5, 8, 7, 10]
+
+-------------Round number: 4-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.067, 0.067, 0.067, 0.358, 0.125, 0.067, 0.067, 0.292, 0.067, 0.067, 0.242, 0.125, 0.225, 0.125, 0.067]
+AUC in each clients:  [64.857, 65.502, 61.577, 84.685, 83.83, 68.496, 61.995, 86.452, 66.665, 67.691, 84.675, 76.273, 87.612, 74.72, 68.186]
+F1 Score:  [0.011, 0.01, 0.01, 0.294, 0.062, 0.01, 0.01, 0.182, 0.01, 0.01, 0.099, 0.059, 0.141, 0.044, 0.01]
+Recall Score:  [0.083, 0.083, 0.083, 0.4, 0.167, 0.083, 0.083, 0.326, 0.083, 0.083, 0.24, 0.167, 0.26, 0.167, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.5510
+Averaged Test Accurancy: 0.1350
+Averaged Test AUC: 0.6129
+Averaged Test F1_score: 0.0641
+Averaged Test Recal score: 0.1594
+Std Test Accurancy: 0.0937
+Std Test AUC: 0.0770
+Std Test F1: 0.0007
+Std Test Recall: 0.0008
+[94mEpoch: 0|  NKD Loss: 2.3161 | CT Loss: 4.3676| [0m
+[91mEpoch: 0|  Loss:  9.1073 |Global loss: 9.1689| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3161 | CT Loss: 4.0768| [0m
+[91mEpoch: 1|  Loss:  8.8096 |Global loss: 8.8761| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3161 | CT Loss: 4.0314| [0m
+[91mEpoch: 2|  Loss:  8.7551 |Global loss: 8.8282| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3158 | CT Loss: 4.0075| [0m
+[91mEpoch: 3|  Loss:  8.7269 |Global loss: 8.8049| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3182 | CT Loss: 4.4689| [0m
+[91mEpoch: 0|  Loss:  9.2433 |Global loss: 9.2715| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3181 | CT Loss: 4.1538| [0m
+[91mEpoch: 1|  Loss:  8.9257 |Global loss: 8.9562| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3179 | CT Loss: 4.0799| [0m
+[91mEpoch: 2|  Loss:  8.8455 |Global loss: 8.8807| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3176 | CT Loss: 4.0416| [0m
+[91mEpoch: 3|  Loss:  8.8031 |Global loss: 8.8426| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3189 | CT Loss: 4.4603| [0m
+[91mEpoch: 0|  Loss:  9.2482 |Global loss: 9.2646| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.319 | CT Loss: 4.1321| [0m
+[91mEpoch: 1|  Loss:  8.9156 |Global loss: 8.9342| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3185 | CT Loss: 4.0837| [0m
+[91mEpoch: 2|  Loss:  8.8644 |Global loss: 8.8867| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3183 | CT Loss: 4.0557| [0m
+[91mEpoch: 3|  Loss:  8.832 |Global loss: 8.8577| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3193 | CT Loss: 4.4479| [0m
+[91mEpoch: 0|  Loss:  9.2358 |Global loss: 9.2503| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.319 | CT Loss: 4.1577| [0m
+[91mEpoch: 1|  Loss:  8.9428 |Global loss: 8.9599| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.319 | CT Loss: 4.1113| [0m
+[91mEpoch: 2|  Loss:  8.8917 |Global loss: 8.9119| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3185 | CT Loss: 4.088| [0m
+[91mEpoch: 3|  Loss:  8.8646 |Global loss: 8.889| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3165 | CT Loss: 4.3825| [0m
+[91mEpoch: 0|  Loss:  9.1258 |Global loss: 9.1813| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3166 | CT Loss: 4.1165| [0m
+[91mEpoch: 1|  Loss:  8.8566 |Global loss: 8.9138| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3163 | CT Loss: 4.0711| [0m
+[91mEpoch: 2|  Loss:  8.8053 |Global loss: 8.8677| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3158 | CT Loss: 4.0562| [0m
+[91mEpoch: 3|  Loss:  8.7844 |Global loss: 8.8526| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3172 | CT Loss: 4.4347| [0m
+[91mEpoch: 0|  Loss:  9.191 |Global loss: 9.2352| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3169 | CT Loss: 4.1543| [0m
+[91mEpoch: 1|  Loss:  8.9038 |Global loss: 8.9532| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3166 | CT Loss: 4.1039| [0m
+[91mEpoch: 2|  Loss:  8.8465 |Global loss: 8.9018| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3166 | CT Loss: 4.0743| [0m
+[91mEpoch: 3|  Loss:  8.8082 |Global loss: 8.8697| Local H loss: 0.0  | Global H loss: 0.0 [0m
+------------------------- time cost ------------------------- 2.8770620822906494
+Chosen Clients:  [8, 14, 1, 10, 3, 12]
+
+-------------Round number: 5-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.067, 0.067, 0.067, 0.358, 0.125, 0.175, 0.067, 0.225, 0.125, 0.067, 0.358, 0.225, 0.208, 0.125, 0.067]
+AUC in each clients:  [64.857, 65.502, 61.577, 84.685, 83.83, 77.805, 61.995, 91.595, 75.189, 67.691, 94.615, 82.764, 94.434, 74.72, 68.186]
+F1 Score:  [0.011, 0.01, 0.01, 0.294, 0.062, 0.086, 0.01, 0.142, 0.048, 0.01, 0.272, 0.097, 0.139, 0.044, 0.01]
+Recall Score:  [0.083, 0.083, 0.083, 0.4, 0.167, 0.156, 0.083, 0.243, 0.167, 0.083, 0.397, 0.25, 0.229, 0.167, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.5527
+Averaged Test Accurancy: 0.1550
+Averaged Test AUC: 0.6386
+Averaged Test F1_score: 0.0830
+Averaged Test Recal score: 0.1783
+Std Test Accurancy: 0.0984
+Std Test AUC: 0.0933
+Std Test F1: 0.0008
+Std Test Recall: 0.0009
+[94mEpoch: 0|  NKD Loss: 2.3179 | CT Loss: 4.3349| [0m
+[91mEpoch: 0|  Loss:  9.105 |Global loss: 9.1366| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3173 | CT Loss: 4.1103| [0m
+[91mEpoch: 1|  Loss:  8.8752 |Global loss: 8.9124| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3172 | CT Loss: 4.0501| [0m
+[91mEpoch: 2|  Loss:  8.8117 |Global loss: 8.8516| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3173 | CT Loss: 4.0378| [0m
+[91mEpoch: 3|  Loss:  8.7936 |Global loss: 8.8367| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3187 | CT Loss: 4.3419| [0m
+[91mEpoch: 0|  Loss:  9.1252 |Global loss: 9.1452| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3185 | CT Loss: 4.1471| [0m
+[91mEpoch: 1|  Loss:  8.9249 |Global loss: 8.9489| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3188 | CT Loss: 4.0887| [0m
+[91mEpoch: 2|  Loss:  8.8607 |Global loss: 8.8872| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3182 | CT Loss: 4.072| [0m
+[91mEpoch: 3|  Loss:  8.8388 |Global loss: 8.871| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3193 | CT Loss: 4.4067| [0m
+[91mEpoch: 0|  Loss:  9.196 |Global loss: 9.2091| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3192 | CT Loss: 4.1416| [0m
+[91mEpoch: 1|  Loss:  8.9266 |Global loss: 8.9425| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3189 | CT Loss: 4.0947| [0m
+[91mEpoch: 2|  Loss:  8.8769 |Global loss: 8.896| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3189 | CT Loss: 4.0567| [0m
+[91mEpoch: 3|  Loss:  8.8342 |Global loss: 8.8561| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3154 | CT Loss: 4.3764| [0m
+[91mEpoch: 0|  Loss:  9.1052 |Global loss: 9.1765| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3156 | CT Loss: 4.0751| [0m
+[91mEpoch: 1|  Loss:  8.7957 |Global loss: 8.8718| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3157 | CT Loss: 4.0675| [0m
+[91mEpoch: 2|  Loss:  8.7849 |Global loss: 8.8638| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3151 | CT Loss: 4.0495| [0m
+[91mEpoch: 3|  Loss:  8.753 |Global loss: 8.8445| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.316 | CT Loss: 4.389| [0m
+[91mEpoch: 0|  Loss:  9.1351 |Global loss: 9.1908| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3161 | CT Loss: 4.1364| [0m
+[91mEpoch: 1|  Loss:  8.8754 |Global loss: 8.9353| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3158 | CT Loss: 4.1116| [0m
+[91mEpoch: 2|  Loss:  8.8465 |Global loss: 8.9104| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3155 | CT Loss: 4.1013| [0m
+[91mEpoch: 3|  Loss:  8.8325 |Global loss: 8.9002| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3151 | CT Loss: 4.341| [0m
+[91mEpoch: 0|  Loss:  9.0488 |Global loss: 9.1397| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3148 | CT Loss: 4.0232| [0m
+[91mEpoch: 1|  Loss:  8.723 |Global loss: 8.8212| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3151 | CT Loss: 4.0109| [0m
+[91mEpoch: 2|  Loss:  8.7046 |Global loss: 8.8073| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.315 | CT Loss: 3.9942| [0m
+[91mEpoch: 3|  Loss:  8.6789 |Global loss: 8.7901| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+------------------------- time cost ------------------------- 2.836498737335205
+Chosen Clients:  [0, 8, 5, 12, 4, 11]
+
+-------------Round number: 6-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.067, 0.125, 0.067, 0.358, 0.125, 0.175, 0.067, 0.225, 0.058, 0.067, 0.292, 0.225, 0.242, 0.125, 0.058]
+AUC in each clients:  [64.857, 75.862, 61.577, 88.144, 83.83, 77.805, 61.995, 91.595, 83.434, 67.691, 97.108, 82.764, 98.486, 74.72, 79.479]
+F1 Score:  [0.011, 0.048, 0.01, 0.269, 0.062, 0.086, 0.01, 0.142, 0.028, 0.01, 0.175, 0.097, 0.206, 0.044, 0.028]
+Recall Score:  [0.083, 0.167, 0.083, 0.4, 0.167, 0.156, 0.083, 0.243, 0.083, 0.083, 0.323, 0.25, 0.299, 0.167, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.5883
+Averaged Test Accurancy: 0.1517
+Averaged Test AUC: 0.6607
+Averaged Test F1_score: 0.0817
+Averaged Test Recal score: 0.1780
+Std Test Accurancy: 0.0932
+Std Test AUC: 0.0952
+Std Test F1: 0.0007
+Std Test Recall: 0.0008
+[94mEpoch: 0|  NKD Loss: 2.3195 | CT Loss: 4.4542| [0m
+[91mEpoch: 0|  Loss:  9.2457 |Global loss: 9.2566| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3196 | CT Loss: 4.1014| [0m
+[91mEpoch: 1|  Loss:  8.8912 |Global loss: 8.9023| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3195 | CT Loss: 4.0482| [0m
+[91mEpoch: 2|  Loss:  8.8348 |Global loss: 8.8483| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3189 | CT Loss: 4.0349| [0m
+[91mEpoch: 3|  Loss:  8.8179 |Global loss: 8.8358| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3166 | CT Loss: 4.335| [0m
+[91mEpoch: 0|  Loss:  9.0841 |Global loss: 9.1353| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3166 | CT Loss: 4.0689| [0m
+[91mEpoch: 1|  Loss:  8.8131 |Global loss: 8.8672| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3166 | CT Loss: 4.0339| [0m
+[91mEpoch: 2|  Loss:  8.7724 |Global loss: 8.8302| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3164 | CT Loss: 4.0222| [0m
+[91mEpoch: 3|  Loss:  8.7542 |Global loss: 8.8175| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3179 | CT Loss: 4.3559| [0m
+[91mEpoch: 0|  Loss:  9.127 |Global loss: 9.1578| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3175 | CT Loss: 4.0386| [0m
+[91mEpoch: 1|  Loss:  8.8068 |Global loss: 8.8409| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3174 | CT Loss: 4.0137| [0m
+[91mEpoch: 2|  Loss:  8.778 |Global loss: 8.8148| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3172 | CT Loss: 3.9958| [0m
+[91mEpoch: 3|  Loss:  8.7546 |Global loss: 8.7959| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3145 | CT Loss: 4.3104| [0m
+[91mEpoch: 0|  Loss:  8.981 |Global loss: 9.1073| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3146 | CT Loss: 4.0054| [0m
+[91mEpoch: 1|  Loss:  8.6678 |Global loss: 8.8017| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3144 | CT Loss: 3.9883| [0m
+[91mEpoch: 2|  Loss:  8.6393 |Global loss: 8.7852| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3147 | CT Loss: 3.9718| [0m
+[91mEpoch: 3|  Loss:  8.6087 |Global loss: 8.7671| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 0|  NKD Loss: 2.3168 | CT Loss: 4.3683| [0m
+[91mEpoch: 0|  Loss:  9.1169 |Global loss: 9.1686| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3167 | CT Loss: 4.1281| [0m
+[91mEpoch: 1|  Loss:  8.8714 |Global loss: 8.9268| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3165 | CT Loss: 4.0819| [0m
+[91mEpoch: 2|  Loss:  8.8172 |Global loss: 8.8793| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3162 | CT Loss: 4.0783| [0m
+[91mEpoch: 3|  Loss:  8.808 |Global loss: 8.8751| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3172 | CT Loss: 4.3356| [0m
+[91mEpoch: 0|  Loss:  9.091 |Global loss: 9.1363| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.317 | CT Loss: 4.0625| [0m
+[91mEpoch: 1|  Loss:  8.813 |Global loss: 8.8623| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3168 | CT Loss: 4.0092| [0m
+[91mEpoch: 2|  Loss:  8.753 |Global loss: 8.8078| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3166 | CT Loss: 3.9999| [0m
+[91mEpoch: 3|  Loss:  8.7389 |Global loss: 8.7983| Local H loss: 0.0  | Global H loss: 0.0 [0m
+------------------------- time cost ------------------------- 2.8281595706939697
+Chosen Clients:  [14, 13, 1, 7, 2, 12]
+
+-------------Round number: 7-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.067, 0.125, 0.067, 0.358, 0.2, 0.2, 0.067, 0.225, 0.133, 0.067, 0.292, 0.225, 0.183, 0.125, 0.058]
+AUC in each clients:  [72.766, 75.862, 61.577, 88.144, 89.661, 83.578, 61.995, 91.595, 89.881, 67.691, 97.108, 87.82, 99.489, 74.72, 79.479]
+F1 Score:  [0.01, 0.048, 0.01, 0.269, 0.1, 0.086, 0.01, 0.142, 0.11, 0.01, 0.175, 0.095, 0.137, 0.044, 0.028]
+Recall Score:  [0.083, 0.167, 0.083, 0.4, 0.25, 0.179, 0.083, 0.243, 0.167, 0.083, 0.323, 0.25, 0.25, 0.167, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.6085
+Averaged Test Accurancy: 0.1594
+Averaged Test AUC: 0.6785
+Averaged Test F1_score: 0.0849
+Averaged Test Recal score: 0.1874
+Std Test Accurancy: 0.0884
+Std Test AUC: 0.0967
+Std Test F1: 0.0006
+Std Test Recall: 0.0008
+[94mEpoch: 0|  NKD Loss: 2.3174 | CT Loss: 4.3328| [0m
+[91mEpoch: 0|  Loss:  9.0931 |Global loss: 9.1333| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3172 | CT Loss: 4.0678| [0m
+[91mEpoch: 1|  Loss:  8.8248 |Global loss: 8.868| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3173 | CT Loss: 4.0409| [0m
+[91mEpoch: 2|  Loss:  8.7909 |Global loss: 8.838| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3171 | CT Loss: 4.0305| [0m
+[91mEpoch: 3|  Loss:  8.7767 |Global loss: 8.8271| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.318 | CT Loss: 4.3815| [0m
+[91mEpoch: 0|  Loss:  9.1501 |Global loss: 9.1818| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3179 | CT Loss: 4.1088| [0m
+[91mEpoch: 1|  Loss:  8.8754 |Global loss: 8.9085| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3178 | CT Loss: 4.063| [0m
+[91mEpoch: 2|  Loss:  8.8238 |Global loss: 8.8612| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3177 | CT Loss: 4.0388| [0m
+[91mEpoch: 3|  Loss:  8.7952 |Global loss: 8.8357| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3183 | CT Loss: 4.3721| [0m
+[91mEpoch: 0|  Loss:  9.1418 |Global loss: 9.1714| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3179 | CT Loss: 4.0523| [0m
+[91mEpoch: 1|  Loss:  8.8199 |Global loss: 8.8521| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3179 | CT Loss: 4.0254| [0m
+[91mEpoch: 2|  Loss:  8.7898 |Global loss: 8.8242| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3176 | CT Loss: 4.0049| [0m
+[91mEpoch: 3|  Loss:  8.7651 |Global loss: 8.803| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3153 | CT Loss: 4.3304| [0m
+[91mEpoch: 0|  Loss:  9.0501 |Global loss: 9.1281| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3154 | CT Loss: 4.0295| [0m
+[91mEpoch: 1|  Loss:  8.7415 |Global loss: 8.8238| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.315 | CT Loss: 4.0082| [0m
+[91mEpoch: 2|  Loss:  8.7136 |Global loss: 8.8025| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3149 | CT Loss: 4.0064| [0m
+[91mEpoch: 3|  Loss:  8.7059 |Global loss: 8.7999| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3204 | CT Loss: 4.5776| [0m
+[91mEpoch: 0|  Loss:  9.3851 |Global loss: 9.3834| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3203 | CT Loss: 4.173| [0m
+[91mEpoch: 1|  Loss:  8.9734 |Global loss: 8.9758| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3202 | CT Loss: 4.1087| [0m
+[91mEpoch: 2|  Loss:  8.9036 |Global loss: 8.9097| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.32 | CT Loss: 4.0737| [0m
+[91mEpoch: 3|  Loss:  8.8642 |Global loss: 8.8737| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3153 | CT Loss: 4.3164| [0m
+[91mEpoch: 0|  Loss:  8.9417 |Global loss: 9.1148| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 1|  NKD Loss: 2.316 | CT Loss: 3.9992| [0m
+[91mEpoch: 1|  Loss:  8.6152 |Global loss: 8.7965| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 2|  NKD Loss: 2.3162 | CT Loss: 3.975| [0m
+[91mEpoch: 2|  Loss:  8.577 |Global loss: 8.7721| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 3|  NKD Loss: 2.317 | CT Loss: 3.9678| [0m
+[91mEpoch: 3|  Loss:  8.5577 |Global loss: 8.7649| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+------------------------- time cost ------------------------- 2.9342691898345947
+Chosen Clients:  [5, 7, 6, 0, 8, 9]
+
+-------------Round number: 8-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.067, 0.125, 0.067, 0.358, 0.2, 0.2, 0.067, 0.192, 0.133, 0.067, 0.292, 0.225, 0.2, 0.192, 0.058]
+AUC in each clients:  [72.766, 82.375, 68.63, 88.144, 89.661, 83.578, 61.995, 95.219, 89.881, 67.691, 97.108, 87.82, 100.197, 84.587, 87.334]
+F1 Score:  [0.01, 0.048, 0.01, 0.269, 0.1, 0.086, 0.01, 0.119, 0.11, 0.01, 0.175, 0.095, 0.154, 0.086, 0.028]
+Recall Score:  [0.083, 0.167, 0.083, 0.4, 0.25, 0.179, 0.083, 0.215, 0.167, 0.083, 0.323, 0.25, 0.261, 0.24, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.6169
+Averaged Test Accurancy: 0.1628
+Averaged Test AUC: 0.6983
+Averaged Test F1_score: 0.0873
+Averaged Test Recal score: 0.1911
+Std Test Accurancy: 0.0874
+Std Test AUC: 0.0909
+Std Test F1: 0.0006
+Std Test Recall: 0.0008
+[94mEpoch: 0|  NKD Loss: 2.3168 | CT Loss: 4.2918| [0m
+[91mEpoch: 0|  Loss:  9.0446 |Global loss: 9.0924| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3166 | CT Loss: 3.9839| [0m
+[91mEpoch: 1|  Loss:  8.7338 |Global loss: 8.784| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.316 | CT Loss: 3.9687| [0m
+[91mEpoch: 2|  Loss:  8.7149 |Global loss: 8.77| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3162 | CT Loss: 3.9583| [0m
+[91mEpoch: 3|  Loss:  8.6995 |Global loss: 8.7572| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3145 | CT Loss: 4.3017| [0m
+[91mEpoch: 0|  Loss:  8.9886 |Global loss: 9.097| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3143 | CT Loss: 4.0223| [0m
+[91mEpoch: 1|  Loss:  8.7019 |Global loss: 8.8167| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3144 | CT Loss: 3.9966| [0m
+[91mEpoch: 2|  Loss:  8.6645 |Global loss: 8.7883| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3143 | CT Loss: 3.999| [0m
+[91mEpoch: 3|  Loss:  8.6623 |Global loss: 8.7911| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.321 | CT Loss: 4.6877| [0m
+[91mEpoch: 0|  Loss:  9.4957 |Global loss: 9.4915| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3206 | CT Loss: 4.272| [0m
+[91mEpoch: 1|  Loss:  9.0763 |Global loss: 9.0756| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3203 | CT Loss: 4.1444| [0m
+[91mEpoch: 2|  Loss:  8.9436 |Global loss: 8.9466| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3202 | CT Loss: 4.1133| [0m
+[91mEpoch: 3|  Loss:  8.906 |Global loss: 8.9133| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3182 | CT Loss: 4.3635| [0m
+[91mEpoch: 0|  Loss:  9.1393 |Global loss: 9.1652| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3182 | CT Loss: 4.0155| [0m
+[91mEpoch: 1|  Loss:  8.7851 |Global loss: 8.8147| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3179 | CT Loss: 3.9935| [0m
+[91mEpoch: 2|  Loss:  8.7597 |Global loss: 8.7923| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3177 | CT Loss: 3.9846| [0m
+[91mEpoch: 3|  Loss:  8.7459 |Global loss: 8.7826| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3154 | CT Loss: 4.3296| [0m
+[91mEpoch: 0|  Loss:  9.0546 |Global loss: 9.1284| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3157 | CT Loss: 4.0492| [0m
+[91mEpoch: 1|  Loss:  8.7653 |Global loss: 8.8437| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3152 | CT Loss: 4.0201| [0m
+[91mEpoch: 2|  Loss:  8.7329 |Global loss: 8.8159| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3149 | CT Loss: 4.0105| [0m
+[91mEpoch: 3|  Loss:  8.7125 |Global loss: 8.8044| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3191 | CT Loss: 4.3375| [0m
+[91mEpoch: 0|  Loss:  9.1234 |Global loss: 9.1397| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3189 | CT Loss: 4.0888| [0m
+[91mEpoch: 1|  Loss:  8.8686 |Global loss: 8.8893| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3183 | CT Loss: 4.0648| [0m
+[91mEpoch: 2|  Loss:  8.8394 |Global loss: 8.8659| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3182 | CT Loss: 4.0387| [0m
+[91mEpoch: 3|  Loss:  8.8056 |Global loss: 8.8371| Local H loss: 0.0  | Global H loss: 0.0 [0m
+------------------------- time cost ------------------------- 2.8459267616271973
+Chosen Clients:  [10, 11, 0, 5, 8, 3]
+
+-------------Round number: 9-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.092, 0.125, 0.067, 0.358, 0.2, 0.258, 0.067, 0.158, 0.208, 0.058, 0.292, 0.225, 0.2, 0.192, 0.058]
+AUC in each clients:  [80.726, 82.375, 68.63, 88.144, 89.661, 89.778, 66.492, 97.877, 95.968, 80.482, 97.108, 87.82, 100.197, 84.587, 87.334]
+F1 Score:  [0.054, 0.048, 0.01, 0.269, 0.1, 0.138, 0.01, 0.088, 0.164, 0.028, 0.175, 0.095, 0.154, 0.086, 0.028]
+Recall Score:  [0.111, 0.167, 0.083, 0.4, 0.25, 0.259, 0.083, 0.188, 0.25, 0.083, 0.323, 0.25, 0.261, 0.24, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.6262
+Averaged Test Accurancy: 0.1706
+Averaged Test AUC: 0.7207
+Averaged Test F1_score: 0.0965
+Averaged Test Recal score: 0.2021
+Std Test Accurancy: 0.0892
+Std Test AUC: 0.0792
+Std Test F1: 0.0006
+Std Test Recall: 0.0008
+[94mEpoch: 0|  NKD Loss: 2.3144 | CT Loss: 4.3315| [0m
+[91mEpoch: 0|  Loss:  9.0268 |Global loss: 9.1286| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3144 | CT Loss: 4.0441| [0m
+[91mEpoch: 1|  Loss:  8.73 |Global loss: 8.8395| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3144 | CT Loss: 4.0176| [0m
+[91mEpoch: 2|  Loss:  8.6921 |Global loss: 8.8118| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3141 | CT Loss: 4.006| [0m
+[91mEpoch: 3|  Loss:  8.6704 |Global loss: 8.8003| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3161 | CT Loss: 4.3201| [0m
+[91mEpoch: 0|  Loss:  9.0527 |Global loss: 9.1198| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.316 | CT Loss: 4.0193| [0m
+[91mEpoch: 1|  Loss:  8.7455 |Global loss: 8.8177| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.316 | CT Loss: 3.9865| [0m
+[91mEpoch: 2|  Loss:  8.7027 |Global loss: 8.7826| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3157 | CT Loss: 3.9714| [0m
+[91mEpoch: 3|  Loss:  8.6801 |Global loss: 8.7675| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3167 | CT Loss: 4.3827| [0m
+[91mEpoch: 0|  Loss:  9.1384 |Global loss: 9.1835| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3166 | CT Loss: 4.0063| [0m
+[91mEpoch: 1|  Loss:  8.7567 |Global loss: 8.8058| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3166 | CT Loss: 4.0003| [0m
+[91mEpoch: 2|  Loss:  8.7442 |Global loss: 8.797| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3161 | CT Loss: 3.957| [0m
+[91mEpoch: 3|  Loss:  8.6986 |Global loss: 8.7551| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3154 | CT Loss: 4.2726| [0m
+[91mEpoch: 0|  Loss:  9.0087 |Global loss: 9.0735| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3154 | CT Loss: 3.9647| [0m
+[91mEpoch: 1|  Loss:  8.6963 |Global loss: 8.764| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.315 | CT Loss: 3.9441| [0m
+[91mEpoch: 2|  Loss:  8.6706 |Global loss: 8.7438| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3147 | CT Loss: 3.9393| [0m
+[91mEpoch: 3|  Loss:  8.6615 |Global loss: 8.7389| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3144 | CT Loss: 4.3294| [0m
+[91mEpoch: 0|  Loss:  9.0214 |Global loss: 9.1252| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3143 | CT Loss: 4.0486| [0m
+[91mEpoch: 1|  Loss:  8.7307 |Global loss: 8.8423| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.314 | CT Loss: 4.0122| [0m
+[91mEpoch: 2|  Loss:  8.6867 |Global loss: 8.8063| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3138 | CT Loss: 4.0027| [0m
+[91mEpoch: 3|  Loss:  8.6682 |Global loss: 8.7963| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.315 | CT Loss: 4.3256| [0m
+[91mEpoch: 0|  Loss:  9.0515 |Global loss: 9.1246| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.315 | CT Loss: 4.086| [0m
+[91mEpoch: 1|  Loss:  8.804 |Global loss: 8.8823| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3147 | CT Loss: 4.0825| [0m
+[91mEpoch: 2|  Loss:  8.7948 |Global loss: 8.878| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3143 | CT Loss: 4.0389| [0m
+[91mEpoch: 3|  Loss:  8.7479 |Global loss: 8.8351| Local H loss: 0.0  | Global H loss: 0.0 [0m
+------------------------- time cost ------------------------- 2.8475964069366455
+Chosen Clients:  [2, 3, 13, 7, 8, 5]
+
+-------------Round number: 10-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.158, 0.125, 0.067, 0.3, 0.2, 0.417, 0.067, 0.158, 0.442, 0.058, 0.292, 0.225, 0.2, 0.192, 0.058]
+AUC in each clients:  [88.207, 82.375, 68.63, 91.658, 89.661, 93.006, 66.492, 97.877, 99.868, 80.482, 97.929, 93.443, 100.197, 84.587, 87.334]
+F1 Score:  [0.104, 0.048, 0.01, 0.188, 0.1, 0.343, 0.01, 0.088, 0.361, 0.028, 0.179, 0.092, 0.154, 0.086, 0.028]
+Recall Score:  [0.178, 0.167, 0.083, 0.336, 0.25, 0.449, 0.083, 0.188, 0.438, 0.083, 0.323, 0.25, 0.261, 0.24, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.6190
+Averaged Test Accurancy: 0.1972
+Averaged Test AUC: 0.7343
+Averaged Test F1_score: 0.1213
+Averaged Test Recal score: 0.2275
+Std Test Accurancy: 0.1181
+Std Test AUC: 0.0832
+Std Test F1: 0.0009
+Std Test Recall: 0.0010
+[94mEpoch: 0|  NKD Loss: 2.319 | CT Loss: 4.3507| [0m
+[91mEpoch: 0|  Loss:  9.1364 |Global loss: 9.1525| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3189 | CT Loss: 4.0735| [0m
+[91mEpoch: 1|  Loss:  8.8564 |Global loss: 8.8745| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3189 | CT Loss: 4.0345| [0m
+[91mEpoch: 2|  Loss:  8.8115 |Global loss: 8.8329| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3187 | CT Loss: 4.0217| [0m
+[91mEpoch: 3|  Loss:  8.7952 |Global loss: 8.8199| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3142 | CT Loss: 4.3725| [0m
+[91mEpoch: 0|  Loss:  9.0768 |Global loss: 9.1697| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.314 | CT Loss: 4.0675| [0m
+[91mEpoch: 1|  Loss:  8.7608 |Global loss: 8.8618| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3138 | CT Loss: 4.0489| [0m
+[91mEpoch: 2|  Loss:  8.7361 |Global loss: 8.843| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3135 | CT Loss: 4.0401| [0m
+[91mEpoch: 3|  Loss:  8.7226 |Global loss: 8.8356| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.317 | CT Loss: 4.3456| [0m
+[91mEpoch: 0|  Loss:  9.0935 |Global loss: 9.143| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3166 | CT Loss: 4.0301| [0m
+[91mEpoch: 1|  Loss:  8.7759 |Global loss: 8.8281| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3165 | CT Loss: 4.0118| [0m
+[91mEpoch: 2|  Loss:  8.7485 |Global loss: 8.8074| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3164 | CT Loss: 4.0004| [0m
+[91mEpoch: 3|  Loss:  8.7312 |Global loss: 8.7945| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3142 | CT Loss: 4.3196| [0m
+[91mEpoch: 0|  Loss:  8.9658 |Global loss: 9.1131| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3143 | CT Loss: 3.9982| [0m
+[91mEpoch: 1|  Loss:  8.6353 |Global loss: 8.7905| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 2|  NKD Loss: 2.3146 | CT Loss: 3.9965| [0m
+[91mEpoch: 2|  Loss:  8.6176 |Global loss: 8.7858| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 3|  NKD Loss: 2.3145 | CT Loss: 3.9886| [0m
+[91mEpoch: 3|  Loss:  8.5987 |Global loss: 8.7785| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 0|  NKD Loss: 2.3134 | CT Loss: 4.3187| [0m
+[91mEpoch: 0|  Loss:  8.9688 |Global loss: 9.1139| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3137 | CT Loss: 4.0278| [0m
+[91mEpoch: 1|  Loss:  8.6696 |Global loss: 8.8216| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3137 | CT Loss: 3.9954| [0m
+[91mEpoch: 2|  Loss:  8.6263 |Global loss: 8.7885| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 3|  NKD Loss: 2.3133 | CT Loss: 3.9997| [0m
+[91mEpoch: 3|  Loss:  8.6181 |Global loss: 8.7935| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 0|  NKD Loss: 2.3146 | CT Loss: 4.3113| [0m
+[91mEpoch: 0|  Loss:  9.0301 |Global loss: 9.1113| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3141 | CT Loss: 3.9395| [0m
+[91mEpoch: 1|  Loss:  8.648 |Global loss: 8.7386| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.314 | CT Loss: 3.9158| [0m
+[91mEpoch: 2|  Loss:  8.6174 |Global loss: 8.7136| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3137 | CT Loss: 3.9097| [0m
+[91mEpoch: 3|  Loss:  8.6061 |Global loss: 8.7073| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+------------------------- time cost ------------------------- 2.8243579864501953
+Chosen Clients:  [1, 3, 0, 7, 11, 13]
+
+-------------Round number: 11-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.158, 0.125, 0.217, 0.3, 0.2, 0.35, 0.067, 0.133, 0.358, 0.058, 0.292, 0.225, 0.2, 0.267, 0.058]
+AUC in each clients:  [88.207, 82.375, 80.786, 96.014, 89.661, 95.54, 66.492, 100.106, 101.598, 80.482, 97.929, 93.443, 100.197, 90.176, 87.334]
+F1 Score:  [0.104, 0.048, 0.138, 0.196, 0.1, 0.254, 0.01, 0.049, 0.252, 0.028, 0.179, 0.092, 0.154, 0.18, 0.028]
+Recall Score:  [0.178, 0.167, 0.243, 0.34, 0.25, 0.43, 0.083, 0.167, 0.34, 0.083, 0.323, 0.25, 0.261, 0.323, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.6191
+Averaged Test Accurancy: 0.2006
+Averaged Test AUC: 0.7502
+Averaged Test F1_score: 0.1208
+Averaged Test Recal score: 0.2347
+Std Test Accurancy: 0.0970
+Std Test AUC: 0.0769
+Std Test F1: 0.0006
+Std Test Recall: 0.0009
+[94mEpoch: 0|  NKD Loss: 2.3168 | CT Loss: 4.3226| [0m
+[91mEpoch: 0|  Loss:  9.0759 |Global loss: 9.1217| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3168 | CT Loss: 4.0065| [0m
+[91mEpoch: 1|  Loss:  8.7558 |Global loss: 8.8039| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3164 | CT Loss: 3.9778| [0m
+[91mEpoch: 2|  Loss:  8.7215 |Global loss: 8.7743| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3165 | CT Loss: 3.9718| [0m
+[91mEpoch: 3|  Loss:  8.7093 |Global loss: 8.7657| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3131 | CT Loss: 4.3361| [0m
+[91mEpoch: 0|  Loss:  9.0057 |Global loss: 9.1313| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3129 | CT Loss: 4.0534| [0m
+[91mEpoch: 1|  Loss:  8.7157 |Global loss: 8.8475| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3124 | CT Loss: 4.013| [0m
+[91mEpoch: 2|  Loss:  8.6574 |Global loss: 8.8038| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3123 | CT Loss: 4.0101| [0m
+[91mEpoch: 3|  Loss:  8.6533 |Global loss: 8.8026| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3157 | CT Loss: 4.3273| [0m
+[91mEpoch: 0|  Loss:  9.0608 |Global loss: 9.1255| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3154 | CT Loss: 4.0274| [0m
+[91mEpoch: 1|  Loss:  8.7509 |Global loss: 8.8226| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3152 | CT Loss: 3.9829| [0m
+[91mEpoch: 2|  Loss:  8.7012 |Global loss: 8.7773| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3153 | CT Loss: 3.9649| [0m
+[91mEpoch: 3|  Loss:  8.6755 |Global loss: 8.7569| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3152 | CT Loss: 4.2943| [0m
+[91mEpoch: 0|  Loss:  8.8895 |Global loss: 9.0897| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 1|  NKD Loss: 2.3161 | CT Loss: 4.0171| [0m
+[91mEpoch: 1|  Loss:  8.6023 |Global loss: 8.8092| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 2|  NKD Loss: 2.3165 | CT Loss: 3.9919| [0m
+[91mEpoch: 2|  Loss:  8.5621 |Global loss: 8.7843| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 3|  NKD Loss: 2.3172 | CT Loss: 3.9772| [0m
+[91mEpoch: 3|  Loss:  8.5354 |Global loss: 8.7703| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 0|  NKD Loss: 2.3153 | CT Loss: 4.3131| [0m
+[91mEpoch: 0|  Loss:  9.0163 |Global loss: 9.1106| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3148 | CT Loss: 4.0103| [0m
+[91mEpoch: 1|  Loss:  8.7063 |Global loss: 8.8079| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.315 | CT Loss: 3.9719| [0m
+[91mEpoch: 2|  Loss:  8.6594 |Global loss: 8.7687| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3152 | CT Loss: 3.9738| [0m
+[91mEpoch: 3|  Loss:  8.654 |Global loss: 8.7694| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3157 | CT Loss: 4.321| [0m
+[91mEpoch: 0|  Loss:  9.0448 |Global loss: 9.1174| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3154 | CT Loss: 3.9959| [0m
+[91mEpoch: 1|  Loss:  8.7128 |Global loss: 8.7906| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3151 | CT Loss: 3.9867| [0m
+[91mEpoch: 2|  Loss:  8.6946 |Global loss: 8.7804| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3151 | CT Loss: 3.9854| [0m
+[91mEpoch: 3|  Loss:  8.6853 |Global loss: 8.777| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+------------------------- time cost ------------------------- 2.9599783420562744
+Chosen Clients:  [2, 1, 3, 13, 12, 5]
+
+-------------Round number: 12-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.233, 0.225, 0.217, 0.317, 0.2, 0.35, 0.067, 0.167, 0.358, 0.058, 0.292, 0.225, 0.2, 0.333, 0.058]
+AUC in each clients:  [95.239, 87.817, 80.786, 98.355, 89.661, 95.54, 66.492, 101.207, 101.598, 80.482, 97.929, 96.509, 100.197, 94.783, 87.334]
+F1 Score:  [0.125, 0.191, 0.138, 0.229, 0.1, 0.254, 0.01, 0.116, 0.252, 0.028, 0.179, 0.092, 0.154, 0.25, 0.028]
+Recall Score:  [0.228, 0.243, 0.243, 0.368, 0.25, 0.43, 0.083, 0.222, 0.34, 0.083, 0.323, 0.25, 0.261, 0.378, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.6071
+Averaged Test Accurancy: 0.2200
+Averaged Test AUC: 0.7633
+Averaged Test F1_score: 0.1431
+Averaged Test Recal score: 0.2523
+Std Test Accurancy: 0.0976
+Std Test AUC: 0.0782
+Std Test F1: 0.0007
+Std Test Recall: 0.0009
+[94mEpoch: 0|  NKD Loss: 2.3178 | CT Loss: 4.3183| [0m
+[91mEpoch: 0|  Loss:  9.0854 |Global loss: 9.1177| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3176 | CT Loss: 4.0127| [0m
+[91mEpoch: 1|  Loss:  8.7755 |Global loss: 8.8113| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3177 | CT Loss: 4.003| [0m
+[91mEpoch: 2|  Loss:  8.7605 |Global loss: 8.7991| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3174 | CT Loss: 4.0022| [0m
+[91mEpoch: 3|  Loss:  8.7563 |Global loss: 8.7984| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3158 | CT Loss: 4.3021| [0m
+[91mEpoch: 0|  Loss:  9.0316 |Global loss: 9.0978| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3154 | CT Loss: 4.0355| [0m
+[91mEpoch: 1|  Loss:  8.7596 |Global loss: 8.8313| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3154 | CT Loss: 3.9929| [0m
+[91mEpoch: 2|  Loss:  8.7134 |Global loss: 8.7874| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3148 | CT Loss: 3.9577| [0m
+[91mEpoch: 3|  Loss:  8.6662 |Global loss: 8.7513| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3122 | CT Loss: 4.3815| [0m
+[91mEpoch: 0|  Loss:  9.0131 |Global loss: 9.1761| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.312 | CT Loss: 4.0344| [0m
+[91mEpoch: 1|  Loss:  8.6522 |Global loss: 8.8272| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 2|  NKD Loss: 2.3121 | CT Loss: 4.0375| [0m
+[91mEpoch: 2|  Loss:  8.6466 |Global loss: 8.8299| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 3|  NKD Loss: 2.3122 | CT Loss: 4.0013| [0m
+[91mEpoch: 3|  Loss:  8.5955 |Global loss: 8.7924| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 0|  NKD Loss: 2.3142 | CT Loss: 4.3356| [0m
+[91mEpoch: 0|  Loss:  9.0258 |Global loss: 9.1313| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3147 | CT Loss: 3.9919| [0m
+[91mEpoch: 1|  Loss:  8.676 |Global loss: 8.7843| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3139 | CT Loss: 3.974| [0m
+[91mEpoch: 2|  Loss:  8.645 |Global loss: 8.7667| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3136 | CT Loss: 3.9673| [0m
+[91mEpoch: 3|  Loss:  8.6245 |Global loss: 8.7583| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3179 | CT Loss: 4.2935| [0m
+[91mEpoch: 0|  Loss:  8.8715 |Global loss: 9.0937| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 1|  NKD Loss: 2.3189 | CT Loss: 3.9688| [0m
+[91mEpoch: 1|  Loss:  8.5338 |Global loss: 8.7657| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 2|  NKD Loss: 2.3198 | CT Loss: 3.9651| [0m
+[91mEpoch: 2|  Loss:  8.52 |Global loss: 8.7632| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 3|  NKD Loss: 2.3206 | CT Loss: 3.9575| [0m
+[91mEpoch: 3|  Loss:  8.5004 |Global loss: 8.7571| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 0|  NKD Loss: 2.3134 | CT Loss: 4.2532| [0m
+[91mEpoch: 0|  Loss:  8.944 |Global loss: 9.0513| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3132 | CT Loss: 3.9208| [0m
+[91mEpoch: 1|  Loss:  8.6013 |Global loss: 8.717| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3128 | CT Loss: 3.9004| [0m
+[91mEpoch: 2|  Loss:  8.5721 |Global loss: 8.6963| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3128 | CT Loss: 3.9055| [0m
+[91mEpoch: 3|  Loss:  8.5707 |Global loss: 8.7005| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+------------------------- time cost ------------------------- 2.8898942470550537
+Chosen Clients:  [5, 14, 8, 12, 2, 1]
+
+-------------Round number: 13-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.233, 0.317, 0.183, 0.258, 0.2, 0.325, 0.067, 0.167, 0.358, 0.058, 0.292, 0.225, 0.308, 0.358, 0.058]
+AUC in each clients:  [95.239, 91.674, 86.531, 100.468, 89.661, 97.019, 66.492, 101.207, 101.598, 80.482, 97.929, 96.509, 101.587, 98.092, 87.334]
+F1 Score:  [0.125, 0.234, 0.08, 0.185, 0.1, 0.22, 0.01, 0.116, 0.252, 0.028, 0.179, 0.092, 0.203, 0.265, 0.028]
+Recall Score:  [0.228, 0.304, 0.198, 0.319, 0.25, 0.416, 0.083, 0.222, 0.34, 0.083, 0.323, 0.25, 0.333, 0.399, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.5975
+Averaged Test Accurancy: 0.2272
+Averaged Test AUC: 0.7732
+Averaged Test F1_score: 0.1411
+Averaged Test Recal score: 0.2554
+Std Test Accurancy: 0.1009
+Std Test AUC: 0.0776
+Std Test F1: 0.0007
+Std Test Recall: 0.0009
+[94mEpoch: 0|  NKD Loss: 2.3128 | CT Loss: 4.2812| [0m
+[91mEpoch: 0|  Loss:  8.9362 |Global loss: 9.0766| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3125 | CT Loss: 3.9262| [0m
+[91mEpoch: 1|  Loss:  8.577 |Global loss: 8.7222| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3123 | CT Loss: 3.9019| [0m
+[91mEpoch: 2|  Loss:  8.535 |Global loss: 8.6951| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3122 | CT Loss: 3.8955| [0m
+[91mEpoch: 3|  Loss:  8.5269 |Global loss: 8.6907| Local H loss: 0.0001  | Global H loss: 0.0002 [0m
+[94mEpoch: 0|  NKD Loss: 2.3163 | CT Loss: 4.3349| [0m
+[91mEpoch: 0|  Loss:  9.0722 |Global loss: 9.1312| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3165 | CT Loss: 4.0067| [0m
+[91mEpoch: 1|  Loss:  8.7363 |Global loss: 8.7986| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3158 | CT Loss: 4.0034| [0m
+[91mEpoch: 2|  Loss:  8.7313 |Global loss: 8.7976| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3156 | CT Loss: 3.9733| [0m
+[91mEpoch: 3|  Loss:  8.6928 |Global loss: 8.7658| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3138 | CT Loss: 4.3363| [0m
+[91mEpoch: 0|  Loss:  8.9377 |Global loss: 9.1289| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 1|  NKD Loss: 2.3141 | CT Loss: 4.0052| [0m
+[91mEpoch: 1|  Loss:  8.5953 |Global loss: 8.798| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 2|  NKD Loss: 2.315 | CT Loss: 3.9855| [0m
+[91mEpoch: 2|  Loss:  8.5657 |Global loss: 8.7757| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 3|  NKD Loss: 2.3152 | CT Loss: 3.9854| [0m
+[91mEpoch: 3|  Loss:  8.5494 |Global loss: 8.7759| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 0|  NKD Loss: 2.3231 | CT Loss: 4.3153| [0m
+[91mEpoch: 0|  Loss:  8.8394 |Global loss: 9.1183| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 1|  NKD Loss: 2.3241 | CT Loss: 3.9727| [0m
+[91mEpoch: 1|  Loss:  8.4846 |Global loss: 8.7754| Local H loss: 0.0007  | Global H loss: 0.0007 [0m
+[94mEpoch: 2|  NKD Loss: 2.3251 | CT Loss: 3.9521| [0m
+[91mEpoch: 2|  Loss:  8.4494 |Global loss: 8.7528| Local H loss: 0.0007  | Global H loss: 0.0007 [0m
+[94mEpoch: 3|  NKD Loss: 2.3262 | CT Loss: 3.9405| [0m
+[91mEpoch: 3|  Loss:  8.4197 |Global loss: 8.7416| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 0|  NKD Loss: 2.3169 | CT Loss: 4.3081| [0m
+[91mEpoch: 0|  Loss:  9.054 |Global loss: 9.104| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3165 | CT Loss: 4.0127| [0m
+[91mEpoch: 1|  Loss:  8.7524 |Global loss: 8.8084| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3164 | CT Loss: 3.9977| [0m
+[91mEpoch: 2|  Loss:  8.7311 |Global loss: 8.7915| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3163 | CT Loss: 3.988| [0m
+[91mEpoch: 3|  Loss:  8.7154 |Global loss: 8.7805| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3145 | CT Loss: 4.3429| [0m
+[91mEpoch: 0|  Loss:  9.0464 |Global loss: 9.1392| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3145 | CT Loss: 3.987| [0m
+[91mEpoch: 1|  Loss:  8.6754 |Global loss: 8.7783| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3143 | CT Loss: 3.9719| [0m
+[91mEpoch: 2|  Loss:  8.6527 |Global loss: 8.7627| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3144 | CT Loss: 3.9675| [0m
+[91mEpoch: 3|  Loss:  8.6432 |Global loss: 8.7571| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+------------------------- time cost ------------------------- 2.8982656002044678
+Chosen Clients:  [12, 8, 9, 14, 0, 2]
+
+-------------Round number: 14-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.233, 0.258, 0.158, 0.258, 0.2, 0.375, 0.067, 0.167, 0.358, 0.058, 0.292, 0.225, 0.308, 0.358, 0.058]
+AUC in each clients:  [95.239, 94.991, 91.542, 100.468, 89.661, 99.055, 66.492, 101.207, 101.661, 80.482, 97.929, 96.509, 102.527, 98.092, 93.604]
+F1 Score:  [0.125, 0.144, 0.059, 0.185, 0.1, 0.286, 0.01, 0.116, 0.252, 0.028, 0.179, 0.092, 0.199, 0.265, 0.026]
+Recall Score:  [0.228, 0.25, 0.167, 0.319, 0.25, 0.455, 0.083, 0.222, 0.34, 0.083, 0.323, 0.25, 0.333, 0.399, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.5853
+Averaged Test Accurancy: 0.2250
+Averaged Test AUC: 0.7830
+Averaged Test F1_score: 0.1377
+Averaged Test Recal score: 0.2523
+Std Test Accurancy: 0.1035
+Std Test AUC: 0.0763
+Std Test F1: 0.0007
+Std Test Recall: 0.0009
+[94mEpoch: 0|  NKD Loss: 2.3284 | CT Loss: 4.294| [0m
+[91mEpoch: 0|  Loss:  8.7695 |Global loss: 9.1037| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 1|  NKD Loss: 2.3297 | CT Loss: 3.957| [0m
+[91mEpoch: 1|  Loss:  8.425 |Global loss: 8.7626| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 2|  NKD Loss: 2.3293 | CT Loss: 3.9412| [0m
+[91mEpoch: 2|  Loss:  8.3916 |Global loss: 8.7469| Local H loss: 0.0009  | Global H loss: 0.001 [0m
+[94mEpoch: 3|  NKD Loss: 2.331 | CT Loss: 3.9331| [0m
+[91mEpoch: 3|  Loss:  8.3737 |Global loss: 8.739| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3167 | CT Loss: 4.2987| [0m
+[91mEpoch: 0|  Loss:  8.8449 |Global loss: 9.0927| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 1|  NKD Loss: 2.318 | CT Loss: 3.9917| [0m
+[91mEpoch: 1|  Loss:  8.5325 |Global loss: 8.787| Local H loss: 0.0004  | Global H loss: 0.0005 [0m
+[94mEpoch: 2|  NKD Loss: 2.3188 | CT Loss: 4.0061| [0m
+[91mEpoch: 2|  Loss:  8.5283 |Global loss: 8.8013| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 3|  NKD Loss: 2.32 | CT Loss: 3.9716| [0m
+[91mEpoch: 3|  Loss:  8.4828 |Global loss: 8.7644| Local H loss: 0.0005  | Global H loss: 0.0006 [0m
+[94mEpoch: 0|  NKD Loss: 2.3174 | CT Loss: 4.3157| [0m
+[91mEpoch: 0|  Loss:  9.0761 |Global loss: 9.114| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3174 | CT Loss: 4.0052| [0m
+[91mEpoch: 1|  Loss:  8.7576 |Global loss: 8.7997| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3169 | CT Loss: 3.9847| [0m
+[91mEpoch: 2|  Loss:  8.7315 |Global loss: 8.779| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3165 | CT Loss: 3.9848| [0m
+[91mEpoch: 3|  Loss:  8.7256 |Global loss: 8.7787| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.315 | CT Loss: 4.3556| [0m
+[91mEpoch: 0|  Loss:  9.0692 |Global loss: 9.1511| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3152 | CT Loss: 4.012| [0m
+[91mEpoch: 1|  Loss:  8.7138 |Global loss: 8.8027| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3147 | CT Loss: 3.9978| [0m
+[91mEpoch: 2|  Loss:  8.6913 |Global loss: 8.7884| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3151 | CT Loss: 3.9835| [0m
+[91mEpoch: 3|  Loss:  8.6711 |Global loss: 8.7715| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3143 | CT Loss: 4.33| [0m
+[91mEpoch: 0|  Loss:  9.0308 |Global loss: 9.1243| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3141 | CT Loss: 3.9592| [0m
+[91mEpoch: 1|  Loss:  8.6541 |Global loss: 8.7517| Local H loss: 0.0  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3143 | CT Loss: 3.9376| [0m
+[91mEpoch: 2|  Loss:  8.6235 |Global loss: 8.7272| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3138 | CT Loss: 3.9273| [0m
+[91mEpoch: 3|  Loss:  8.6038 |Global loss: 8.7171| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3157 | CT Loss: 4.3483| [0m
+[91mEpoch: 0|  Loss:  9.0682 |Global loss: 9.1423| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3153 | CT Loss: 3.9904| [0m
+[91mEpoch: 1|  Loss:  8.7058 |Global loss: 8.7842| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3154 | CT Loss: 3.9821| [0m
+[91mEpoch: 2|  Loss:  8.6869 |Global loss: 8.7724| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3152 | CT Loss: 3.9767| [0m
+[91mEpoch: 3|  Loss:  8.6762 |Global loss: 8.7667| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+------------------------- time cost ------------------------- 2.792743444442749
+Chosen Clients:  [12, 9, 14, 2, 10, 1]
+
+-------------Round number: 15-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.242, 0.258, 0.208, 0.258, 0.2, 0.375, 0.067, 0.167, 0.367, 0.133, 0.292, 0.225, 0.342, 0.358, 0.25]
+AUC in each clients:  [97.417, 94.991, 94.835, 100.468, 89.661, 99.055, 66.492, 101.207, 103.494, 89.523, 97.929, 96.509, 103.589, 98.092, 97.694]
+F1 Score:  [0.154, 0.144, 0.123, 0.185, 0.1, 0.286, 0.01, 0.116, 0.275, 0.08, 0.179, 0.092, 0.235, 0.265, 0.24]
+Recall Score:  [0.252, 0.25, 0.225, 0.319, 0.25, 0.455, 0.083, 0.222, 0.354, 0.167, 0.323, 0.25, 0.361, 0.399, 0.333]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.5728
+Averaged Test Accurancy: 0.2494
+Averaged Test AUC: 0.7950
+Averaged Test F1_score: 0.1656
+Averaged Test Recal score: 0.2829
+Std Test Accurancy: 0.0858
+Std Test AUC: 0.0724
+Std Test F1: 0.0007
+Std Test Recall: 0.0008
+[94mEpoch: 0|  NKD Loss: 2.3339 | CT Loss: 4.3041| [0m
+[91mEpoch: 0|  Loss:  8.7392 |Global loss: 9.1161| Local H loss: 0.0011  | Global H loss: 0.0011 [0m
+[94mEpoch: 1|  NKD Loss: 2.3334 | CT Loss: 3.9481| [0m
+[91mEpoch: 1|  Loss:  8.3675 |Global loss: 8.7566| Local H loss: 0.0011  | Global H loss: 0.0011 [0m
+[94mEpoch: 2|  NKD Loss: 2.3349 | CT Loss: 3.9417| [0m
+[91mEpoch: 2|  Loss:  8.3542 |Global loss: 8.7505| Local H loss: 0.0011  | Global H loss: 0.0012 [0m
+[94mEpoch: 3|  NKD Loss: 2.3354 | CT Loss: 3.9303| [0m
+[91mEpoch: 3|  Loss:  8.3246 |Global loss: 8.7391| Local H loss: 0.0012  | Global H loss: 0.0013 [0m
+[94mEpoch: 0|  NKD Loss: 2.3159 | CT Loss: 4.295| [0m
+[91mEpoch: 0|  Loss:  9.0265 |Global loss: 9.0895| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3156 | CT Loss: 4.0133| [0m
+[91mEpoch: 1|  Loss:  8.7382 |Global loss: 8.8061| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3152 | CT Loss: 3.975| [0m
+[91mEpoch: 2|  Loss:  8.6919 |Global loss: 8.7669| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3153 | CT Loss: 3.9707| [0m
+[91mEpoch: 3|  Loss:  8.6797 |Global loss: 8.7596| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3147 | CT Loss: 4.3246| [0m
+[91mEpoch: 0|  Loss:  9.0017 |Global loss: 9.1151| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3144 | CT Loss: 4.0086| [0m
+[91mEpoch: 1|  Loss:  8.6758 |Global loss: 8.7976| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3144 | CT Loss: 3.9848| [0m
+[91mEpoch: 2|  Loss:  8.6425 |Global loss: 8.7721| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3138 | CT Loss: 3.9911| [0m
+[91mEpoch: 3|  Loss:  8.6365 |Global loss: 8.7789| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3148 | CT Loss: 4.3085| [0m
+[91mEpoch: 0|  Loss:  8.998 |Global loss: 9.1003| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3148 | CT Loss: 3.994| [0m
+[91mEpoch: 1|  Loss:  8.6739 |Global loss: 8.7832| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3145 | CT Loss: 3.9684| [0m
+[91mEpoch: 2|  Loss:  8.6402 |Global loss: 8.7574| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3143 | CT Loss: 3.9814| [0m
+[91mEpoch: 3|  Loss:  8.6422 |Global loss: 8.7698| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3138 | CT Loss: 4.3312| [0m
+[91mEpoch: 0|  Loss:  8.9826 |Global loss: 9.1232| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3141 | CT Loss: 4.001| [0m
+[91mEpoch: 1|  Loss:  8.6425 |Global loss: 8.7904| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3141 | CT Loss: 3.9819| [0m
+[91mEpoch: 2|  Loss:  8.6073 |Global loss: 8.7696| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 3|  NKD Loss: 2.3147 | CT Loss: 3.9792| [0m
+[91mEpoch: 3|  Loss:  8.5928 |Global loss: 8.7653| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 0|  NKD Loss: 2.3138 | CT Loss: 4.3073| [0m
+[91mEpoch: 0|  Loss:  8.9673 |Global loss: 9.0984| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3136 | CT Loss: 3.9792| [0m
+[91mEpoch: 1|  Loss:  8.6326 |Global loss: 8.7698| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3139 | CT Loss: 3.9798| [0m
+[91mEpoch: 2|  Loss:  8.619 |Global loss: 8.7676| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3137 | CT Loss: 3.9487| [0m
+[91mEpoch: 3|  Loss:  8.5774 |Global loss: 8.7371| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+------------------------- time cost ------------------------- 2.8541486263275146
+Chosen Clients:  [12, 5, 6, 14, 3, 0]
+
+-------------Round number: 16-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.242, 0.258, 0.208, 0.258, 0.2, 0.375, 0.067, 0.167, 0.367, 0.15, 0.292, 0.225, 0.367, 0.358, 0.233]
+AUC in each clients:  [97.417, 98.013, 96.797, 100.468, 89.661, 99.055, 66.492, 101.207, 103.494, 93.514, 100.542, 96.509, 104.165, 98.092, 98.738]
+F1 Score:  [0.154, 0.141, 0.125, 0.185, 0.1, 0.286, 0.01, 0.116, 0.275, 0.102, 0.179, 0.092, 0.264, 0.265, 0.211]
+Recall Score:  [0.252, 0.25, 0.225, 0.319, 0.25, 0.455, 0.083, 0.222, 0.354, 0.194, 0.323, 0.25, 0.382, 0.399, 0.315]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.5563
+Averaged Test Accurancy: 0.2511
+Averaged Test AUC: 0.8023
+Averaged Test F1_score: 0.1670
+Averaged Test Recal score: 0.2849
+Std Test Accurancy: 0.0865
+Std Test AUC: 0.0725
+Std Test F1: 0.0007
+Std Test Recall: 0.0007
+[94mEpoch: 0|  NKD Loss: 2.3383 | CT Loss: 4.2738| [0m
+[91mEpoch: 0|  Loss:  8.6563 |Global loss: 9.088| Local H loss: 0.0013  | Global H loss: 0.0014 [0m
+[94mEpoch: 1|  NKD Loss: 2.3382 | CT Loss: 3.9448| [0m
+[91mEpoch: 1|  Loss:  8.317 |Global loss: 8.7571| Local H loss: 0.0013  | Global H loss: 0.0014 [0m
+[94mEpoch: 2|  NKD Loss: 2.3391 | CT Loss: 3.9359| [0m
+[91mEpoch: 2|  Loss:  8.2988 |Global loss: 8.7474| Local H loss: 0.0014  | Global H loss: 0.0014 [0m
+[94mEpoch: 3|  NKD Loss: 2.3395 | CT Loss: 3.9338| [0m
+[91mEpoch: 3|  Loss:  8.2934 |Global loss: 8.7417| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 0|  NKD Loss: 2.3121 | CT Loss: 4.2671| [0m
+[91mEpoch: 0|  Loss:  8.8865 |Global loss: 9.0613| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 1|  NKD Loss: 2.3123 | CT Loss: 3.9269| [0m
+[91mEpoch: 1|  Loss:  8.5304 |Global loss: 8.7183| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 2|  NKD Loss: 2.3122 | CT Loss: 3.8866| [0m
+[91mEpoch: 2|  Loss:  8.4786 |Global loss: 8.6782| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 3|  NKD Loss: 2.3124 | CT Loss: 3.886| [0m
+[91mEpoch: 3|  Loss:  8.4681 |Global loss: 8.6776| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 0|  NKD Loss: 2.3201 | CT Loss: 4.348| [0m
+[91mEpoch: 0|  Loss:  9.136 |Global loss: 9.145| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3202 | CT Loss: 4.1457| [0m
+[91mEpoch: 1|  Loss:  8.9272 |Global loss: 8.9388| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3198 | CT Loss: 4.067| [0m
+[91mEpoch: 2|  Loss:  8.844 |Global loss: 8.8598| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3197 | CT Loss: 4.0638| [0m
+[91mEpoch: 3|  Loss:  8.835 |Global loss: 8.8549| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3144 | CT Loss: 4.3679| [0m
+[91mEpoch: 0|  Loss:  9.0027 |Global loss: 9.1581| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 1|  NKD Loss: 2.3145 | CT Loss: 3.9897| [0m
+[91mEpoch: 1|  Loss:  8.6131 |Global loss: 8.777| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 2|  NKD Loss: 2.3153 | CT Loss: 3.9817| [0m
+[91mEpoch: 2|  Loss:  8.6025 |Global loss: 8.7701| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 3|  NKD Loss: 2.3154 | CT Loss: 3.9759| [0m
+[91mEpoch: 3|  Loss:  8.5811 |Global loss: 8.7622| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 0|  NKD Loss: 2.3122 | CT Loss: 4.3265| [0m
+[91mEpoch: 0|  Loss:  8.9121 |Global loss: 9.1168| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 1|  NKD Loss: 2.3119 | CT Loss: 4.071| [0m
+[91mEpoch: 1|  Loss:  8.6369 |Global loss: 8.8594| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 2|  NKD Loss: 2.3125 | CT Loss: 3.9893| [0m
+[91mEpoch: 2|  Loss:  8.5504 |Global loss: 8.7782| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 3|  NKD Loss: 2.3135 | CT Loss: 3.9694| [0m
+[91mEpoch: 3|  Loss:  8.5146 |Global loss: 8.7557| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 0|  NKD Loss: 2.3134 | CT Loss: 4.3706| [0m
+[91mEpoch: 0|  Loss:  9.0422 |Global loss: 9.1634| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.313 | CT Loss: 3.9558| [0m
+[91mEpoch: 1|  Loss:  8.6105 |Global loss: 8.7449| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3132 | CT Loss: 3.9285| [0m
+[91mEpoch: 2|  Loss:  8.5707 |Global loss: 8.7149| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3131 | CT Loss: 3.9285| [0m
+[91mEpoch: 3|  Loss:  8.5584 |Global loss: 8.7146| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+------------------------- time cost ------------------------- 2.8016440868377686
+Chosen Clients:  [13, 3, 4, 11, 6, 8]
+
+-------------Round number: 17-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.292, 0.258, 0.208, 0.233, 0.2, 0.292, 0.108, 0.167, 0.367, 0.15, 0.292, 0.225, 0.392, 0.358, 0.25]
+AUC in each clients:  [98.97, 98.013, 96.797, 101.748, 89.661, 100.307, 76.655, 101.207, 103.494, 93.514, 100.542, 96.509, 104.873, 98.092, 99.558]
+F1 Score:  [0.191, 0.141, 0.125, 0.154, 0.1, 0.213, 0.047, 0.116, 0.275, 0.102, 0.179, 0.092, 0.264, 0.265, 0.249]
+Recall Score:  [0.313, 0.25, 0.225, 0.299, 0.25, 0.352, 0.146, 0.222, 0.354, 0.194, 0.323, 0.25, 0.403, 0.399, 0.333]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.5529
+Averaged Test Accurancy: 0.2528
+Averaged Test AUC: 0.8111
+Averaged Test F1_score: 0.1675
+Averaged Test Recal score: 0.2875
+Std Test Accurancy: 0.0786
+Std Test AUC: 0.0552
+Std Test F1: 0.0006
+Std Test Recall: 0.0006
+[94mEpoch: 0|  NKD Loss: 2.3138 | CT Loss: 4.3183| [0m
+[91mEpoch: 0|  Loss:  8.9718 |Global loss: 9.1086| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3135 | CT Loss: 3.9914| [0m
+[91mEpoch: 1|  Loss:  8.6324 |Global loss: 8.7796| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3135 | CT Loss: 3.963| [0m
+[91mEpoch: 2|  Loss:  8.5861 |Global loss: 8.7489| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 3|  NKD Loss: 2.3142 | CT Loss: 3.9551| [0m
+[91mEpoch: 3|  Loss:  8.5678 |Global loss: 8.7385| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 0|  NKD Loss: 2.3137 | CT Loss: 4.3645| [0m
+[91mEpoch: 0|  Loss:  8.8928 |Global loss: 9.1551| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 1|  NKD Loss: 2.3137 | CT Loss: 4.0276| [0m
+[91mEpoch: 1|  Loss:  8.5364 |Global loss: 8.8159| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 2|  NKD Loss: 2.3151 | CT Loss: 3.9876| [0m
+[91mEpoch: 2|  Loss:  8.4762 |Global loss: 8.7743| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 3|  NKD Loss: 2.3159 | CT Loss: 3.9726| [0m
+[91mEpoch: 3|  Loss:  8.4489 |Global loss: 8.7592| Local H loss: 0.0005  | Global H loss: 0.0006 [0m
+[94mEpoch: 0|  NKD Loss: 2.316 | CT Loss: 4.3227| [0m
+[91mEpoch: 0|  Loss:  9.0444 |Global loss: 9.1136| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3162 | CT Loss: 4.0501| [0m
+[91mEpoch: 1|  Loss:  8.7658 |Global loss: 8.8379| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3157 | CT Loss: 4.028| [0m
+[91mEpoch: 2|  Loss:  8.735 |Global loss: 8.8154| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3153 | CT Loss: 4.019| [0m
+[91mEpoch: 3|  Loss:  8.7202 |Global loss: 8.8065| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3155 | CT Loss: 4.2902| [0m
+[91mEpoch: 0|  Loss:  8.9617 |Global loss: 9.0815| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.315 | CT Loss: 3.9994| [0m
+[91mEpoch: 1|  Loss:  8.6549 |Global loss: 8.7891| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3153 | CT Loss: 3.9711| [0m
+[91mEpoch: 2|  Loss:  8.6188 |Global loss: 8.7611| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 3|  NKD Loss: 2.3158 | CT Loss: 3.9663| [0m
+[91mEpoch: 3|  Loss:  8.6006 |Global loss: 8.7531| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 0|  NKD Loss: 2.3187 | CT Loss: 4.3281| [0m
+[91mEpoch: 0|  Loss:  9.0937 |Global loss: 9.1217| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3189 | CT Loss: 4.1014| [0m
+[91mEpoch: 1|  Loss:  8.8618 |Global loss: 8.8914| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3184 | CT Loss: 4.0372| [0m
+[91mEpoch: 2|  Loss:  8.7942 |Global loss: 8.8278| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3184 | CT Loss: 4.0108| [0m
+[91mEpoch: 3|  Loss:  8.7606 |Global loss: 8.7988| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3221 | CT Loss: 4.3209| [0m
+[91mEpoch: 0|  Loss:  8.816 |Global loss: 9.1164| Local H loss: 0.0006  | Global H loss: 0.0007 [0m
+[94mEpoch: 1|  NKD Loss: 2.3228 | CT Loss: 3.9898| [0m
+[91mEpoch: 1|  Loss:  8.4673 |Global loss: 8.7829| Local H loss: 0.0007  | Global H loss: 0.0007 [0m
+[94mEpoch: 2|  NKD Loss: 2.3238 | CT Loss: 3.9604| [0m
+[91mEpoch: 2|  Loss:  8.427 |Global loss: 8.7544| Local H loss: 0.0007  | Global H loss: 0.0008 [0m
+[94mEpoch: 3|  NKD Loss: 2.3255 | CT Loss: 3.9454| [0m
+[91mEpoch: 3|  Loss:  8.4076 |Global loss: 8.7413| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+------------------------- time cost ------------------------- 2.940380573272705
+Chosen Clients:  [6, 2, 3, 1, 4, 14]
+
+-------------Round number: 18-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.292, 0.258, 0.208, 0.208, 0.208, 0.292, 0.058, 0.167, 0.367, 0.15, 0.292, 0.2, 0.392, 0.325, 0.25]
+AUC in each clients:  [98.97, 98.013, 96.797, 103.455, 91.557, 100.307, 82.577, 101.207, 104.708, 93.514, 100.542, 98.923, 104.873, 101.123, 99.558]
+F1 Score:  [0.191, 0.141, 0.125, 0.109, 0.146, 0.213, 0.028, 0.116, 0.278, 0.102, 0.179, 0.091, 0.264, 0.215, 0.249]
+Recall Score:  [0.313, 0.25, 0.225, 0.264, 0.255, 0.352, 0.083, 0.222, 0.354, 0.194, 0.323, 0.25, 0.403, 0.344, 0.333]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.5341
+Averaged Test Accurancy: 0.2444
+Averaged Test AUC: 0.8201
+Averaged Test F1_score: 0.1631
+Averaged Test Recal score: 0.2777
+Std Test Accurancy: 0.0839
+Std Test AUC: 0.0460
+Std Test F1: 0.0006
+Std Test Recall: 0.0006
+[94mEpoch: 0|  NKD Loss: 2.317 | CT Loss: 4.3978| [0m
+[91mEpoch: 0|  Loss:  9.1393 |Global loss: 9.1896| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3174 | CT Loss: 4.0501| [0m
+[91mEpoch: 1|  Loss:  8.7843 |Global loss: 8.8369| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3171 | CT Loss: 4.0269| [0m
+[91mEpoch: 2|  Loss:  8.7533 |Global loss: 8.8121| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3169 | CT Loss: 4.0341| [0m
+[91mEpoch: 3|  Loss:  8.7523 |Global loss: 8.8171| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 0|  NKD Loss: 2.3144 | CT Loss: 4.3244| [0m
+[91mEpoch: 0|  Loss:  8.9696 |Global loss: 9.1107| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3145 | CT Loss: 3.9805| [0m
+[91mEpoch: 1|  Loss:  8.6142 |Global loss: 8.7644| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3146 | CT Loss: 3.984| [0m
+[91mEpoch: 2|  Loss:  8.608 |Global loss: 8.7664| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 3|  NKD Loss: 2.3145 | CT Loss: 3.9556| [0m
+[91mEpoch: 3|  Loss:  8.5685 |Global loss: 8.7389| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 0|  NKD Loss: 2.3192 | CT Loss: 4.3364| [0m
+[91mEpoch: 0|  Loss:  8.8115 |Global loss: 9.1331| Local H loss: 0.0007  | Global H loss: 0.0007 [0m
+[94mEpoch: 1|  NKD Loss: 2.3193 | CT Loss: 4.0126| [0m
+[91mEpoch: 1|  Loss:  8.4601 |Global loss: 8.8031| Local H loss: 0.0007  | Global H loss: 0.0007 [0m
+[94mEpoch: 2|  NKD Loss: 2.3216 | CT Loss: 3.9911| [0m
+[91mEpoch: 2|  Loss:  8.4478 |Global loss: 8.7816| Local H loss: 0.0007  | Global H loss: 0.0008 [0m
+[94mEpoch: 3|  NKD Loss: 2.32 | CT Loss: 3.9585| [0m
+[91mEpoch: 3|  Loss:  8.3728 |Global loss: 8.7477| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 0|  NKD Loss: 2.3142 | CT Loss: 4.2987| [0m
+[91mEpoch: 0|  Loss:  8.9118 |Global loss: 9.0861| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 1|  NKD Loss: 2.3146 | CT Loss: 3.9588| [0m
+[91mEpoch: 1|  Loss:  8.5566 |Global loss: 8.7407| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 2|  NKD Loss: 2.3145 | CT Loss: 3.9343| [0m
+[91mEpoch: 2|  Loss:  8.5257 |Global loss: 8.7177| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 3|  NKD Loss: 2.3153 | CT Loss: 3.9435| [0m
+[91mEpoch: 3|  Loss:  8.5186 |Global loss: 8.7232| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 0|  NKD Loss: 2.315 | CT Loss: 4.3707| [0m
+[91mEpoch: 0|  Loss:  9.0634 |Global loss: 9.159| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.315 | CT Loss: 4.0607| [0m
+[91mEpoch: 1|  Loss:  8.7418 |Global loss: 8.8457| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3149 | CT Loss: 4.0221| [0m
+[91mEpoch: 2|  Loss:  8.6943 |Global loss: 8.8061| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3146 | CT Loss: 4.0027| [0m
+[91mEpoch: 3|  Loss:  8.6647 |Global loss: 8.7862| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3152 | CT Loss: 4.3062| [0m
+[91mEpoch: 0|  Loss:  8.8935 |Global loss: 9.0963| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 1|  NKD Loss: 2.3156 | CT Loss: 3.9824| [0m
+[91mEpoch: 1|  Loss:  8.5521 |Global loss: 8.7681| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 2|  NKD Loss: 2.3165 | CT Loss: 3.9803| [0m
+[91mEpoch: 2|  Loss:  8.5325 |Global loss: 8.7649| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 3|  NKD Loss: 2.3169 | CT Loss: 3.9401| [0m
+[91mEpoch: 3|  Loss:  8.4791 |Global loss: 8.7246| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+------------------------- time cost ------------------------- 2.899521827697754
+Chosen Clients:  [13, 5, 6, 8, 1, 7]
+
+-------------Round number: 19-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.292, 0.308, 0.225, 0.225, 0.208, 0.292, 0.108, 0.167, 0.367, 0.15, 0.292, 0.2, 0.392, 0.325, 0.192]
+AUC in each clients:  [98.97, 99.583, 100.323, 104.664, 94.577, 100.307, 89.827, 101.207, 104.708, 93.514, 100.542, 98.923, 104.873, 101.123, 100.64]
+F1 Score:  [0.191, 0.209, 0.124, 0.119, 0.115, 0.213, 0.065, 0.116, 0.278, 0.102, 0.179, 0.091, 0.264, 0.215, 0.168]
+Recall Score:  [0.313, 0.333, 0.243, 0.271, 0.25, 0.352, 0.167, 0.222, 0.354, 0.194, 0.323, 0.25, 0.403, 0.344, 0.269]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.5123
+Averaged Test Accurancy: 0.2494
+Averaged Test AUC: 0.8299
+Averaged Test F1_score: 0.1633
+Averaged Test Recal score: 0.2859
+Std Test Accurancy: 0.0791
+Std Test AUC: 0.0338
+Std Test F1: 0.0005
+Std Test Recall: 0.0005
+[94mEpoch: 0|  NKD Loss: 2.3145 | CT Loss: 4.3215| [0m
+[91mEpoch: 0|  Loss:  8.9236 |Global loss: 9.1083| Local H loss: 0.0002  | Global H loss: 0.0003 [0m
+[94mEpoch: 1|  NKD Loss: 2.3146 | CT Loss: 3.9907| [0m
+[91mEpoch: 1|  Loss:  8.5774 |Global loss: 8.7742| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 2|  NKD Loss: 2.3155 | CT Loss: 3.9641| [0m
+[91mEpoch: 2|  Loss:  8.5374 |Global loss: 8.7462| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 3|  NKD Loss: 2.3155 | CT Loss: 3.9638| [0m
+[91mEpoch: 3|  Loss:  8.5169 |Global loss: 8.7452| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 0|  NKD Loss: 2.3129 | CT Loss: 4.28| [0m
+[91mEpoch: 0|  Loss:  8.8487 |Global loss: 9.0678| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 1|  NKD Loss: 2.3132 | CT Loss: 3.9133| [0m
+[91mEpoch: 1|  Loss:  8.4749 |Global loss: 8.7021| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 2|  NKD Loss: 2.3135 | CT Loss: 3.8885| [0m
+[91mEpoch: 2|  Loss:  8.4327 |Global loss: 8.6775| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 3|  NKD Loss: 2.3143 | CT Loss: 3.8727| [0m
+[91mEpoch: 3|  Loss:  8.405 |Global loss: 8.6608| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 0|  NKD Loss: 2.3162 | CT Loss: 4.3467| [0m
+[91mEpoch: 0|  Loss:  9.0572 |Global loss: 9.1331| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.3163 | CT Loss: 4.0628| [0m
+[91mEpoch: 1|  Loss:  8.7661 |Global loss: 8.8463| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3158 | CT Loss: 4.0146| [0m
+[91mEpoch: 2|  Loss:  8.7048 |Global loss: 8.7959| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3156 | CT Loss: 3.995| [0m
+[91mEpoch: 3|  Loss:  8.6718 |Global loss: 8.7732| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3287 | CT Loss: 4.3407| [0m
+[91mEpoch: 0|  Loss:  8.7852 |Global loss: 9.1393| Local H loss: 0.0009  | Global H loss: 0.001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3291 | CT Loss: 3.9823| [0m
+[91mEpoch: 1|  Loss:  8.4138 |Global loss: 8.7795| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3304 | CT Loss: 3.9707| [0m
+[91mEpoch: 2|  Loss:  8.3878 |Global loss: 8.7663| Local H loss: 0.001  | Global H loss: 0.0011 [0m
+[94mEpoch: 3|  NKD Loss: 2.3323 | CT Loss: 3.9439| [0m
+[91mEpoch: 3|  Loss:  8.3566 |Global loss: 8.7384| Local H loss: 0.0011  | Global H loss: 0.0011 [0m
+[94mEpoch: 0|  NKD Loss: 2.316 | CT Loss: 4.2845| [0m
+[91mEpoch: 0|  Loss:  8.8462 |Global loss: 9.0713| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 1|  NKD Loss: 2.3168 | CT Loss: 3.9559| [0m
+[91mEpoch: 1|  Loss:  8.5051 |Global loss: 8.7399| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 2|  NKD Loss: 2.3175 | CT Loss: 3.9369| [0m
+[91mEpoch: 2|  Loss:  8.4778 |Global loss: 8.7224| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 3|  NKD Loss: 2.3194 | CT Loss: 3.9263| [0m
+[91mEpoch: 3|  Loss:  8.4462 |Global loss: 8.7064| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 0|  NKD Loss: 2.3179 | CT Loss: 4.2964| [0m
+[91mEpoch: 0|  Loss:  8.8403 |Global loss: 9.0846| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 1|  NKD Loss: 2.3184 | CT Loss: 3.9841| [0m
+[91mEpoch: 1|  Loss:  8.5156 |Global loss: 8.7678| Local H loss: 0.0004  | Global H loss: 0.0005 [0m
+[94mEpoch: 2|  NKD Loss: 2.3199 | CT Loss: 3.972| [0m
+[91mEpoch: 2|  Loss:  8.4839 |Global loss: 8.7536| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 3|  NKD Loss: 2.3205 | CT Loss: 3.9596| [0m
+[91mEpoch: 3|  Loss:  8.4612 |Global loss: 8.7416| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+------------------------- time cost ------------------------- 2.817833185195923
+Chosen Clients:  [14, 9, 13, 11, 10, 3]
+
+-------------Round number: 20-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.292, 0.308, 0.225, 0.225, 0.208, 0.275, 0.142, 0.192, 0.367, 0.15, 0.292, 0.2, 0.392, 0.333, 0.192]
+AUC in each clients:  [98.97, 100.583, 100.323, 104.664, 94.577, 101.418, 93.889, 102.264, 105.898, 93.514, 100.542, 98.923, 104.873, 103.015, 100.64]
+F1 Score:  [0.191, 0.188, 0.124, 0.119, 0.115, 0.216, 0.089, 0.15, 0.292, 0.102, 0.179, 0.091, 0.264, 0.222, 0.168]
+Recall Score:  [0.313, 0.333, 0.243, 0.271, 0.25, 0.306, 0.194, 0.259, 0.354, 0.194, 0.323, 0.25, 0.403, 0.34, 0.269]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.4963
+Averaged Test Accurancy: 0.2528
+Averaged Test AUC: 0.8356
+Averaged Test F1_score: 0.1673
+Averaged Test Recal score: 0.2868
+Std Test Accurancy: 0.0740
+Std Test AUC: 0.0310
+Std Test F1: 0.0005
+Std Test Recall: 0.0005
+[94mEpoch: 0|  NKD Loss: 2.3194 | CT Loss: 4.3107| [0m
+[91mEpoch: 0|  Loss:  8.843 |Global loss: 9.0978| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 1|  NKD Loss: 2.3202 | CT Loss: 3.963| [0m
+[91mEpoch: 1|  Loss:  8.4805 |Global loss: 8.7441| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 2|  NKD Loss: 2.3202 | CT Loss: 3.9487| [0m
+[91mEpoch: 2|  Loss:  8.4465 |Global loss: 8.7312| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 3|  NKD Loss: 2.3217 | CT Loss: 3.9574| [0m
+[91mEpoch: 3|  Loss:  8.4413 |Global loss: 8.7377| Local H loss: 0.0006  | Global H loss: 0.0007 [0m
+[94mEpoch: 0|  NKD Loss: 2.3153 | CT Loss: 4.3112| [0m
+[91mEpoch: 0|  Loss:  9.0105 |Global loss: 9.0946| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.315 | CT Loss: 3.9858| [0m
+[91mEpoch: 1|  Loss:  8.6787 |Global loss: 8.7668| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 2|  NKD Loss: 2.3145 | CT Loss: 3.9631| [0m
+[91mEpoch: 2|  Loss:  8.6445 |Global loss: 8.7428| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 3|  NKD Loss: 2.3142 | CT Loss: 3.9565| [0m
+[91mEpoch: 3|  Loss:  8.6265 |Global loss: 8.7342| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3175 | CT Loss: 4.3222| [0m
+[91mEpoch: 0|  Loss:  8.8643 |Global loss: 9.1097| Local H loss: 0.0004  | Global H loss: 0.0005 [0m
+[94mEpoch: 1|  NKD Loss: 2.3181 | CT Loss: 3.9762| [0m
+[91mEpoch: 1|  Loss:  8.5032 |Global loss: 8.7576| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 2|  NKD Loss: 2.319 | CT Loss: 3.9556| [0m
+[91mEpoch: 2|  Loss:  8.4701 |Global loss: 8.7397| Local H loss: 0.0005  | Global H loss: 0.0006 [0m
+[94mEpoch: 3|  NKD Loss: 2.3195 | CT Loss: 3.9568| [0m
+[91mEpoch: 3|  Loss:  8.4557 |Global loss: 8.7402| Local H loss: 0.0006  | Global H loss: 0.0007 [0m
+[94mEpoch: 0|  NKD Loss: 2.3161 | CT Loss: 4.2806| [0m
+[91mEpoch: 0|  Loss:  8.9041 |Global loss: 9.0682| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 1|  NKD Loss: 2.3169 | CT Loss: 3.9712| [0m
+[91mEpoch: 1|  Loss:  8.5867 |Global loss: 8.7556| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 2|  NKD Loss: 2.3172 | CT Loss: 3.9358| [0m
+[91mEpoch: 2|  Loss:  8.532 |Global loss: 8.718| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 3|  NKD Loss: 2.3178 | CT Loss: 3.9592| [0m
+[91mEpoch: 3|  Loss:  8.5477 |Global loss: 8.7429| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 0|  NKD Loss: 2.3153 | CT Loss: 4.3297| [0m
+[91mEpoch: 0|  Loss:  8.9284 |Global loss: 9.1126| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 1|  NKD Loss: 2.3152 | CT Loss: 3.9805| [0m
+[91mEpoch: 1|  Loss:  8.5691 |Global loss: 8.7617| Local H loss: 0.0002  | Global H loss: 0.0003 [0m
+[94mEpoch: 2|  NKD Loss: 2.316 | CT Loss: 3.9771| [0m
+[91mEpoch: 2|  Loss:  8.5527 |Global loss: 8.7574| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 3|  NKD Loss: 2.3167 | CT Loss: 3.9767| [0m
+[91mEpoch: 3|  Loss:  8.5322 |Global loss: 8.7554| Local H loss: 0.0003  | Global H loss: 0.0004 [0m
+[94mEpoch: 0|  NKD Loss: 2.3223 | CT Loss: 4.3595| [0m
+[91mEpoch: 0|  Loss:  8.7649 |Global loss: 9.1548| Local H loss: 0.0009  | Global H loss: 0.001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3232 | CT Loss: 4.0449| [0m
+[91mEpoch: 1|  Loss:  8.4292 |Global loss: 8.8357| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3265 | CT Loss: 3.9578| [0m
+[91mEpoch: 2|  Loss:  8.347 |Global loss: 8.752| Local H loss: 0.0011  | Global H loss: 0.0011 [0m
+[94mEpoch: 3|  NKD Loss: 2.3251 | CT Loss: 3.9454| [0m
+[91mEpoch: 3|  Loss:  8.3008 |Global loss: 8.7351| Local H loss: 0.0011  | Global H loss: 0.0012 [0m
+------------------------- time cost ------------------------- 2.8388545513153076
+Chosen Clients:  [9, 2, 7, 12, 13, 14]
+
+-------------Round number: 21-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.292, 0.308, 0.225, 0.217, 0.208, 0.275, 0.142, 0.192, 0.367, 0.183, 0.275, 0.25, 0.392, 0.4, 0.325]
+AUC in each clients:  [98.97, 100.583, 100.323, 105.452, 94.577, 101.418, 93.889, 102.264, 105.898, 96.723, 102.091, 100.735, 104.873, 104.206, 101.97]
+F1 Score:  [0.191, 0.188, 0.124, 0.109, 0.115, 0.216, 0.089, 0.15, 0.292, 0.118, 0.163, 0.17, 0.264, 0.284, 0.309]
+Recall Score:  [0.313, 0.333, 0.243, 0.264, 0.25, 0.306, 0.194, 0.259, 0.354, 0.25, 0.299, 0.333, 0.403, 0.394, 0.372]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.4787
+Averaged Test Accurancy: 0.2700
+Averaged Test AUC: 0.8411
+Averaged Test F1_score: 0.1855
+Averaged Test Recal score: 0.3045
+Std Test Accurancy: 0.0754
+Std Test AUC: 0.0295
+Std Test F1: 0.0006
+Std Test Recall: 0.0005
+[94mEpoch: 0|  NKD Loss: 2.3132 | CT Loss: 4.3003| [0m
+[91mEpoch: 0|  Loss:  8.9568 |Global loss: 9.0837| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3135 | CT Loss: 3.96| [0m
+[91mEpoch: 1|  Loss:  8.6056 |Global loss: 8.7371| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3138 | CT Loss: 3.9466| [0m
+[91mEpoch: 2|  Loss:  8.5762 |Global loss: 8.7185| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3133 | CT Loss: 3.9394| [0m
+[91mEpoch: 3|  Loss:  8.5588 |Global loss: 8.7122| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3149 | CT Loss: 4.26| [0m
+[91mEpoch: 0|  Loss:  8.8611 |Global loss: 9.0427| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 1|  NKD Loss: 2.3156 | CT Loss: 4.0704| [0m
+[91mEpoch: 1|  Loss:  8.6637 |Global loss: 8.852| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 2|  NKD Loss: 2.3159 | CT Loss: 3.9825| [0m
+[91mEpoch: 2|  Loss:  8.5597 |Global loss: 8.7636| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 3|  NKD Loss: 2.3164 | CT Loss: 3.9598| [0m
+[91mEpoch: 3|  Loss:  8.5193 |Global loss: 8.7362| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 0|  NKD Loss: 2.3242 | CT Loss: 4.2806| [0m
+[91mEpoch: 0|  Loss:  8.7656 |Global loss: 9.0688| Local H loss: 0.0007  | Global H loss: 0.0007 [0m
+[94mEpoch: 1|  NKD Loss: 2.3251 | CT Loss: 3.9859| [0m
+[91mEpoch: 1|  Loss:  8.4592 |Global loss: 8.7685| Local H loss: 0.0007  | Global H loss: 0.0007 [0m
+[94mEpoch: 2|  NKD Loss: 2.3266 | CT Loss: 3.9577| [0m
+[91mEpoch: 2|  Loss:  8.4162 |Global loss: 8.7384| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 3|  NKD Loss: 2.3275 | CT Loss: 3.9601| [0m
+[91mEpoch: 3|  Loss:  8.4127 |Global loss: 8.7414| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 0|  NKD Loss: 2.339 | CT Loss: 4.2707| [0m
+[91mEpoch: 0|  Loss:  8.6137 |Global loss: 9.0786| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 1|  NKD Loss: 2.3393 | CT Loss: 3.9367| [0m
+[91mEpoch: 1|  Loss:  8.2771 |Global loss: 8.7367| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 2|  NKD Loss: 2.3391 | CT Loss: 3.9242| [0m
+[91mEpoch: 2|  Loss:  8.2465 |Global loss: 8.7223| Local H loss: 0.0015  | Global H loss: 0.0015 [0m
+[94mEpoch: 3|  NKD Loss: 2.3403 | CT Loss: 3.9325| [0m
+[91mEpoch: 3|  Loss:  8.2471 |Global loss: 8.7293| Local H loss: 0.0015  | Global H loss: 0.0016 [0m
+[94mEpoch: 0|  NKD Loss: 2.3228 | CT Loss: 4.3149| [0m
+[91mEpoch: 0|  Loss:  8.8014 |Global loss: 9.1067| Local H loss: 0.0007  | Global H loss: 0.0008 [0m
+[94mEpoch: 1|  NKD Loss: 2.3243 | CT Loss: 3.9652| [0m
+[91mEpoch: 1|  Loss:  8.4379 |Global loss: 8.7536| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 2|  NKD Loss: 2.325 | CT Loss: 3.9476| [0m
+[91mEpoch: 2|  Loss:  8.4042 |Global loss: 8.7323| Local H loss: 0.0008  | Global H loss: 0.0009 [0m
+[94mEpoch: 3|  NKD Loss: 2.3265 | CT Loss: 3.9449| [0m
+[91mEpoch: 3|  Loss:  8.3899 |Global loss: 8.7294| Local H loss: 0.0009  | Global H loss: 0.001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3248 | CT Loss: 4.3202| [0m
+[91mEpoch: 0|  Loss:  8.7924 |Global loss: 9.1128| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 1|  NKD Loss: 2.3261 | CT Loss: 3.9929| [0m
+[91mEpoch: 1|  Loss:  8.4502 |Global loss: 8.7793| Local H loss: 0.0008  | Global H loss: 0.0009 [0m
+[94mEpoch: 2|  NKD Loss: 2.3269 | CT Loss: 3.9556| [0m
+[91mEpoch: 2|  Loss:  8.4149 |Global loss: 8.7424| Local H loss: 0.0008  | Global H loss: 0.0009 [0m
+[94mEpoch: 3|  NKD Loss: 2.3277 | CT Loss: 3.9487| [0m
+[91mEpoch: 3|  Loss:  8.3881 |Global loss: 8.731| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+------------------------- time cost ------------------------- 2.8187687397003174
+Chosen Clients:  [1, 3, 7, 4, 0, 12]
+
+-------------Round number: 22-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.292, 0.308, 0.275, 0.217, 0.208, 0.275, 0.142, 0.383, 0.367, 0.142, 0.275, 0.25, 0.392, 0.408, 0.375]
+AUC in each clients:  [98.97, 100.583, 101.467, 105.452, 94.577, 101.418, 93.889, 103.555, 105.898, 99.307, 102.091, 100.735, 105.905, 104.621, 103.661]
+F1 Score:  [0.191, 0.188, 0.203, 0.109, 0.115, 0.216, 0.089, 0.344, 0.292, 0.093, 0.163, 0.17, 0.249, 0.293, 0.342]
+Recall Score:  [0.313, 0.333, 0.326, 0.264, 0.25, 0.306, 0.194, 0.426, 0.354, 0.201, 0.299, 0.333, 0.403, 0.403, 0.389]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.4625
+Averaged Test Accurancy: 0.2872
+Averaged Test AUC: 0.8456
+Averaged Test F1_score: 0.2038
+Averaged Test Recal score: 0.3196
+Std Test Accurancy: 0.0835
+Std Test AUC: 0.0298
+Std Test F1: 0.0007
+Std Test Recall: 0.0006
+[94mEpoch: 0|  NKD Loss: 2.3216 | CT Loss: 4.3634| [0m
+[91mEpoch: 0|  Loss:  8.8676 |Global loss: 9.1464| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 1|  NKD Loss: 2.3222 | CT Loss: 3.964| [0m
+[91mEpoch: 1|  Loss:  8.4523 |Global loss: 8.7401| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 2|  NKD Loss: 2.3237 | CT Loss: 3.9457| [0m
+[91mEpoch: 2|  Loss:  8.4252 |Global loss: 8.7195| Local H loss: 0.0006  | Global H loss: 0.0007 [0m
+[94mEpoch: 3|  NKD Loss: 2.3242 | CT Loss: 3.9532| [0m
+[91mEpoch: 3|  Loss:  8.4243 |Global loss: 8.7281| Local H loss: 0.0007  | Global H loss: 0.0007 [0m
+[94mEpoch: 0|  NKD Loss: 2.3308 | CT Loss: 4.3588| [0m
+[91mEpoch: 0|  Loss:  8.7119 |Global loss: 9.1544| Local H loss: 0.0013  | Global H loss: 0.0013 [0m
+[94mEpoch: 1|  NKD Loss: 2.3304 | CT Loss: 4.0349| [0m
+[91mEpoch: 1|  Loss:  8.3725 |Global loss: 8.8272| Local H loss: 0.0013  | Global H loss: 0.0014 [0m
+[94mEpoch: 2|  NKD Loss: 2.3284 | CT Loss: 3.9667| [0m
+[91mEpoch: 2|  Loss:  8.2868 |Global loss: 8.758| Local H loss: 0.0013  | Global H loss: 0.0014 [0m
+[94mEpoch: 3|  NKD Loss: 2.3285 | CT Loss: 3.9358| [0m
+[91mEpoch: 3|  Loss:  8.2294 |Global loss: 8.7233| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 0|  NKD Loss: 2.3328 | CT Loss: 4.3239| [0m
+[91mEpoch: 0|  Loss:  8.7593 |Global loss: 9.1189| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3336 | CT Loss: 3.99| [0m
+[91mEpoch: 1|  Loss:  8.4172 |Global loss: 8.7757| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3348 | CT Loss: 3.981| [0m
+[91mEpoch: 2|  Loss:  8.3965 |Global loss: 8.764| Local H loss: 0.0011  | Global H loss: 0.0011 [0m
+[94mEpoch: 3|  NKD Loss: 2.3346 | CT Loss: 3.9672| [0m
+[91mEpoch: 3|  Loss:  8.3751 |Global loss: 8.7483| Local H loss: 0.0011  | Global H loss: 0.0011 [0m
+[94mEpoch: 0|  NKD Loss: 2.3146 | CT Loss: 4.3201| [0m
+[91mEpoch: 0|  Loss:  8.9743 |Global loss: 9.0996| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3147 | CT Loss: 4.0255| [0m
+[91mEpoch: 1|  Loss:  8.6656 |Global loss: 8.7997| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3149 | CT Loss: 3.9922| [0m
+[91mEpoch: 2|  Loss:  8.6239 |Global loss: 8.7648| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3149 | CT Loss: 3.9873| [0m
+[91mEpoch: 3|  Loss:  8.6075 |Global loss: 8.7576| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 0|  NKD Loss: 2.313 | CT Loss: 4.3253| [0m
+[91mEpoch: 0|  Loss:  8.9428 |Global loss: 9.1033| Local H loss: 0.0001  | Global H loss: 0.0002 [0m
+[94mEpoch: 1|  NKD Loss: 2.3133 | CT Loss: 3.9545| [0m
+[91mEpoch: 1|  Loss:  8.5621 |Global loss: 8.7266| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 2|  NKD Loss: 2.3133 | CT Loss: 3.9284| [0m
+[91mEpoch: 2|  Loss:  8.5225 |Global loss: 8.6996| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 3|  NKD Loss: 2.3133 | CT Loss: 3.9311| [0m
+[91mEpoch: 3|  Loss:  8.5048 |Global loss: 8.7003| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 0|  NKD Loss: 2.3426 | CT Loss: 4.2745| [0m
+[91mEpoch: 0|  Loss:  8.5775 |Global loss: 9.0792| Local H loss: 0.0016  | Global H loss: 0.0017 [0m
+[94mEpoch: 1|  NKD Loss: 2.3423 | CT Loss: 3.9489| [0m
+[91mEpoch: 1|  Loss:  8.2592 |Global loss: 8.7469| Local H loss: 0.0016  | Global H loss: 0.0017 [0m
+[94mEpoch: 2|  NKD Loss: 2.3419 | CT Loss: 3.9318| [0m
+[91mEpoch: 2|  Loss:  8.2248 |Global loss: 8.7276| Local H loss: 0.0016  | Global H loss: 0.0017 [0m
+[94mEpoch: 3|  NKD Loss: 2.3427 | CT Loss: 3.9178| [0m
+[91mEpoch: 3|  Loss:  8.1941 |Global loss: 8.7125| Local H loss: 0.0017  | Global H loss: 0.0018 [0m
+------------------------- time cost ------------------------- 2.8775031566619873
+Chosen Clients:  [14, 10, 11, 2, 1, 6]
+
+-------------Round number: 23-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.258, 0.333, 0.275, 0.367, 0.158, 0.275, 0.142, 0.508, 0.367, 0.142, 0.275, 0.25, 0.375, 0.408, 0.375]
+AUC in each clients:  [99.749, 102.022, 101.467, 107.154, 96.707, 101.418, 93.889, 104.47, 105.898, 99.307, 102.091, 100.735, 106.583, 104.621, 103.661]
+F1 Score:  [0.174, 0.213, 0.203, 0.293, 0.096, 0.216, 0.089, 0.436, 0.292, 0.093, 0.163, 0.17, 0.25, 0.293, 0.342]
+Recall Score:  [0.277, 0.354, 0.326, 0.414, 0.199, 0.306, 0.194, 0.521, 0.354, 0.201, 0.299, 0.333, 0.392, 0.403, 0.389]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.4432
+Averaged Test Accurancy: 0.3006
+Averaged Test AUC: 0.8499
+Averaged Test F1_score: 0.2215
+Averaged Test Recal score: 0.3308
+Std Test Accurancy: 0.1009
+Std Test AUC: 0.0294
+Std Test F1: 0.0008
+Std Test Recall: 0.0007
+[94mEpoch: 0|  NKD Loss: 2.3293 | CT Loss: 4.343| [0m
+[91mEpoch: 0|  Loss:  8.7792 |Global loss: 9.1336| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3308 | CT Loss: 3.9788| [0m
+[91mEpoch: 1|  Loss:  8.3908 |Global loss: 8.7589| Local H loss: 0.001  | Global H loss: 0.0011 [0m
+[94mEpoch: 2|  NKD Loss: 2.3301 | CT Loss: 3.9209| [0m
+[91mEpoch: 2|  Loss:  8.3255 |Global loss: 8.7006| Local H loss: 0.001  | Global H loss: 0.0011 [0m
+[94mEpoch: 3|  NKD Loss: 2.3325 | CT Loss: 3.9247| [0m
+[91mEpoch: 3|  Loss:  8.3135 |Global loss: 8.698| Local H loss: 0.0011  | Global H loss: 0.0012 [0m
+[94mEpoch: 0|  NKD Loss: 2.3181 | CT Loss: 4.3757| [0m
+[91mEpoch: 0|  Loss:  8.918 |Global loss: 9.1556| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 1|  NKD Loss: 2.3198 | CT Loss: 4.006| [0m
+[91mEpoch: 1|  Loss:  8.5285 |Global loss: 8.7781| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 2|  NKD Loss: 2.3203 | CT Loss: 3.9805| [0m
+[91mEpoch: 2|  Loss:  8.4909 |Global loss: 8.7522| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 3|  NKD Loss: 2.322 | CT Loss: 3.976| [0m
+[91mEpoch: 3|  Loss:  8.4881 |Global loss: 8.7472| Local H loss: 0.0005  | Global H loss: 0.0006 [0m
+[94mEpoch: 0|  NKD Loss: 2.3189 | CT Loss: 4.2336| [0m
+[91mEpoch: 0|  Loss:  8.8106 |Global loss: 9.0146| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 1|  NKD Loss: 2.3192 | CT Loss: 3.9561| [0m
+[91mEpoch: 1|  Loss:  8.5174 |Global loss: 8.7321| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 2|  NKD Loss: 2.3197 | CT Loss: 3.9212| [0m
+[91mEpoch: 2|  Loss:  8.4676 |Global loss: 8.6971| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 3|  NKD Loss: 2.3209 | CT Loss: 3.9257| [0m
+[91mEpoch: 3|  Loss:  8.4591 |Global loss: 8.6991| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 0|  NKD Loss: 2.3185 | CT Loss: 4.2995| [0m
+[91mEpoch: 0|  Loss:  8.8486 |Global loss: 9.0773| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 1|  NKD Loss: 2.3184 | CT Loss: 3.9915| [0m
+[91mEpoch: 1|  Loss:  8.5237 |Global loss: 8.7655| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 2|  NKD Loss: 2.3192 | CT Loss: 3.9786| [0m
+[91mEpoch: 2|  Loss:  8.4961 |Global loss: 8.7503| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 3|  NKD Loss: 2.3198 | CT Loss: 3.9537| [0m
+[91mEpoch: 3|  Loss:  8.4554 |Global loss: 8.7238| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 0|  NKD Loss: 2.3274 | CT Loss: 4.2835| [0m
+[91mEpoch: 0|  Loss:  8.7433 |Global loss: 9.0688| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 1|  NKD Loss: 2.3276 | CT Loss: 4.0044| [0m
+[91mEpoch: 1|  Loss:  8.4567 |Global loss: 8.7846| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 2|  NKD Loss: 2.3304 | CT Loss: 3.9404| [0m
+[91mEpoch: 2|  Loss:  8.3696 |Global loss: 8.7157| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 3|  NKD Loss: 2.3312 | CT Loss: 3.9364| [0m
+[91mEpoch: 3|  Loss:  8.3583 |Global loss: 8.7091| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3155 | CT Loss: 4.3094| [0m
+[91mEpoch: 0|  Loss:  8.9754 |Global loss: 9.0827| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3153 | CT Loss: 4.0902| [0m
+[91mEpoch: 1|  Loss:  8.7476 |Global loss: 8.8588| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3154 | CT Loss: 4.0095| [0m
+[91mEpoch: 2|  Loss:  8.6527 |Global loss: 8.7733| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3154 | CT Loss: 3.9954| [0m
+[91mEpoch: 3|  Loss:  8.6209 |Global loss: 8.7548| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+------------------------- time cost ------------------------- 2.8171916007995605
+Chosen Clients:  [10, 13, 12, 5, 14, 8]
+
+-------------Round number: 24-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.258, 0.408, 0.258, 0.367, 0.158, 0.275, 0.2, 0.508, 0.367, 0.142, 0.317, 0.25, 0.375, 0.408, 0.442]
+AUC in each clients:  [99.749, 104.245, 102.635, 107.154, 96.707, 101.418, 95.552, 104.47, 105.898, 99.307, 101.639, 101.684, 106.583, 104.621, 104.893]
+F1 Score:  [0.174, 0.307, 0.198, 0.293, 0.096, 0.216, 0.127, 0.436, 0.292, 0.093, 0.201, 0.17, 0.25, 0.293, 0.364]
+Recall Score:  [0.277, 0.419, 0.317, 0.414, 0.199, 0.306, 0.243, 0.521, 0.354, 0.201, 0.335, 0.333, 0.392, 0.403, 0.428]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.4306
+Averaged Test Accurancy: 0.3156
+Averaged Test AUC: 0.8536
+Averaged Test F1_score: 0.2340
+Averaged Test Recal score: 0.3428
+Std Test Accurancy: 0.1032
+Std Test AUC: 0.0280
+Std Test F1: 0.0008
+Std Test Recall: 0.0007
+[94mEpoch: 0|  NKD Loss: 2.3249 | CT Loss: 4.3345| [0m
+[91mEpoch: 0|  Loss:  8.8247 |Global loss: 9.1164| Local H loss: 0.0007  | Global H loss: 0.0007 [0m
+[94mEpoch: 1|  NKD Loss: 2.3246 | CT Loss: 3.981| [0m
+[91mEpoch: 1|  Loss:  8.4438 |Global loss: 8.7554| Local H loss: 0.0007  | Global H loss: 0.0008 [0m
+[94mEpoch: 2|  NKD Loss: 2.3269 | CT Loss: 3.9602| [0m
+[91mEpoch: 2|  Loss:  8.4198 |Global loss: 8.7327| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 3|  NKD Loss: 2.3282 | CT Loss: 3.9633| [0m
+[91mEpoch: 3|  Loss:  8.4126 |Global loss: 8.737| Local H loss: 0.0008  | Global H loss: 0.0009 [0m
+[94mEpoch: 0|  NKD Loss: 2.3283 | CT Loss: 4.295| [0m
+[91mEpoch: 0|  Loss:  8.7395 |Global loss: 9.081| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3273 | CT Loss: 3.9802| [0m
+[91mEpoch: 1|  Loss:  8.4074 |Global loss: 8.7574| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3285 | CT Loss: 3.9438| [0m
+[91mEpoch: 2|  Loss:  8.3626 |Global loss: 8.7199| Local H loss: 0.001  | Global H loss: 0.0011 [0m
+[94mEpoch: 3|  NKD Loss: 2.3297 | CT Loss: 3.9357| [0m
+[91mEpoch: 3|  Loss:  8.3371 |Global loss: 8.7091| Local H loss: 0.0011  | Global H loss: 0.0012 [0m
+[94mEpoch: 0|  NKD Loss: 2.343 | CT Loss: 4.2408| [0m
+[91mEpoch: 0|  Loss:  8.5284 |Global loss: 9.0401| Local H loss: 0.0017  | Global H loss: 0.0018 [0m
+[94mEpoch: 1|  NKD Loss: 2.3422 | CT Loss: 3.9379| [0m
+[91mEpoch: 1|  Loss:  8.1954 |Global loss: 8.7263| Local H loss: 0.0018  | Global H loss: 0.0018 [0m
+[94mEpoch: 2|  NKD Loss: 2.342 | CT Loss: 3.9211| [0m
+[91mEpoch: 2|  Loss:  8.1892 |Global loss: 8.7066| Local H loss: 0.0017  | Global H loss: 0.0018 [0m
+[94mEpoch: 3|  NKD Loss: 2.3401 | CT Loss: 3.9144| [0m
+[91mEpoch: 3|  Loss:  8.1493 |Global loss: 8.6954| Local H loss: 0.0018  | Global H loss: 0.0019 [0m
+[94mEpoch: 0|  NKD Loss: 2.3146 | CT Loss: 4.2461| [0m
+[91mEpoch: 0|  Loss:  8.7622 |Global loss: 9.0237| Local H loss: 0.0004  | Global H loss: 0.0005 [0m
+[94mEpoch: 1|  NKD Loss: 2.3147 | CT Loss: 3.8951| [0m
+[91mEpoch: 1|  Loss:  8.3951 |Global loss: 8.6684| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 2|  NKD Loss: 2.3161 | CT Loss: 3.875| [0m
+[91mEpoch: 2|  Loss:  8.3627 |Global loss: 8.6458| Local H loss: 0.0005  | Global H loss: 0.0006 [0m
+[94mEpoch: 3|  NKD Loss: 2.3168 | CT Loss: 3.8792| [0m
+[91mEpoch: 3|  Loss:  8.3553 |Global loss: 8.6528| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 0|  NKD Loss: 2.3371 | CT Loss: 4.3178| [0m
+[91mEpoch: 0|  Loss:  8.7087 |Global loss: 9.1109| Local H loss: 0.0013  | Global H loss: 0.0014 [0m
+[94mEpoch: 1|  NKD Loss: 2.3345 | CT Loss: 3.935| [0m
+[91mEpoch: 1|  Loss:  8.3163 |Global loss: 8.713| Local H loss: 0.0012  | Global H loss: 0.0013 [0m
+[94mEpoch: 2|  NKD Loss: 2.3348 | CT Loss: 3.9164| [0m
+[91mEpoch: 2|  Loss:  8.2885 |Global loss: 8.693| Local H loss: 0.0013  | Global H loss: 0.0013 [0m
+[94mEpoch: 3|  NKD Loss: 2.335 | CT Loss: 3.9188| [0m
+[91mEpoch: 3|  Loss:  8.2869 |Global loss: 8.6924| Local H loss: 0.0013  | Global H loss: 0.0014 [0m
+[94mEpoch: 0|  NKD Loss: 2.3322 | CT Loss: 4.3003| [0m
+[91mEpoch: 0|  Loss:  8.6955 |Global loss: 9.0858| Local H loss: 0.0011  | Global H loss: 0.0012 [0m
+[94mEpoch: 1|  NKD Loss: 2.3312 | CT Loss: 3.9678| [0m
+[91mEpoch: 1|  Loss:  8.3579 |Global loss: 8.7451| Local H loss: 0.0011  | Global H loss: 0.0011 [0m
+[94mEpoch: 2|  NKD Loss: 2.3324 | CT Loss: 3.9363| [0m
+[91mEpoch: 2|  Loss:  8.3148 |Global loss: 8.7096| Local H loss: 0.0011  | Global H loss: 0.0012 [0m
+[94mEpoch: 3|  NKD Loss: 2.3344 | CT Loss: 3.9272| [0m
+[91mEpoch: 3|  Loss:  8.2948 |Global loss: 8.7006| Local H loss: 0.0012  | Global H loss: 0.0013 [0m
+------------------------- time cost ------------------------- 2.874300241470337
+Chosen Clients:  [8, 9, 11, 13, 6, 12]
+
+-------------Round number: 25-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.258, 0.408, 0.258, 0.367, 0.158, 0.317, 0.2, 0.508, 0.508, 0.142, 0.383, 0.25, 0.383, 0.542, 0.442]
+AUC in each clients:  [99.749, 104.245, 102.635, 107.154, 96.707, 102.163, 95.552, 104.47, 107.001, 99.307, 102.833, 101.684, 106.955, 104.961, 105.736]
+F1 Score:  [0.174, 0.307, 0.198, 0.293, 0.096, 0.264, 0.127, 0.436, 0.42, 0.093, 0.26, 0.17, 0.284, 0.439, 0.362]
+Recall Score:  [0.277, 0.419, 0.317, 0.414, 0.199, 0.346, 0.243, 0.521, 0.521, 0.201, 0.39, 0.333, 0.41, 0.551, 0.428]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.4133
+Averaged Test Accurancy: 0.3417
+Averaged Test AUC: 0.8562
+Averaged Test F1_score: 0.2615
+Averaged Test Recal score: 0.3713
+Std Test Accurancy: 0.1240
+Std Test AUC: 0.0293
+Std Test F1: 0.0009
+Std Test Recall: 0.0009
+[94mEpoch: 0|  NKD Loss: 2.3403 | CT Loss: 4.3158| [0m
+[91mEpoch: 0|  Loss:  8.688 |Global loss: 9.1028| Local H loss: 0.0014  | Global H loss: 0.0014 [0m
+[94mEpoch: 1|  NKD Loss: 2.3387 | CT Loss: 3.9842| [0m
+[91mEpoch: 1|  Loss:  8.337 |Global loss: 8.76| Local H loss: 0.0014  | Global H loss: 0.0014 [0m
+[94mEpoch: 2|  NKD Loss: 2.3365 | CT Loss: 3.9391| [0m
+[91mEpoch: 2|  Loss:  8.2765 |Global loss: 8.7081| Local H loss: 0.0014  | Global H loss: 0.0014 [0m
+[94mEpoch: 3|  NKD Loss: 2.337 | CT Loss: 3.9403| [0m
+[91mEpoch: 3|  Loss:  8.2694 |Global loss: 8.705| Local H loss: 0.0014  | Global H loss: 0.0014 [0m
+[94mEpoch: 0|  NKD Loss: 2.3142 | CT Loss: 4.2978| [0m
+[91mEpoch: 0|  Loss:  8.9084 |Global loss: 9.0597| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3131 | CT Loss: 3.9797| [0m
+[91mEpoch: 1|  Loss:  8.5714 |Global loss: 8.7349| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 2|  NKD Loss: 2.314 | CT Loss: 3.9335| [0m
+[91mEpoch: 2|  Loss:  8.512 |Global loss: 8.6827| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 3|  NKD Loss: 2.3138 | CT Loss: 3.9274| [0m
+[91mEpoch: 3|  Loss:  8.4894 |Global loss: 8.6738| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 0|  NKD Loss: 2.3217 | CT Loss: 4.2518| [0m
+[91mEpoch: 0|  Loss:  8.7792 |Global loss: 9.0297| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 1|  NKD Loss: 2.3224 | CT Loss: 3.9798| [0m
+[91mEpoch: 1|  Loss:  8.4875 |Global loss: 8.7483| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 2|  NKD Loss: 2.3226 | CT Loss: 3.9734| [0m
+[91mEpoch: 2|  Loss:  8.4748 |Global loss: 8.7425| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 3|  NKD Loss: 2.3233 | CT Loss: 3.9415| [0m
+[91mEpoch: 3|  Loss:  8.4273 |Global loss: 8.7074| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 0|  NKD Loss: 2.3348 | CT Loss: 4.2969| [0m
+[91mEpoch: 0|  Loss:  8.7024 |Global loss: 9.0851| Local H loss: 0.0012  | Global H loss: 0.0013 [0m
+[94mEpoch: 1|  NKD Loss: 2.3318 | CT Loss: 3.9525| [0m
+[91mEpoch: 1|  Loss:  8.3363 |Global loss: 8.7241| Local H loss: 0.0012  | Global H loss: 0.0013 [0m
+[94mEpoch: 2|  NKD Loss: 2.3352 | CT Loss: 3.9413| [0m
+[91mEpoch: 2|  Loss:  8.3388 |Global loss: 8.7163| Local H loss: 0.0012  | Global H loss: 0.0013 [0m
+[94mEpoch: 3|  NKD Loss: 2.3322 | CT Loss: 3.9253| [0m
+[91mEpoch: 3|  Loss:  8.2946 |Global loss: 8.6944| Local H loss: 0.0012  | Global H loss: 0.0013 [0m
+[94mEpoch: 0|  NKD Loss: 2.3153 | CT Loss: 4.3094| [0m
+[91mEpoch: 0|  Loss:  8.9269 |Global loss: 9.0729| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 1|  NKD Loss: 2.3155 | CT Loss: 4.0626| [0m
+[91mEpoch: 1|  Loss:  8.6616 |Global loss: 8.8161| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 2|  NKD Loss: 2.3163 | CT Loss: 4.0032| [0m
+[91mEpoch: 2|  Loss:  8.587 |Global loss: 8.7504| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 3|  NKD Loss: 2.3162 | CT Loss: 3.9926| [0m
+[91mEpoch: 3|  Loss:  8.5528 |Global loss: 8.7305| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 0|  NKD Loss: 2.344 | CT Loss: 4.2847| [0m
+[91mEpoch: 0|  Loss:  8.4957 |Global loss: 9.079| Local H loss: 0.002  | Global H loss: 0.0021 [0m
+[94mEpoch: 1|  NKD Loss: 2.3441 | CT Loss: 3.947| [0m
+[91mEpoch: 1|  Loss:  8.1509 |Global loss: 8.727| Local H loss: 0.002  | Global H loss: 0.0021 [0m
+[94mEpoch: 2|  NKD Loss: 2.3422 | CT Loss: 3.9266| [0m
+[91mEpoch: 2|  Loss:  8.1213 |Global loss: 8.7022| Local H loss: 0.002  | Global H loss: 0.0021 [0m
+[94mEpoch: 3|  NKD Loss: 2.341 | CT Loss: 3.9182| [0m
+[91mEpoch: 3|  Loss:  8.0915 |Global loss: 8.6882| Local H loss: 0.0021  | Global H loss: 0.0022 [0m
+------------------------- time cost ------------------------- 2.928590774536133
+Chosen Clients:  [9, 6, 4, 0, 13, 14]
+
+-------------Round number: 26-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.258, 0.408, 0.258, 0.367, 0.158, 0.317, 0.2, 0.508, 0.5, 0.258, 0.383, 0.308, 0.383, 0.558, 0.442]
+AUC in each clients:  [99.749, 104.245, 102.635, 107.154, 96.707, 102.163, 97.529, 104.47, 107.63, 100.91, 102.833, 102.011, 107.478, 105.188, 105.736]
+F1 Score:  [0.174, 0.307, 0.198, 0.293, 0.096, 0.264, 0.124, 0.436, 0.401, 0.174, 0.26, 0.249, 0.299, 0.452, 0.362]
+Recall Score:  [0.277, 0.419, 0.317, 0.414, 0.199, 0.346, 0.243, 0.521, 0.49, 0.308, 0.39, 0.398, 0.42, 0.566, 0.428]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.4001
+Averaged Test Accurancy: 0.3539
+Averaged Test AUC: 0.8591
+Averaged Test F1_score: 0.2726
+Averaged Test Recal score: 0.3824
+Std Test Accurancy: 0.1132
+Std Test AUC: 0.0273
+Std Test F1: 0.0009
+Std Test Recall: 0.0008
+[94mEpoch: 0|  NKD Loss: 2.3149 | CT Loss: 4.2735| [0m
+[91mEpoch: 0|  Loss:  8.8184 |Global loss: 9.0288| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 1|  NKD Loss: 2.3144 | CT Loss: 3.9607| [0m
+[91mEpoch: 1|  Loss:  8.4824 |Global loss: 8.702| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 2|  NKD Loss: 2.3151 | CT Loss: 3.9296| [0m
+[91mEpoch: 2|  Loss:  8.4307 |Global loss: 8.6649| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 3|  NKD Loss: 2.3157 | CT Loss: 3.9237| [0m
+[91mEpoch: 3|  Loss:  8.4143 |Global loss: 8.6579| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 0|  NKD Loss: 2.3175 | CT Loss: 4.3304| [0m
+[91mEpoch: 0|  Loss:  8.881 |Global loss: 9.0877| Local H loss: 0.0003  | Global H loss: 0.0004 [0m
+[94mEpoch: 1|  NKD Loss: 2.3181 | CT Loss: 4.0133| [0m
+[91mEpoch: 1|  Loss:  8.5464 |Global loss: 8.7574| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 2|  NKD Loss: 2.3188 | CT Loss: 3.9846| [0m
+[91mEpoch: 2|  Loss:  8.497 |Global loss: 8.7234| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 3|  NKD Loss: 2.319 | CT Loss: 3.9682| [0m
+[91mEpoch: 3|  Loss:  8.4659 |Global loss: 8.7031| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 0|  NKD Loss: 2.3153 | CT Loss: 4.4118| [0m
+[91mEpoch: 0|  Loss:  9.0206 |Global loss: 9.1718| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 1|  NKD Loss: 2.3166 | CT Loss: 4.0327| [0m
+[91mEpoch: 1|  Loss:  8.6152 |Global loss: 8.778| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 2|  NKD Loss: 2.316 | CT Loss: 4.0005| [0m
+[91mEpoch: 2|  Loss:  8.5721 |Global loss: 8.7459| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 3|  NKD Loss: 2.316 | CT Loss: 4.005| [0m
+[91mEpoch: 3|  Loss:  8.5748 |Global loss: 8.7501| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 0|  NKD Loss: 2.3134 | CT Loss: 4.2428| [0m
+[91mEpoch: 0|  Loss:  8.7973 |Global loss: 9.0025| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 1|  NKD Loss: 2.3134 | CT Loss: 3.9588| [0m
+[91mEpoch: 1|  Loss:  8.4994 |Global loss: 8.7074| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 2|  NKD Loss: 2.3143 | CT Loss: 3.9068| [0m
+[91mEpoch: 2|  Loss:  8.4348 |Global loss: 8.6499| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+[94mEpoch: 3|  NKD Loss: 2.3151 | CT Loss: 3.9009| [0m
+[91mEpoch: 3|  Loss:  8.4031 |Global loss: 8.6367| Local H loss: 0.0004  | Global H loss: 0.0004 [0m
+[94mEpoch: 0|  NKD Loss: 2.3367 | CT Loss: 4.2902| [0m
+[91mEpoch: 0|  Loss:  8.6485 |Global loss: 9.074| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 1|  NKD Loss: 2.3355 | CT Loss: 3.9422| [0m
+[91mEpoch: 1|  Loss:  8.2801 |Global loss: 8.7109| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 2|  NKD Loss: 2.3351 | CT Loss: 3.9613| [0m
+[91mEpoch: 2|  Loss:  8.2917 |Global loss: 8.7281| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 3|  NKD Loss: 2.3347 | CT Loss: 3.9316| [0m
+[91mEpoch: 3|  Loss:  8.257 |Global loss: 8.6916| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 0|  NKD Loss: 2.3393 | CT Loss: 4.3262| [0m
+[91mEpoch: 0|  Loss:  8.6798 |Global loss: 9.108| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 1|  NKD Loss: 2.3371 | CT Loss: 3.9979| [0m
+[91mEpoch: 1|  Loss:  8.3497 |Global loss: 8.7642| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 2|  NKD Loss: 2.3346 | CT Loss: 3.9221| [0m
+[91mEpoch: 2|  Loss:  8.2503 |Global loss: 8.6795| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 3|  NKD Loss: 2.3351 | CT Loss: 3.9206| [0m
+[91mEpoch: 3|  Loss:  8.2473 |Global loss: 8.6689| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+------------------------- time cost ------------------------- 2.843503952026367
+Chosen Clients:  [14, 2, 0, 10, 11, 6]
+
+-------------Round number: 27-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.267, 0.408, 0.258, 0.367, 0.167, 0.317, 0.2, 0.508, 0.5, 0.267, 0.383, 0.308, 0.383, 0.508, 0.433]
+AUC in each clients:  [100.725, 104.245, 102.635, 107.154, 98.024, 102.163, 98.654, 104.47, 107.63, 102.891, 102.833, 102.011, 107.478, 105.729, 106.886]
+F1 Score:  [0.208, 0.307, 0.198, 0.293, 0.118, 0.264, 0.124, 0.436, 0.401, 0.177, 0.26, 0.249, 0.299, 0.442, 0.346]
+Recall Score:  [0.294, 0.419, 0.317, 0.414, 0.222, 0.346, 0.243, 0.521, 0.49, 0.317, 0.39, 0.398, 0.42, 0.541, 0.417]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.3790
+Averaged Test Accurancy: 0.3517
+Averaged Test AUC: 0.8631
+Averaged Test F1_score: 0.2748
+Averaged Test Recal score: 0.3833
+Std Test Accurancy: 0.1054
+Std Test AUC: 0.0246
+Std Test F1: 0.0008
+Std Test Recall: 0.0008
+[94mEpoch: 0|  NKD Loss: 2.3389 | CT Loss: 4.303| [0m
+[91mEpoch: 0|  Loss:  8.6171 |Global loss: 9.0719| Local H loss: 0.0016  | Global H loss: 0.0017 [0m
+[94mEpoch: 1|  NKD Loss: 2.3358 | CT Loss: 3.9768| [0m
+[91mEpoch: 1|  Loss:  8.2914 |Global loss: 8.7256| Local H loss: 0.0015  | Global H loss: 0.0016 [0m
+[94mEpoch: 2|  NKD Loss: 2.3342 | CT Loss: 3.9214| [0m
+[91mEpoch: 2|  Loss:  8.2195 |Global loss: 8.6634| Local H loss: 0.0015  | Global H loss: 0.0016 [0m
+[94mEpoch: 3|  NKD Loss: 2.3345 | CT Loss: 3.9259| [0m
+[91mEpoch: 3|  Loss:  8.222 |Global loss: 8.6584| Local H loss: 0.0015  | Global H loss: 0.0016 [0m
+[94mEpoch: 0|  NKD Loss: 2.3204 | CT Loss: 4.2951| [0m
+[91mEpoch: 0|  Loss:  8.7856 |Global loss: 9.0528| Local H loss: 0.0005  | Global H loss: 0.0006 [0m
+[94mEpoch: 1|  NKD Loss: 2.3214 | CT Loss: 3.9722| [0m
+[91mEpoch: 1|  Loss:  8.4448 |Global loss: 8.7147| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 2|  NKD Loss: 2.3216 | CT Loss: 3.9454| [0m
+[91mEpoch: 2|  Loss:  8.3981 |Global loss: 8.6837| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 3|  NKD Loss: 2.3211 | CT Loss: 3.9378| [0m
+[91mEpoch: 3|  Loss:  8.381 |Global loss: 8.6724| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 0|  NKD Loss: 2.3165 | CT Loss: 4.2234| [0m
+[91mEpoch: 0|  Loss:  8.7119 |Global loss: 8.9767| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 1|  NKD Loss: 2.3172 | CT Loss: 3.952| [0m
+[91mEpoch: 1|  Loss:  8.4241 |Global loss: 8.687| Local H loss: 0.0005  | Global H loss: 0.0005 [0m
+[94mEpoch: 2|  NKD Loss: 2.3177 | CT Loss: 3.9114| [0m
+[91mEpoch: 2|  Loss:  8.3753 |Global loss: 8.6453| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 3|  NKD Loss: 2.3188 | CT Loss: 3.903| [0m
+[91mEpoch: 3|  Loss:  8.347 |Global loss: 8.6301| Local H loss: 0.0006  | Global H loss: 0.0007 [0m
+[94mEpoch: 0|  NKD Loss: 2.3305 | CT Loss: 4.3231| [0m
+[91mEpoch: 0|  Loss:  8.7504 |Global loss: 9.0944| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 1|  NKD Loss: 2.3305 | CT Loss: 4.0233| [0m
+[91mEpoch: 1|  Loss:  8.4548 |Global loss: 8.7844| Local H loss: 0.0009  | Global H loss: 0.001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3319 | CT Loss: 3.9581| [0m
+[91mEpoch: 2|  Loss:  8.3608 |Global loss: 8.7074| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3314 | CT Loss: 3.9356| [0m
+[91mEpoch: 3|  Loss:  8.3283 |Global loss: 8.6803| Local H loss: 0.001  | Global H loss: 0.0011 [0m
+[94mEpoch: 0|  NKD Loss: 2.3248 | CT Loss: 4.2785| [0m
+[91mEpoch: 0|  Loss:  8.7507 |Global loss: 9.0457| Local H loss: 0.0007  | Global H loss: 0.0007 [0m
+[94mEpoch: 1|  NKD Loss: 2.3247 | CT Loss: 3.9501| [0m
+[91mEpoch: 1|  Loss:  8.4053 |Global loss: 8.7023| Local H loss: 0.0007  | Global H loss: 0.0007 [0m
+[94mEpoch: 2|  NKD Loss: 2.3239 | CT Loss: 3.9201| [0m
+[91mEpoch: 2|  Loss:  8.3626 |Global loss: 8.6723| Local H loss: 0.0007  | Global H loss: 0.0008 [0m
+[94mEpoch: 3|  NKD Loss: 2.3247 | CT Loss: 3.9111| [0m
+[91mEpoch: 3|  Loss:  8.3365 |Global loss: 8.6574| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 0|  NKD Loss: 2.3232 | CT Loss: 4.3134| [0m
+[91mEpoch: 0|  Loss:  8.7938 |Global loss: 9.0637| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 1|  NKD Loss: 2.3234 | CT Loss: 4.0389| [0m
+[91mEpoch: 1|  Loss:  8.5106 |Global loss: 8.7763| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 2|  NKD Loss: 2.3232 | CT Loss: 3.9739| [0m
+[91mEpoch: 2|  Loss:  8.4274 |Global loss: 8.6995| Local H loss: 0.0006  | Global H loss: 0.0007 [0m
+[94mEpoch: 3|  NKD Loss: 2.3229 | CT Loss: 3.9695| [0m
+[91mEpoch: 3|  Loss:  8.4152 |Global loss: 8.6882| Local H loss: 0.0007  | Global H loss: 0.0007 [0m
+------------------------- time cost ------------------------- 2.9090301990509033
+Chosen Clients:  [0, 6, 1, 13, 2, 3]
+
+-------------Round number: 28-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.275, 0.408, 0.208, 0.367, 0.167, 0.317, 0.2, 0.508, 0.5, 0.267, 0.342, 0.325, 0.383, 0.508, 0.458]
+AUC in each clients:  [101.607, 104.245, 103.431, 107.154, 98.024, 102.163, 99.815, 104.47, 107.63, 102.891, 103.97, 102.879, 107.478, 105.729, 107.811]
+F1 Score:  [0.219, 0.307, 0.129, 0.293, 0.118, 0.264, 0.124, 0.436, 0.401, 0.177, 0.269, 0.261, 0.299, 0.442, 0.385]
+Recall Score:  [0.307, 0.419, 0.278, 0.414, 0.222, 0.346, 0.243, 0.521, 0.49, 0.317, 0.409, 0.417, 0.42, 0.541, 0.456]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.3608
+Averaged Test Accurancy: 0.3489
+Averaged Test AUC: 0.8663
+Averaged Test F1_score: 0.2749
+Averaged Test Recal score: 0.3867
+Std Test Accurancy: 0.1095
+Std Test AUC: 0.0234
+Std Test F1: 0.0009
+Std Test Recall: 0.0008
+[94mEpoch: 0|  NKD Loss: 2.3239 | CT Loss: 4.2817| [0m
+[91mEpoch: 0|  Loss:  8.7195 |Global loss: 9.0354| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 1|  NKD Loss: 2.3215 | CT Loss: 3.9411| [0m
+[91mEpoch: 1|  Loss:  8.3582 |Global loss: 8.6714| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 2|  NKD Loss: 2.323 | CT Loss: 3.9088| [0m
+[91mEpoch: 2|  Loss:  8.3123 |Global loss: 8.629| Local H loss: 0.0008  | Global H loss: 0.0009 [0m
+[94mEpoch: 3|  NKD Loss: 2.3236 | CT Loss: 3.9084| [0m
+[91mEpoch: 3|  Loss:  8.2931 |Global loss: 8.6192| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 0|  NKD Loss: 2.3315 | CT Loss: 4.3609| [0m
+[91mEpoch: 0|  Loss:  8.7991 |Global loss: 9.1108| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 1|  NKD Loss: 2.3295 | CT Loss: 4.057| [0m
+[91mEpoch: 1|  Loss:  8.486 |Global loss: 8.7838| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 2|  NKD Loss: 2.3297 | CT Loss: 3.9974| [0m
+[91mEpoch: 2|  Loss:  8.4286 |Global loss: 8.7184| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 3|  NKD Loss: 2.3265 | CT Loss: 3.9814| [0m
+[91mEpoch: 3|  Loss:  8.372 |Global loss: 8.6807| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 0|  NKD Loss: 2.3276 | CT Loss: 4.3212| [0m
+[91mEpoch: 0|  Loss:  8.7315 |Global loss: 9.0685| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 1|  NKD Loss: 2.3264 | CT Loss: 3.9358| [0m
+[91mEpoch: 1|  Loss:  8.3251 |Global loss: 8.6507| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 2|  NKD Loss: 2.3227 | CT Loss: 3.9044| [0m
+[91mEpoch: 2|  Loss:  8.2788 |Global loss: 8.6112| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 3|  NKD Loss: 2.3224 | CT Loss: 3.9173| [0m
+[91mEpoch: 3|  Loss:  8.2999 |Global loss: 8.6164| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 0|  NKD Loss: 2.3352 | CT Loss: 4.2716| [0m
+[91mEpoch: 0|  Loss:  8.5995 |Global loss: 9.0374| Local H loss: 0.0015  | Global H loss: 0.0016 [0m
+[94mEpoch: 1|  NKD Loss: 2.3316 | CT Loss: 3.947| [0m
+[91mEpoch: 1|  Loss:  8.2582 |Global loss: 8.6866| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 2|  NKD Loss: 2.3291 | CT Loss: 3.9476| [0m
+[91mEpoch: 2|  Loss:  8.2286 |Global loss: 8.6778| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 3|  NKD Loss: 2.3304 | CT Loss: 3.9579| [0m
+[91mEpoch: 3|  Loss:  8.2384 |Global loss: 8.6816| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 0|  NKD Loss: 2.3247 | CT Loss: 4.2843| [0m
+[91mEpoch: 0|  Loss:  8.7118 |Global loss: 9.0387| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 1|  NKD Loss: 2.3252 | CT Loss: 4.0124| [0m
+[91mEpoch: 1|  Loss:  8.4164 |Global loss: 8.7513| Local H loss: 0.0008  | Global H loss: 0.0009 [0m
+[94mEpoch: 2|  NKD Loss: 2.3246 | CT Loss: 3.9581| [0m
+[91mEpoch: 2|  Loss:  8.3586 |Global loss: 8.6902| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 3|  NKD Loss: 2.325 | CT Loss: 3.9421| [0m
+[91mEpoch: 3|  Loss:  8.326 |Global loss: 8.6631| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 0|  NKD Loss: 2.3247 | CT Loss: 4.3557| [0m
+[91mEpoch: 0|  Loss:  8.6314 |Global loss: 9.1072| Local H loss: 0.0013  | Global H loss: 0.0014 [0m
+[94mEpoch: 1|  NKD Loss: 2.3268 | CT Loss: 4.0246| [0m
+[91mEpoch: 1|  Loss:  8.2996 |Global loss: 8.7675| Local H loss: 0.0014  | Global H loss: 0.0014 [0m
+[94mEpoch: 2|  NKD Loss: 2.3247 | CT Loss: 3.9841| [0m
+[91mEpoch: 2|  Loss:  8.2294 |Global loss: 8.7203| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 3|  NKD Loss: 2.3247 | CT Loss: 3.9361| [0m
+[91mEpoch: 3|  Loss:  8.1749 |Global loss: 8.6671| Local H loss: 0.0015  | Global H loss: 0.0015 [0m
+------------------------- time cost ------------------------- 2.8739001750946045
+Chosen Clients:  [7, 12, 10, 11, 6, 5]
+
+-------------Round number: 29-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.2, 0.442, 0.317, 0.367, 0.167, 0.317, 0.2, 0.508, 0.5, 0.267, 0.342, 0.325, 0.383, 0.508, 0.458]
+AUC in each clients:  [102.417, 104.92, 104.538, 107.943, 98.024, 102.163, 101.528, 104.47, 107.63, 102.891, 103.97, 102.879, 107.478, 105.893, 107.811]
+F1 Score:  [0.121, 0.342, 0.224, 0.298, 0.118, 0.264, 0.128, 0.436, 0.401, 0.177, 0.269, 0.261, 0.299, 0.46, 0.385]
+Recall Score:  [0.23, 0.456, 0.361, 0.414, 0.222, 0.346, 0.243, 0.521, 0.49, 0.317, 0.409, 0.417, 0.42, 0.574, 0.456]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.3477
+Averaged Test Accurancy: 0.3533
+Averaged Test AUC: 0.8692
+Averaged Test F1_score: 0.2789
+Averaged Test Recal score: 0.3917
+Std Test Accurancy: 0.1103
+Std Test AUC: 0.0225
+Std Test F1: 0.0009
+Std Test Recall: 0.0008
+[94mEpoch: 0|  NKD Loss: 2.3254 | CT Loss: 4.2919| [0m
+[91mEpoch: 0|  Loss:  8.6839 |Global loss: 9.0207| Local H loss: 0.0009  | Global H loss: 0.001 [0m
+[94mEpoch: 1|  NKD Loss: 2.319 | CT Loss: 3.9866| [0m
+[91mEpoch: 1|  Loss:  8.3565 |Global loss: 8.6817| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 2|  NKD Loss: 2.3141 | CT Loss: 3.9597| [0m
+[91mEpoch: 2|  Loss:  8.3003 |Global loss: 8.6289| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 3|  NKD Loss: 2.3088 | CT Loss: 3.9585| [0m
+[91mEpoch: 3|  Loss:  8.2956 |Global loss: 8.6128| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 0|  NKD Loss: 2.334 | CT Loss: 4.2802| [0m
+[91mEpoch: 0|  Loss:  8.4366 |Global loss: 9.0181| Local H loss: 0.002  | Global H loss: 0.0021 [0m
+[94mEpoch: 1|  NKD Loss: 2.3299 | CT Loss: 3.9317| [0m
+[91mEpoch: 1|  Loss:  8.0747 |Global loss: 8.6343| Local H loss: 0.0019  | Global H loss: 0.002 [0m
+[94mEpoch: 2|  NKD Loss: 2.3269 | CT Loss: 3.9161| [0m
+[91mEpoch: 2|  Loss:  8.0383 |Global loss: 8.6129| Local H loss: 0.0019  | Global H loss: 0.0021 [0m
+[94mEpoch: 3|  NKD Loss: 2.3251 | CT Loss: 3.912| [0m
+[91mEpoch: 3|  Loss:  8.0109 |Global loss: 8.5902| Local H loss: 0.002  | Global H loss: 0.0022 [0m
+[94mEpoch: 0|  NKD Loss: 2.3328 | CT Loss: 4.3263| [0m
+[91mEpoch: 0|  Loss:  8.7176 |Global loss: 9.0781| Local H loss: 0.0011  | Global H loss: 0.0012 [0m
+[94mEpoch: 1|  NKD Loss: 2.3278 | CT Loss: 3.9677| [0m
+[91mEpoch: 1|  Loss:  8.3296 |Global loss: 8.6996| Local H loss: 0.0011  | Global H loss: 0.0011 [0m
+[94mEpoch: 2|  NKD Loss: 2.3275 | CT Loss: 3.9365| [0m
+[91mEpoch: 2|  Loss:  8.2907 |Global loss: 8.6527| Local H loss: 0.0011  | Global H loss: 0.0011 [0m
+[94mEpoch: 3|  NKD Loss: 2.3262 | CT Loss: 3.9384| [0m
+[91mEpoch: 3|  Loss:  8.2751 |Global loss: 8.6432| Local H loss: 0.0011  | Global H loss: 0.0012 [0m
+[94mEpoch: 0|  NKD Loss: 2.3255 | CT Loss: 4.2694| [0m
+[91mEpoch: 0|  Loss:  8.6818 |Global loss: 9.0159| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 1|  NKD Loss: 2.3225 | CT Loss: 3.9658| [0m
+[91mEpoch: 1|  Loss:  8.3676 |Global loss: 8.6959| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 2|  NKD Loss: 2.3222 | CT Loss: 3.9251| [0m
+[91mEpoch: 2|  Loss:  8.3048 |Global loss: 8.647| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 3|  NKD Loss: 2.322 | CT Loss: 3.9289| [0m
+[91mEpoch: 3|  Loss:  8.2905 |Global loss: 8.6444| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 0|  NKD Loss: 2.3356 | CT Loss: 4.2883| [0m
+[91mEpoch: 0|  Loss:  8.694 |Global loss: 9.0248| Local H loss: 0.0011  | Global H loss: 0.0011 [0m
+[94mEpoch: 1|  NKD Loss: 2.3297 | CT Loss: 4.0389| [0m
+[91mEpoch: 1|  Loss:  8.4177 |Global loss: 8.7366| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 2|  NKD Loss: 2.324 | CT Loss: 3.9701| [0m
+[91mEpoch: 2|  Loss:  8.326 |Global loss: 8.6491| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3225 | CT Loss: 4.0106| [0m
+[91mEpoch: 3|  Loss:  8.3638 |Global loss: 8.6756| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3168 | CT Loss: 4.2925| [0m
+[91mEpoch: 0|  Loss:  8.7531 |Global loss: 9.0215| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 1|  NKD Loss: 2.3152 | CT Loss: 3.9432| [0m
+[91mEpoch: 1|  Loss:  8.3794 |Global loss: 8.6587| Local H loss: 0.0006  | Global H loss: 0.0006 [0m
+[94mEpoch: 2|  NKD Loss: 2.3153 | CT Loss: 3.8966| [0m
+[91mEpoch: 2|  Loss:  8.3132 |Global loss: 8.6052| Local H loss: 0.0007  | Global H loss: 0.0007 [0m
+[94mEpoch: 3|  NKD Loss: 2.3147 | CT Loss: 3.8903| [0m
+[91mEpoch: 3|  Loss:  8.2923 |Global loss: 8.5941| Local H loss: 0.0007  | Global H loss: 0.0008 [0m
+------------------------- time cost ------------------------- 2.861400842666626
+Chosen Clients:  [8, 12, 7, 13, 14, 6]
+
+-------------Round number: 30-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Accuracy in each clients:  [0.2, 0.442, 0.317, 0.367, 0.167, 0.275, 0.208, 0.517, 0.5, 0.267, 0.367, 0.325, 0.517, 0.508, 0.458]
+AUC in each clients:  [102.417, 104.92, 104.538, 107.943, 98.024, 101.961, 102.33, 104.653, 107.63, 102.891, 103.908, 103.861, 107.736, 105.893, 107.811]
+F1 Score:  [0.121, 0.342, 0.224, 0.298, 0.118, 0.198, 0.149, 0.445, 0.401, 0.177, 0.284, 0.261, 0.409, 0.46, 0.385]
+Recall Score:  [0.23, 0.456, 0.361, 0.414, 0.222, 0.308, 0.25, 0.528, 0.49, 0.317, 0.432, 0.417, 0.528, 0.574, 0.456]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 11.3397
+Averaged Test Accurancy: 0.3622
+Averaged Test AUC: 0.8703
+Averaged Test F1_score: 0.2848
+Averaged Test Recal score: 0.3989
+Std Test Accurancy: 0.1189
+Std Test AUC: 0.0221
+Std Test F1: 0.0010
+Std Test Recall: 0.0009
+[94mEpoch: 0|  NKD Loss: 2.3272 | CT Loss: 4.3397| [0m
+[91mEpoch: 0|  Loss:  8.6559 |Global loss: 9.0489| Local H loss: 0.0012  | Global H loss: 0.0013 [0m
+[94mEpoch: 1|  NKD Loss: 2.3165 | CT Loss: 3.9702| [0m
+[91mEpoch: 1|  Loss:  8.2408 |Global loss: 8.6294| Local H loss: 0.0011  | Global H loss: 0.0011 [0m
+[94mEpoch: 2|  NKD Loss: 2.3119 | CT Loss: 3.9648| [0m
+[91mEpoch: 2|  Loss:  8.2314 |Global loss: 8.6001| Local H loss: 0.0011  | Global H loss: 0.0011 [0m
+[94mEpoch: 3|  NKD Loss: 2.3045 | CT Loss: 3.9386| [0m
+[91mEpoch: 3|  Loss:  8.1903 |Global loss: 8.5582| Local H loss: 0.001  | Global H loss: 0.0011 [0m
+[94mEpoch: 0|  NKD Loss: 2.3376 | CT Loss: 4.2762| [0m
+[91mEpoch: 0|  Loss:  8.3637 |Global loss: 8.9965| Local H loss: 0.0024  | Global H loss: 0.0026 [0m
+[94mEpoch: 1|  NKD Loss: 2.3254 | CT Loss: 3.9344| [0m
+[91mEpoch: 1|  Loss:  8.0112 |Global loss: 8.601| Local H loss: 0.0022  | Global H loss: 0.0024 [0m
+[94mEpoch: 2|  NKD Loss: 2.3175 | CT Loss: 3.9124| [0m
+[91mEpoch: 2|  Loss:  7.9578 |Global loss: 8.5591| Local H loss: 0.0022  | Global H loss: 0.0024 [0m
+[94mEpoch: 3|  NKD Loss: 2.3108 | CT Loss: 3.9103| [0m
+[91mEpoch: 3|  Loss:  7.9314 |Global loss: 8.5327| Local H loss: 0.0022  | Global H loss: 0.0025 [0m
+[94mEpoch: 0|  NKD Loss: 2.3274 | CT Loss: 4.2487| [0m
+[91mEpoch: 0|  Loss:  8.5822 |Global loss: 8.9557| Local H loss: 0.0012  | Global H loss: 0.0013 [0m
+[94mEpoch: 1|  NKD Loss: 2.3095 | CT Loss: 3.9716| [0m
+[91mEpoch: 1|  Loss:  8.2703 |Global loss: 8.6185| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3016 | CT Loss: 3.9714| [0m
+[91mEpoch: 2|  Loss:  8.2617 |Global loss: 8.5977| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 3|  NKD Loss: 2.2857 | CT Loss: 3.946| [0m
+[91mEpoch: 3|  Loss:  8.1993 |Global loss: 8.5343| Local H loss: 0.0009  | Global H loss: 0.001 [0m
+[94mEpoch: 0|  NKD Loss: 2.3251 | CT Loss: 4.3016| [0m
+[91mEpoch: 0|  Loss:  8.5645 |Global loss: 9.0201| Local H loss: 0.0015  | Global H loss: 0.0016 [0m
+[94mEpoch: 1|  NKD Loss: 2.319 | CT Loss: 3.9516| [0m
+[91mEpoch: 1|  Loss:  8.1952 |Global loss: 8.6297| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 2|  NKD Loss: 2.3134 | CT Loss: 3.939| [0m
+[91mEpoch: 2|  Loss:  8.1721 |Global loss: 8.6083| Local H loss: 0.0013  | Global H loss: 0.0014 [0m
+[94mEpoch: 3|  NKD Loss: 2.3102 | CT Loss: 3.9232| [0m
+[91mEpoch: 3|  Loss:  8.1349 |Global loss: 8.5713| Local H loss: 0.0013  | Global H loss: 0.0014 [0m
+[94mEpoch: 0|  NKD Loss: 2.3278 | CT Loss: 4.3329| [0m
+[91mEpoch: 0|  Loss:  8.6285 |Global loss: 9.0419| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 1|  NKD Loss: 2.3171 | CT Loss: 3.9839| [0m
+[91mEpoch: 1|  Loss:  8.2275 |Global loss: 8.6455| Local H loss: 0.0013  | Global H loss: 0.0014 [0m
+[94mEpoch: 2|  NKD Loss: 2.3151 | CT Loss: 3.9665| [0m
+[91mEpoch: 2|  Loss:  8.1839 |Global loss: 8.6075| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 3|  NKD Loss: 2.3069 | CT Loss: 3.9315| [0m
+[91mEpoch: 3|  Loss:  8.1449 |Global loss: 8.5548| Local H loss: 0.0013  | Global H loss: 0.0014 [0m
+[94mEpoch: 0|  NKD Loss: 2.3336 | CT Loss: 4.3387| [0m
+[91mEpoch: 0|  Loss:  8.6982 |Global loss: 9.0554| Local H loss: 0.0012  | Global H loss: 0.0012 [0m
+[94mEpoch: 1|  NKD Loss: 2.3245 | CT Loss: 4.0038| [0m
+[91mEpoch: 1|  Loss:  8.3578 |Global loss: 8.6723| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 2|  NKD Loss: 2.3177 | CT Loss: 3.9882| [0m
+[91mEpoch: 2|  Loss:  8.3099 |Global loss: 8.6242| Local H loss: 0.001  | Global H loss: 0.001 [0m
+[94mEpoch: 3|  NKD Loss: 2.3069 | CT Loss: 3.9663| [0m
+[91mEpoch: 3|  Loss:  8.2754 |Global loss: 8.5753| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+------------------------- time cost ------------------------- 2.849722385406494
+
+Best accuracy.
+0.3622222222222222
+
+Average time cost per round.
+2.860171898206075
+File path: ../results/SLEEP_FedKDX_test_0.h5
+All Client results path:  ../results/SLEEP_FedKDX_test_0_all_resuls_0.95_64_30_15_2024_12_30_15_19.pkl
+
+Average time cost: 91.28s.
+Length:  31
+std for best accurancy: 0.0
+mean for best accurancy: 0.3622222222222222
+All done!
+
+Storage on cuda:0
+-------------------------------------------------------------------------------
+Total Tensors: 19513955 	Used Memory: 61.68M
+The allocated memory on cuda:0: 77.93M
+Memory differs due to the matrix alignment or invisible gradient buffer tensors
+-------------------------------------------------------------------------------
+
+Storage on cpu
+-------------------------------------------------------------------------------
+Total Tensors: 6420 	Used Memory: 60.00K
+-------------------------------------------------------------------------------

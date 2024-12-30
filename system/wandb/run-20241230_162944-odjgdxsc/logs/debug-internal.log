@@ -1,0 +1,11 @@
+{"time":"2024-12-30T16:29:44.14194749+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-30T16:29:44.141958919+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/capstone/Fed_2024/system/wandb/run-20241230_162944-odjgdxsc/logs/debug-core.log"}
+{"time":"2024-12-30T16:29:44.245364639+07:00","level":"INFO","msg":"created new stream","id":"odjgdxsc"}
+{"time":"2024-12-30T16:29:44.245398923+07:00","level":"INFO","msg":"stream: started","id":"odjgdxsc"}
+{"time":"2024-12-30T16:29:44.245406481+07:00","level":"INFO","msg":"handler: started","stream_id":"odjgdxsc"}
+{"time":"2024-12-30T16:29:44.245440765+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"odjgdxsc"}
+{"time":"2024-12-30T16:29:44.245439609+07:00","level":"INFO","msg":"sender: started","stream_id":"odjgdxsc"}
+{"time":"2024-12-30T16:29:44.781381222+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-30T16:33:41.470268523+07:00","level":"INFO","msg":"stream: closing","id":"odjgdxsc"}
+{"time":"2024-12-30T16:33:41.470296281+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-30T16:33:41.470852138+07:00","level":"INFO","msg":"Stopped system monitor"}
