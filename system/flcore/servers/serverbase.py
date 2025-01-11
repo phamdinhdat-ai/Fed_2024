@@ -260,28 +260,28 @@ class Server(object):
         print("F1 Score: ", f1_values)
         print("Recall Score: ", rc_values)
         print("Number of sample in client: ", num_samples)
-        
-        for i in range(len(ids)):
-            wandb.log({
-                f"Client_{ids[i]}/F1_Score": f1_values[i],
-                f"Client_{ids[i]}/Accuracy": accs[i],
-                f"Client_{ids[i]}/AUC": tot_auc[i],
-                f"Client_{ids[i]}/Recall": rc_values[i],
-                f"Client_{ids[i]}/Num_Samples": num_samples[i],
-                "Round": self.round_id
-            })
-        average_accuracy = sum(accs) / len(accs)
-        average_auc = sum(tot_auc) / len(tot_auc)
-        average_f1_score = sum(f1_values) / len(f1_values)
-        average_recall_score = sum(rc_values) / len(rc_values)
+        if self.wandb:
+            for i in range(len(ids)):
+                wandb.log({
+                    f"Client_{ids[i]}/F1_Score": f1_values[i],
+                    f"Client_{ids[i]}/Accuracy": accs[i],
+                    f"Client_{ids[i]}/AUC": tot_auc[i],
+                    f"Client_{ids[i]}/Recall": rc_values[i],
+                    f"Client_{ids[i]}/Num_Samples": num_samples[i],
+                    "Round": self.round_id
+                })
+            average_accuracy = sum(accs) / len(accs)
+            average_auc = sum(tot_auc) / len(tot_auc)
+            average_f1_score = sum(f1_values) / len(f1_values)
+            average_recall_score = sum(rc_values) / len(rc_values)
 
-        wandb.log({
-            "average_accuracy": average_accuracy,
-            "average_auc": average_auc,
-            "average_f1_score": average_f1_score,
-            "average_recall_score": average_recall_score
-        })
-        self.round_id += 1
+            wandb.log({
+                "average_accuracy": average_accuracy,
+                "average_auc": average_auc,
+                "average_f1_score": average_f1_score,
+                "average_recall_score": average_recall_score
+            })
+            self.round_id += 1
         self.all_client_results.append([ids, num_samples, tot_correct, tot_auc, f1_values, rc_values]) 
         return ids, num_samples, tot_correct, tot_auc, f1_values, rc_values
 
