@@ -1,0 +1,12 @@
+{"time":"2025-01-23T15:03:10.491828625+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-23T15:03:10.491841305+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/capstone/Fed_2024/system/wandb/run-20250123_150310-1ejmmb6f/logs/debug-core.log"}
+{"time":"2025-01-23T15:03:10.594416834+07:00","level":"INFO","msg":"created new stream","id":"1ejmmb6f"}
+{"time":"2025-01-23T15:03:10.594440592+07:00","level":"INFO","msg":"stream: started","id":"1ejmmb6f"}
+{"time":"2025-01-23T15:03:10.594501696+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"1ejmmb6f"}
+{"time":"2025-01-23T15:03:10.594501794+07:00","level":"INFO","msg":"sender: started","stream_id":"1ejmmb6f"}
+{"time":"2025-01-23T15:03:10.594521406+07:00","level":"INFO","msg":"handler: started","stream_id":"1ejmmb6f"}
+{"time":"2025-01-23T15:03:11.230942715+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-23T15:03:14.427261712+07:00","level":"INFO","msg":"stream: closing","id":"1ejmmb6f"}
+{"time":"2025-01-23T15:03:14.427283034+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-23T15:03:14.427626894+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-23T15:03:17.149580842+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

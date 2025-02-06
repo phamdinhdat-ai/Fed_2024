@@ -1,0 +1,17 @@
+{"time":"2025-01-23T16:05:08.073336797+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-23T16:05:08.073350994+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/capstone/Fed_2024/system/wandb/run-20250123_160508-06927n0w/logs/debug-core.log"}
+{"time":"2025-01-23T16:05:08.177018564+07:00","level":"INFO","msg":"created new stream","id":"06927n0w"}
+{"time":"2025-01-23T16:05:08.177041722+07:00","level":"INFO","msg":"stream: started","id":"06927n0w"}
+{"time":"2025-01-23T16:05:08.17706567+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"06927n0w"}
+{"time":"2025-01-23T16:05:08.177154346+07:00","level":"INFO","msg":"sender: started","stream_id":"06927n0w"}
+{"time":"2025-01-23T16:05:08.177097357+07:00","level":"INFO","msg":"handler: started","stream_id":"06927n0w"}
+{"time":"2025-01-23T16:05:08.695141497+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-23T16:22:15.951923219+07:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/arc-dat/PFL/06927n0w/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-01-23T16:38:29.352037106+07:00","level":"INFO","msg":"stream: closing","id":"06927n0w"}
+{"time":"2025-01-23T16:38:29.352055657+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-23T16:38:29.352380452+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-23T16:38:30.968206315+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-23T16:38:31.406119058+07:00","level":"INFO","msg":"handler: closed","stream_id":"06927n0w"}
+{"time":"2025-01-23T16:38:31.406153078+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"06927n0w"}
+{"time":"2025-01-23T16:38:31.406171999+07:00","level":"INFO","msg":"sender: closed","stream_id":"06927n0w"}
+{"time":"2025-01-23T16:38:31.406203573+07:00","level":"INFO","msg":"stream: closed","id":"06927n0w"}

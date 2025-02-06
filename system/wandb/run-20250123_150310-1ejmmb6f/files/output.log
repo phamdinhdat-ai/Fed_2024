@@ -1,0 +1,43 @@
+
+Join ratio / total clients: 0.4 / 9
+Finished creating server and clients.
+Chosen Clients:  [4, 6, 8]
+
+-------------Round number: 0-------------
+
+Evaluate personalized models
+Traceback (most recent call last):
+  File "/home/datpd1/datpd/capstone/Fed_2024/system/main.py", line 600, in <module>
+    run(args)
+  File "/home/datpd1/datpd/capstone/Fed_2024/system/main.py", line 422, in run
+    server.train()
+  File "/home/datpd1/datpd/capstone/Fed_2024/system/flcore/servers/serverkdx.py", line 41, in train
+    self.evaluate()
+  File "/home/datpd1/datpd/capstone/Fed_2024/system/flcore/servers/serverbase.py", line 305, in evaluate
+    stats = self.test_metrics()
+            ^^^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/datpd/capstone/Fed_2024/system/flcore/servers/serverbase.py", line 245, in test_metrics
+    ct, ns, auc, f1_s, rc_s = c.test_metrics()
+                              ^^^^^^^^^^^^^^^^
+  File "/home/datpd1/datpd/capstone/Fed_2024/system/flcore/clients/clientbase.py", line 149, in test_metrics
+    output = self.model(x)
+             ^^^^^^^^^^^^^
+  File "/home/datpd1/miniconda3/envs/datpd1/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/miniconda3/envs/datpd1/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/datpd/capstone/Fed_2024/system/flcore/trainmodel/models.py", line 34, in forward
+    out = self.base(x)
+          ^^^^^^^^^^^^
+  File "/home/datpd1/miniconda3/envs/datpd1/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/miniconda3/envs/datpd1/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/datpd/capstone/Fed_2024/system/flcore/trainmodel/models.py", line 630, in forward
+    out = out.squeeze(2).permute(0, 2, 1)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: permute(sparse_coo): number of dimensions in the tensor input does not match the length of the desired ordering of dimensions i.e. input.dim() = 4 is not equal to len(dims) = 3

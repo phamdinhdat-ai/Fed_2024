@@ -1,0 +1,11 @@
+{"time":"2025-01-23T15:14:32.909123344+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-23T15:14:32.909133789+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/capstone/Fed_2024/system/wandb/run-20250123_151432-ltzire0i/logs/debug-core.log"}
+{"time":"2025-01-23T15:14:33.012146035+07:00","level":"INFO","msg":"created new stream","id":"ltzire0i"}
+{"time":"2025-01-23T15:14:33.012169714+07:00","level":"INFO","msg":"stream: started","id":"ltzire0i"}
+{"time":"2025-01-23T15:14:33.012190312+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"ltzire0i"}
+{"time":"2025-01-23T15:14:33.012229142+07:00","level":"INFO","msg":"handler: started","stream_id":"ltzire0i"}
+{"time":"2025-01-23T15:14:33.012258989+07:00","level":"INFO","msg":"sender: started","stream_id":"ltzire0i"}
+{"time":"2025-01-23T15:14:33.643720967+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-23T15:14:37.784774927+07:00","level":"INFO","msg":"stream: closing","id":"ltzire0i"}
+{"time":"2025-01-23T15:14:37.784792849+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-23T15:14:37.785093238+07:00","level":"INFO","msg":"Stopped system monitor"}

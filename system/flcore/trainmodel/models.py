@@ -627,7 +627,10 @@ class HybridBN(nn.Module):
 
     def forward(self, x):
         out = self.conv1(x)
-        out = out.squeeze(2).permute(0, 2, 1)
+        if len(out.shape) == 4: 
+            out = out.mean(2).permute(0, 2, 1)
+        else:
+            out = out.squeeze(2).permute(0, 2, 1)
         out, _ = self.lstm(out)
         out = torch.flatten(out, 1)
         out = self.fc(out)

@@ -1,0 +1,16 @@
+{"time":"2025-01-23T15:15:03.608084761+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-23T15:15:03.608094623+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/capstone/Fed_2024/system/wandb/run-20250123_151503-jmdcxc3k/logs/debug-core.log"}
+{"time":"2025-01-23T15:15:03.711051705+07:00","level":"INFO","msg":"created new stream","id":"jmdcxc3k"}
+{"time":"2025-01-23T15:15:03.711074278+07:00","level":"INFO","msg":"stream: started","id":"jmdcxc3k"}
+{"time":"2025-01-23T15:15:03.711091874+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"jmdcxc3k"}
+{"time":"2025-01-23T15:15:03.711131588+07:00","level":"INFO","msg":"sender: started","stream_id":"jmdcxc3k"}
+{"time":"2025-01-23T15:15:03.71114995+07:00","level":"INFO","msg":"handler: started","stream_id":"jmdcxc3k"}
+{"time":"2025-01-23T15:15:04.271807578+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-23T15:15:05.365452693+07:00","level":"INFO","msg":"stream: closing","id":"jmdcxc3k"}
+{"time":"2025-01-23T15:15:05.365636288+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-23T15:15:05.366291397+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-23T15:15:07.045934549+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-23T15:15:07.629561776+07:00","level":"INFO","msg":"handler: closed","stream_id":"jmdcxc3k"}
+{"time":"2025-01-23T15:15:07.629582478+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jmdcxc3k"}
+{"time":"2025-01-23T15:15:07.629591555+07:00","level":"INFO","msg":"sender: closed","stream_id":"jmdcxc3k"}
+{"time":"2025-01-23T15:15:07.629614492+07:00","level":"INFO","msg":"stream: closed","id":"jmdcxc3k"}

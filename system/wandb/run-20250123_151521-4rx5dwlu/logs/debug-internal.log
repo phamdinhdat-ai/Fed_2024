@@ -1,0 +1,11 @@
+{"time":"2025-01-23T15:15:21.655964277+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-23T15:15:21.655974364+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/capstone/Fed_2024/system/wandb/run-20250123_151521-4rx5dwlu/logs/debug-core.log"}
+{"time":"2025-01-23T15:15:21.759621113+07:00","level":"INFO","msg":"created new stream","id":"4rx5dwlu"}
+{"time":"2025-01-23T15:15:21.759654354+07:00","level":"INFO","msg":"stream: started","id":"4rx5dwlu"}
+{"time":"2025-01-23T15:15:21.759692218+07:00","level":"INFO","msg":"sender: started","stream_id":"4rx5dwlu"}
+{"time":"2025-01-23T15:15:21.759697388+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"4rx5dwlu"}
+{"time":"2025-01-23T15:15:21.759696398+07:00","level":"INFO","msg":"handler: started","stream_id":"4rx5dwlu"}
+{"time":"2025-01-23T15:15:22.481727194+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-23T15:15:37.606636176+07:00","level":"INFO","msg":"stream: closing","id":"4rx5dwlu"}
+{"time":"2025-01-23T15:15:37.60668061+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-23T15:15:37.607452705+07:00","level":"INFO","msg":"Stopped system monitor"}

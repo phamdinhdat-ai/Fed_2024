@@ -1,0 +1,16 @@
+{"time":"2025-01-23T15:04:20.592469437+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-23T15:04:20.592482146+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/capstone/Fed_2024/system/wandb/run-20250123_150420-sv3dt72x/logs/debug-core.log"}
+{"time":"2025-01-23T15:04:20.695173768+07:00","level":"INFO","msg":"created new stream","id":"sv3dt72x"}
+{"time":"2025-01-23T15:04:20.695207171+07:00","level":"INFO","msg":"stream: started","id":"sv3dt72x"}
+{"time":"2025-01-23T15:04:20.695240595+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"sv3dt72x"}
+{"time":"2025-01-23T15:04:20.695277578+07:00","level":"INFO","msg":"handler: started","stream_id":"sv3dt72x"}
+{"time":"2025-01-23T15:04:20.695284069+07:00","level":"INFO","msg":"sender: started","stream_id":"sv3dt72x"}
+{"time":"2025-01-23T15:04:21.195740048+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-23T15:04:24.277989513+07:00","level":"INFO","msg":"stream: closing","id":"sv3dt72x"}
+{"time":"2025-01-23T15:04:24.278011741+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-23T15:04:24.278363313+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-23T15:04:25.18963989+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-23T15:04:25.611857675+07:00","level":"INFO","msg":"handler: closed","stream_id":"sv3dt72x"}
+{"time":"2025-01-23T15:04:25.611876198+07:00","level":"INFO","msg":"sender: closed","stream_id":"sv3dt72x"}
+{"time":"2025-01-23T15:04:25.611873677+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sv3dt72x"}
+{"time":"2025-01-23T15:04:25.611922081+07:00","level":"INFO","msg":"stream: closed","id":"sv3dt72x"}

@@ -1,0 +1,11 @@
+{"time":"2025-01-23T14:29:34.186815449+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-23T14:29:34.186825848+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/capstone/Fed_2024/system/wandb/run-20250123_142934-brlkxltg/logs/debug-core.log"}
+{"time":"2025-01-23T14:29:34.289516453+07:00","level":"INFO","msg":"created new stream","id":"brlkxltg"}
+{"time":"2025-01-23T14:29:34.289546092+07:00","level":"INFO","msg":"stream: started","id":"brlkxltg"}
+{"time":"2025-01-23T14:29:34.289595116+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"brlkxltg"}
+{"time":"2025-01-23T14:29:34.289615177+07:00","level":"INFO","msg":"sender: started","stream_id":"brlkxltg"}
+{"time":"2025-01-23T14:29:34.289623015+07:00","level":"INFO","msg":"handler: started","stream_id":"brlkxltg"}
+{"time":"2025-01-23T14:29:34.76253585+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-23T14:29:34.822284181+07:00","level":"INFO","msg":"stream: closing","id":"brlkxltg"}
+{"time":"2025-01-23T14:29:34.822308215+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-23T14:29:34.822730507+07:00","level":"INFO","msg":"Stopped system monitor"}

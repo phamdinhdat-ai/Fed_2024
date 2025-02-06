@@ -1,0 +1,16 @@
+{"time":"2025-01-23T15:04:43.286525324+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-23T15:04:43.286539623+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/capstone/Fed_2024/system/wandb/run-20250123_150443-xdi9cn8p/logs/debug-core.log"}
+{"time":"2025-01-23T15:04:43.389621744+07:00","level":"INFO","msg":"created new stream","id":"xdi9cn8p"}
+{"time":"2025-01-23T15:04:43.389647733+07:00","level":"INFO","msg":"stream: started","id":"xdi9cn8p"}
+{"time":"2025-01-23T15:04:43.389666696+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"xdi9cn8p"}
+{"time":"2025-01-23T15:04:43.389709826+07:00","level":"INFO","msg":"sender: started","stream_id":"xdi9cn8p"}
+{"time":"2025-01-23T15:04:43.389702077+07:00","level":"INFO","msg":"handler: started","stream_id":"xdi9cn8p"}
+{"time":"2025-01-23T15:04:43.907671606+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-23T15:04:47.021084203+07:00","level":"INFO","msg":"stream: closing","id":"xdi9cn8p"}
+{"time":"2025-01-23T15:04:47.021101744+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-23T15:04:47.021429007+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-23T15:04:47.989513749+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-23T15:04:48.402118871+07:00","level":"INFO","msg":"handler: closed","stream_id":"xdi9cn8p"}
+{"time":"2025-01-23T15:04:48.40214783+07:00","level":"INFO","msg":"sender: closed","stream_id":"xdi9cn8p"}
+{"time":"2025-01-23T15:04:48.402139433+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xdi9cn8p"}
+{"time":"2025-01-23T15:04:48.402199638+07:00","level":"INFO","msg":"stream: closed","id":"xdi9cn8p"}

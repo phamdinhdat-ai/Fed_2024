@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/datpd1/datpd/capstone/Fed_2024/system/main.py", line 600, in <module>
+    run(args)
+  File "/home/datpd1/datpd/capstone/Fed_2024/system/main.py", line 371, in run
+    server = FedKDX(args, i)
+             ^^^^^^^^^^^^^^^
+  File "/home/datpd1/datpd/capstone/Fed_2024/system/flcore/servers/serverkdx.py", line 19, in __init__
+    self.set_clients(clientKDX)
+  File "/home/datpd1/datpd/capstone/Fed_2024/system/flcore/servers/serverbase.py", line 83, in set_clients
+    train_data = read_client_data(self.dataset, i, is_train=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/datpd/capstone/Fed_2024/system/utils/data_utils.py", line 50, in read_client_data
+    train_data = read_data(dataset, idx, is_train)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/datpd/capstone/Fed_2024/system/utils/data_utils.py", line 28, in read_data
+    with open(train_file, 'rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../dataset/PAMAP2/train/0.npz'

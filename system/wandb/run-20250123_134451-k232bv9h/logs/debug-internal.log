@@ -1,0 +1,16 @@
+{"time":"2025-01-23T13:44:51.874141949+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-23T13:44:51.874156337+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/capstone/Fed_2024/system/wandb/run-20250123_134451-k232bv9h/logs/debug-core.log"}
+{"time":"2025-01-23T13:44:51.977243928+07:00","level":"INFO","msg":"created new stream","id":"k232bv9h"}
+{"time":"2025-01-23T13:44:51.977266493+07:00","level":"INFO","msg":"stream: started","id":"k232bv9h"}
+{"time":"2025-01-23T13:44:51.977307058+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"k232bv9h"}
+{"time":"2025-01-23T13:44:51.977342737+07:00","level":"INFO","msg":"sender: started","stream_id":"k232bv9h"}
+{"time":"2025-01-23T13:44:51.977369026+07:00","level":"INFO","msg":"handler: started","stream_id":"k232bv9h"}
+{"time":"2025-01-23T13:44:52.46911204+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-23T13:58:06.79023395+07:00","level":"INFO","msg":"stream: closing","id":"k232bv9h"}
+{"time":"2025-01-23T13:58:06.790253351+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-23T13:58:06.790658602+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-23T13:58:08.7857665+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-23T13:58:09.258879727+07:00","level":"INFO","msg":"handler: closed","stream_id":"k232bv9h"}
+{"time":"2025-01-23T13:58:09.258913665+07:00","level":"INFO","msg":"sender: closed","stream_id":"k232bv9h"}
+{"time":"2025-01-23T13:58:09.258907063+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"k232bv9h"}
+{"time":"2025-01-23T13:58:09.258946776+07:00","level":"INFO","msg":"stream: closed","id":"k232bv9h"}

@@ -1,0 +1,16 @@
+{"time":"2025-01-23T17:38:25.808907309+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-01-23T17:38:25.808917845+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/capstone/Fed_2024/system/wandb/run-20250123_173825-lftp75or/logs/debug-core.log"}
+{"time":"2025-01-23T17:38:25.911978831+07:00","level":"INFO","msg":"created new stream","id":"lftp75or"}
+{"time":"2025-01-23T17:38:25.912014628+07:00","level":"INFO","msg":"stream: started","id":"lftp75or"}
+{"time":"2025-01-23T17:38:25.912042092+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"lftp75or"}
+{"time":"2025-01-23T17:38:25.912052632+07:00","level":"INFO","msg":"handler: started","stream_id":"lftp75or"}
+{"time":"2025-01-23T17:38:25.912081365+07:00","level":"INFO","msg":"sender: started","stream_id":"lftp75or"}
+{"time":"2025-01-23T17:38:26.437161085+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-23T18:05:14.443184703+07:00","level":"INFO","msg":"stream: closing","id":"lftp75or"}
+{"time":"2025-01-23T18:05:14.443210565+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-23T18:05:14.443651079+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-23T18:05:16.744900354+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-23T18:05:17.217086776+07:00","level":"INFO","msg":"handler: closed","stream_id":"lftp75or"}
+{"time":"2025-01-23T18:05:17.217114675+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lftp75or"}
+{"time":"2025-01-23T18:05:17.217147541+07:00","level":"INFO","msg":"sender: closed","stream_id":"lftp75or"}
+{"time":"2025-01-23T18:05:17.217152814+07:00","level":"INFO","msg":"stream: closed","id":"lftp75or"}

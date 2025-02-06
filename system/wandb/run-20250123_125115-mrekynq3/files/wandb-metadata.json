@@ -1,0 +1,70 @@
+{
+  "os":  "Linux-6.8.0-49-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.12.0",
+  "startedAt":  "2025-01-23T05:51:15.780334Z",
+  "args":  [
+    "-data",
+    "SLEEP",
+    "-m",
+    "hybridbn",
+    "-algo",
+    "MOON",
+    "-gr",
+    "500",
+    "-did",
+    "0",
+    "-nc",
+    "15",
+    "-lbs",
+    "32",
+    "-nb",
+    "12",
+    "-jr",
+    "0.4",
+    "-ls",
+    "4",
+    "-ld",
+    "True",
+    "-dev",
+    "cuda",
+    "-wb",
+    "true"
+  ],
+  "program":  "/home/datpd1/datpd/capstone/Fed_2024/system/main.py",
+  "codePath":  "system/main.py",
+  "git":  {
+    "remote":  "https://github.com/phamdinhdat-ai/Fed_2024.git",
+    "commit":  "4fb9bf1b627596ad40d73956a98ef38b4a733c93"
+  },
+  "email":  "datolg123@gmail.com",
+  "root":  "/home/datpd1/datpd/capstone/Fed_2024/system",
+  "host":  "ptsp01-System-Product-Name",
+  "executable":  "/home/datpd1/miniconda3/envs/datpd1/bin/python",
+  "codePathLocal":  "main.py",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "gpu":  "NVIDIA GeForce RTX 2080 Ti",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "982240026624",
+      "used":  "473064353792"
+    }
+  },
+  "memory":  {
+    "total":  "67257892864"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  16
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 2080 Ti",
+      "memoryTotal":  "11811160064",
+      "cudaCores":  4352,
+      "architecture":  "Turing"
+    }
+  ],
+  "cudaVersion":  "12.4"
+}

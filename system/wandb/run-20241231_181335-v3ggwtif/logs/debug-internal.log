@@ -1,0 +1,11 @@
+{"time":"2024-12-31T18:13:35.242669431+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-31T18:13:35.242680262+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/capstone/Fed_2024/system/wandb/run-20241231_181335-v3ggwtif/logs/debug-core.log"}
+{"time":"2024-12-31T18:13:35.346262817+07:00","level":"INFO","msg":"created new stream","id":"v3ggwtif"}
+{"time":"2024-12-31T18:13:35.346285781+07:00","level":"INFO","msg":"stream: started","id":"v3ggwtif"}
+{"time":"2024-12-31T18:13:35.346304513+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"v3ggwtif"}
+{"time":"2024-12-31T18:13:35.346332691+07:00","level":"INFO","msg":"sender: started","stream_id":"v3ggwtif"}
+{"time":"2024-12-31T18:13:35.346357637+07:00","level":"INFO","msg":"handler: started","stream_id":"v3ggwtif"}
+{"time":"2024-12-31T18:13:35.981521769+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-31T18:15:57.852787879+07:00","level":"INFO","msg":"stream: closing","id":"v3ggwtif"}
+{"time":"2024-12-31T18:15:57.852814138+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-31T18:15:57.853155612+07:00","level":"INFO","msg":"Stopped system monitor"}
