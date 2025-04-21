@@ -1,0 +1,11 @@
+{"time":"2025-04-10T12:03:30.143445796+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-04-10T12:03:30.143459004+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/Fed_2024/system/wandb/run-20250410_120330-qru4ehm1/logs/debug-core.log"}
+{"time":"2025-04-10T12:03:30.248687989+07:00","level":"INFO","msg":"created new stream","id":"qru4ehm1"}
+{"time":"2025-04-10T12:03:30.248709496+07:00","level":"INFO","msg":"stream: started","id":"qru4ehm1"}
+{"time":"2025-04-10T12:03:30.248795409+07:00","level":"INFO","msg":"handler: started","stream_id":"qru4ehm1"}
+{"time":"2025-04-10T12:03:30.249577794+07:00","level":"INFO","msg":"sender: started","stream_id":"qru4ehm1"}
+{"time":"2025-04-10T12:03:30.249575931+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"qru4ehm1"}
+{"time":"2025-04-10T12:03:30.677607869+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T12:03:31.783930095+07:00","level":"INFO","msg":"stream: closing","id":"qru4ehm1"}
+{"time":"2025-04-10T12:03:31.783956523+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-10T12:03:31.784282696+07:00","level":"INFO","msg":"Stopped system monitor"}

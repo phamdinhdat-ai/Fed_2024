@@ -1,0 +1,16 @@
+{"time":"2025-04-10T12:16:07.467476384+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-04-10T12:16:07.467502187+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/Fed_2024/system/wandb/run-20250410_121607-io8v9ixt/logs/debug-core.log"}
+{"time":"2025-04-10T12:16:07.572881305+07:00","level":"INFO","msg":"created new stream","id":"io8v9ixt"}
+{"time":"2025-04-10T12:16:07.572911884+07:00","level":"INFO","msg":"stream: started","id":"io8v9ixt"}
+{"time":"2025-04-10T12:16:07.572955816+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"io8v9ixt"}
+{"time":"2025-04-10T12:16:07.57295593+07:00","level":"INFO","msg":"handler: started","stream_id":"io8v9ixt"}
+{"time":"2025-04-10T12:16:07.573007793+07:00","level":"INFO","msg":"sender: started","stream_id":"io8v9ixt"}
+{"time":"2025-04-10T12:16:07.975911397+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T12:20:22.025898555+07:00","level":"INFO","msg":"stream: closing","id":"io8v9ixt"}
+{"time":"2025-04-10T12:20:22.02591875+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-10T12:20:22.026262527+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-10T12:20:23.698684564+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-10T12:20:24.373657081+07:00","level":"INFO","msg":"handler: closed","stream_id":"io8v9ixt"}
+{"time":"2025-04-10T12:20:24.373684547+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"io8v9ixt"}
+{"time":"2025-04-10T12:20:24.373709681+07:00","level":"INFO","msg":"sender: closed","stream_id":"io8v9ixt"}
+{"time":"2025-04-10T12:20:24.373728313+07:00","level":"INFO","msg":"stream: closed","id":"io8v9ixt"}

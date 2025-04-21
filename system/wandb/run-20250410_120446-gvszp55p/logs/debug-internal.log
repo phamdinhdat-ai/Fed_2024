@@ -1,0 +1,11 @@
+{"time":"2025-04-10T12:04:46.633613821+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-04-10T12:04:46.633646679+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/Fed_2024/system/wandb/run-20250410_120446-gvszp55p/logs/debug-core.log"}
+{"time":"2025-04-10T12:04:46.739734773+07:00","level":"INFO","msg":"created new stream","id":"gvszp55p"}
+{"time":"2025-04-10T12:04:46.739763379+07:00","level":"INFO","msg":"stream: started","id":"gvszp55p"}
+{"time":"2025-04-10T12:04:46.739785691+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"gvszp55p"}
+{"time":"2025-04-10T12:04:46.739817998+07:00","level":"INFO","msg":"handler: started","stream_id":"gvszp55p"}
+{"time":"2025-04-10T12:04:46.73985039+07:00","level":"INFO","msg":"sender: started","stream_id":"gvszp55p"}
+{"time":"2025-04-10T12:04:47.206644705+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T12:04:50.351339487+07:00","level":"INFO","msg":"stream: closing","id":"gvszp55p"}
+{"time":"2025-04-10T12:04:50.351408376+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-10T12:04:50.352519138+07:00","level":"INFO","msg":"Stopped system monitor"}

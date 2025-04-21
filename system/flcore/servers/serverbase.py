@@ -74,9 +74,13 @@ class Server(object):
         self.fine_tuning_epoch_new = args.fine_tuning_epoch_new
         self.round_id = 0
         self.wandb = args.wandb
+        self.use_nkd_loss = "nkd" if args.use_nkd_loss else '' 
+        self.use_ct_loss  = "ct" if args.use_ct_loss else ''
+        self.use_dsvd = "dsvd" if args.use_dsvd else ''
+        self.name_suffix = "server_" + str(self.model_name) + "_" + str(self.dataset) + "_" + str(self.algorithm) + "_" + str(self.num_classes) + "_" + str(self.use_nkd_loss) + "_" + str(self.use_ct_loss) + "_" + str(self.use_dsvd)
         # tracking performance of each client
         if self.wandb:
-            wandb.init(project='PFL', name="server_" + str(self.model_name) + "_" + str(self.dataset) + "_" + str(self.algorithm) + "_" + str(self.num_classes))
+            wandb.init(project='PFL-2025', name=self.name_suffix)
             
     def set_clients(self, clientObj):
         for i, train_slow, send_slow in zip(range(self.num_clients), self.train_slow_clients, self.send_slow_clients):

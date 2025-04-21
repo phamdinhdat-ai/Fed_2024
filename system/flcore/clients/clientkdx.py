@@ -5,10 +5,9 @@ import numpy as np
 import time
 import torch.nn.functional as F
 from flcore.clients.clientbase import Client
-from flcore.clients.helper_function import ContrastiveLoss , HardTripletLoss, lipschitz_constant_v2
-import random
+from flcore.clients.helper_function import ContrastiveLoss , HardTripletLoss
 # import scipy.linalg as la
-# from flcore.clients.helper_function import 
+# from flcore.clients.helper_function import
 # from scipy.sparse.linalg import svds
 class clientKDX(Client):
     def __init__(self, args, id, train_samples, test_samples, **kwargs):
@@ -19,7 +18,7 @@ class clientKDX(Client):
         self.global_model = copy.deepcopy(args.model)
         self.optimizer_g = torch.optim.SGD(self.global_model.parameters(), lr=self.mentee_learning_rate)
         self.learning_rate_scheduler_g = torch.optim.lr_scheduler.ExponentialLR(
-            optimizer=self.optimizer_g, 
+            optimizer=self.optimizer_g,
             gamma=args.learning_rate_decay_gamma
         )
 
@@ -27,7 +26,7 @@ class clientKDX(Client):
         self.W_h = nn.Linear(self.feature_dim, self.feature_dim, bias=False).to(self.device)
         self.optimizer_W = torch.optim.SGD(self.W_h.parameters(), lr=self.learning_rate)
         self.learning_rate_scheduler_W = torch.optim.lr_scheduler.ExponentialLR(
-            optimizer=self.optimizer_W, 
+            optimizer=self.optimizer_W,
             gamma=args.learning_rate_decay_gamma
         )
 
@@ -39,7 +38,10 @@ class clientKDX(Client):
         self.energy = None
         self.gamma = 0.7
         self.lamda_ = 1.8
-
+        self.use_nkd_loss = args.use_nkd_loss # using NDK Loss
+        self.use_ct_loss  = args.use_ct_loss # using Contrastive loss
+        self.use_dsvd = args.use_dsvd # Using SVD for factorize weighted matrix
+        print(self.use_nkd_loss, self.use_ct_loss, self.use_dsvd)
 
     def train(self):
         trainloader = self.load_train_data()
@@ -53,15 +55,15 @@ class clientKDX(Client):
             max_local_epochs = np.random.randint(1, max_local_epochs // 2)
 
         for epoch in range(max_local_epochs):
-            loss_e = 0 
-            loss_g_e = 0 
-            loss_h  = 0 
+            loss_e = 0
+            loss_g_e = 0
+            loss_h  = 0
             loss_g_h = 0
             loss_nkd_e = 0
             loss_ct_e = 0
-            l_rep_e = 0
-            # random choice 2 batch data in loader 
             
+            # random choice 2 batch data in loader
+
             for i, (x, y) in enumerate(trainloader):
                 if type(x) == type([]):
                     x[0] = x[0].to(self.device)
@@ -75,10 +77,10 @@ class clientKDX(Client):
                 output = self.model.head(rep)
                 output_g = self.global_model.head(rep_g)
                 #normalized KD
-                N, c = output.shape 
+                N, c = output.shape
                 s_i = F.log_softmax(output)
                 t_i = F.softmax(output_g, dim=1)
-                # random choice 2 sample in batch 
+                # random choice 2 sample in batch
                 # data_add_noise = x + torch.randn_like(x) * 0.1
                 # l_const = lipschitz_constant_v2(self.model, x, data_add_noise)
 
@@ -89,51 +91,71 @@ class clientKDX(Client):
                 # print("S_i: ",s_i.shape)
                 # print("T_i: ",t_i.shape)
                 # print("label: ", y.shape)
-                
-                
+
+
                 s_t = torch.gather(s_i, 1, label)
                 t_t = torch.gather(t_i, 1, label)
                 loss_t = -(t_t * s_t).mean()
-                
+
                 mask = torch.ones_like(output).scatter_(1, label, 0).bool()
                 logit_s = output[mask].reshape(N, -1) # set local as student
                 logit_t = output_g[mask].reshape(N, -1) # set global as teacher
-                
+
                 # N*class
                 S_i = F.log_softmax(logit_s/1)
-                T_i = F.softmax(logit_t/1, dim=1) 
-                
+                T_i = F.softmax(logit_t/1, dim=1)
+
                 loss_non =  (T_i * S_i).sum(dim=1).mean()
                 loss_non = - self.lamda_ * (self.gamma**2) * loss_non
-                
+
                 loss_nkd = loss_t + loss_non
 
                 #contrastive loss
                 loss_ct = self.contras_loss(rep, rep_g)
-            
+
                 #triplet loss
                 # tpl_local = self.triplet_loss(rep, label)
                 # tpl_global = self.triplet_loss(rep_g, label)
-                
+
                 CE_loss = self.loss(output, y)
                 CE_loss_g = self.loss(output_g, y)
-                
-
-                
 
 
-                L_d = self.KL(F.log_softmax(output, dim=1), F.softmax(output_g, dim=1)) / (CE_loss + CE_loss_g)
+
+
+
+                L_d = self.KL(F.log_softmax(output, dim=1), F.softmax(output_g, dim=1)) / ( CE_loss + CE_loss_g)
                 L_d_g = self.KL(F.log_softmax(output_g, dim=1), F.softmax(output, dim=1)) / (CE_loss + CE_loss_g)
-                
+
 
 
                 # L_h = self.MSE(rep, self.W_h(rep_g)) / (CE_loss + CE_loss_g)
 
-
+                # check all use loss: 
+                if self.use_nkd_loss and self.use_ct_loss:
+                    loss = CE_loss + L_d + L_d_g + loss_nkd + loss_ct
+                    loss_g = CE_loss_g + L_d + L_d_g + loss_nkd + loss_ct
+                    loss_nkd_e += loss_nkd.item()
+                    loss_ct_e += loss_ct.item()
+                elif self.use_nkd_loss and not self.use_ct_loss:
+                    loss = CE_loss + L_d + L_d_g + loss_nkd
+                    loss_g = CE_loss_g + L_d + L_d_g + loss_nkd
+                    loss_nkd_e += loss_nkd.item()
+                    loss_ct_e += 0
+                elif not self.use_nkd_loss and self.use_ct_loss:
+                    loss = CE_loss + L_d + L_d_g + loss_ct
+                    loss_g = CE_loss_g + L_d + L_d_g + loss_ct
+                    loss_nkd_e += 0
+                    loss_ct_e += loss_ct.item()
+                else:
+                    loss = CE_loss + L_d + L_d_g
+                    loss_g = CE_loss_g + L_d + L_d_g
+                    loss_nkd_e += 0
+                    loss_ct_e += 0
+                
                 # l_const_g = lipschitz_constant_v2(self.global_model, x1, x2)
-                    
-                loss = CE_loss + L_d  + loss_nkd + loss_ct  
-                loss_g = CE_loss_g + L_d_g  + loss_nkd + loss_ct 
+                # l_const = lipschitz_constant(self.model, x1)
+
 
                 self.optimizer.zero_grad()
                 self.optimizer_g.zero_grad()
@@ -151,14 +173,15 @@ class clientKDX(Client):
                 loss_g_e += loss_g.item()
                 loss_h +=  L_d.item()
                 loss_g_h += L_d_g.item()
-                loss_nkd_e += loss_nkd.item()
-                loss_ct_e += loss_ct.item()
+                # loss_nkd_e += loss_nkd.item()
+                # loss_ct_e += loss_ct.item()
                 # l_rep_e += L_h.item()
                 # l_const_g_e += l_const_g.item()
+            print(loss_nkd_e, loss_ct_e)
             print(f"\033[94mEpoch: {epoch}|  NKD Loss: {round(loss_nkd_e/len(trainloader), 4)} | CT Loss: {round(loss_ct_e/len(trainloader), 4)}| \033[0m")
             print(f"\033[91mEpoch: {epoch}|  Loss:  {round(loss_e/len(trainloader), 4)} |Global loss: {round(loss_g_e/len(trainloader), 4)}| Local H loss: {round(loss_h/len(trainloader), 4)}  | Global H loss: {round(loss_g_h/len(trainloader), 4)} \033[0m")
             # print(f"\033[94m Lipschitz constant: {l_const_e/len(trainloader)} | Lipschitz constant global:  {l_const_g_e/len(trainloader)} \033[0m")
-            
+
         # self.model.cpu()
 
         self.decomposition()
@@ -171,14 +194,14 @@ class clientKDX(Client):
         self.train_time_cost['num_rounds'] += 1
         self.train_time_cost['total_cost'] += time.time() - start_time
 
-        
+
     def set_parameters(self, global_param, energy):
         # recover
         for k in global_param.keys():
             if len(global_param[k]) == 3:
                 # use np.matmul to support high-dimensional CNN param
                 global_param[k] = np.matmul(global_param[k][0] * global_param[k][1][..., None, :], global_param[k][2])
-        
+
         for name, old_param in self.global_model.named_parameters():
             if name in global_param:
                 old_param.data = torch.tensor(global_param[name], device=self.device).data.clone()
@@ -205,10 +228,10 @@ class clientKDX(Client):
                 output_g = self.global_model.head(rep_g)
 
                 #normalized KD
-                N, c = output.shape 
+                N, c = output.shape
                 s_i = F.log_softmax(output)
                 t_i = F.softmax(output_g, dim=1)
-                
+
                 if len(y.size()) > 1:
                     label = torch.max(y, dim=1, keepdim=True)[1]
                 else:
@@ -216,26 +239,26 @@ class clientKDX(Client):
                 # print("S_i: ",s_i.shape)
                 # print("T_i: ",t_i.shape)
                 # print("label: ", y.shape)
-                
-                
+
+
                 s_t = torch.gather(s_i, 1, label)
                 t_t = torch.gather(t_i, 1, label)
                 loss_t = -(t_t * s_t).mean()
-                
+
                 mask = torch.ones_like(output).scatter_(1, label, 0).bool()
                 logit_s = output[mask].reshape(N, -1) # set local as student
                 logit_t = output_g[mask].reshape(N, -1) # set global as teacher
-                
+
                 # N*class
                 S_i = F.log_softmax(logit_s/1)
-                T_i = F.softmax(logit_t/1, dim=1) 
-                
+                T_i = F.softmax(logit_t/1, dim=1)
+
                 loss_non =  (T_i * S_i).sum(dim=1).mean()
                 loss_non = - 1.5 * (1**2) * loss_non
-                
+
                 loss_nkd = loss_t + loss_non
                 loss_ct = self.contras_loss(rep, rep_g)
-                
+
                 CE_loss = self.loss(output, y)
                 CE_loss_g = self.loss(output_g, y)
                 L_d = self.KL(F.log_softmax(output, dim=1), F.softmax(output_g, dim=1)) / (CE_loss + CE_loss_g)
@@ -249,7 +272,7 @@ class clientKDX(Client):
         # self.save_model(self.model, 'model')
 
         return losses, train_num
-    
+
     def decomposition(self):
         self.compressed_param = {}
         for name, param in self.global_model.named_parameters():

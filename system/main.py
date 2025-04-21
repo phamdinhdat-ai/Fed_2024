@@ -436,7 +436,6 @@ def run(args):
 
 if __name__ == "__main__":
     total_start = time.time()
-
     parser = argparse.ArgumentParser()
     # general
     parser.add_argument('-go', "--goal", type=str, default="test", 
@@ -479,7 +478,9 @@ if __name__ == "__main__":
     parser.add_argument('-fd', "--feature_dim", type=int, default=512)
     parser.add_argument('-vs', "--vocab_size", type=int, default=98635, 
                         help="Set this value before running text tasks. 80 for Shakespeare, 98635 for AG_News, and 399198 for Sogou_News")
+    
     parser.add_argument('-ml', "--max_len", type=int, default=200)
+    
     # practical
     parser.add_argument('-cdr', "--client_drop_rate", type=float, default=0.0,
                         help="Rate for clients that train but drop out")
@@ -544,7 +545,14 @@ if __name__ == "__main__":
     parser.add_argument('-gam', "--gamma", type=float, default=0.1)
     parser.add_argument('-opt', "--optimizer", type=str, default=None)
     parser.add_argument('-lfn', "--loss_fn", type=str, default="ce")
+
+    parser.add_argument('-dsvd', "--use_dsvd", type=bool, default=False)
+    parser.add_argument('-nkdl', "--use_nkd_loss", type=bool, default=False)
+    parser.add_argument('-ctl', "--use_ct_loss", type=bool, default=False)
     parser.add_argument('-wb', "--wandb", type=bool, default=False)
+
+    
+
 
 
 
@@ -578,6 +586,8 @@ if __name__ == "__main__":
     print("Backbone: {}".format(args.model))
     print("Using device: {}".format(args.device))
     print("Auto break: {}".format(args.auto_break))
+    print("User Negative Knowledge Loss: {}".format(args.use_nkd_loss))
+    print("User Contrastive Loss: {}".format(args.use_ct_loss))
     if not args.auto_break:
         print("Global rounds: {}".format(args.global_rounds))
     if args.device == "cuda":

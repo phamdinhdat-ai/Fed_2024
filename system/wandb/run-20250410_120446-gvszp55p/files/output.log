@@ -1,0 +1,72 @@
+True False False
+True False False
+True False False
+True False False
+True False False
+True False False
+True False False
+True False False
+True False False
+
+Join ratio / total clients: 0.4 / 9
+Finished creating server and clients.
+Chosen Clients:  [1, 6, 5]
+
+-------------Round number: 0-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8]
+Accuracy in each clients:  [0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067]
+AUC in each clients:  [55.643, 56.061, 56.199, 55.794, 55.242, 54.867, 54.586, 56.946, 53.139]
+F1 Score:  [0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Recall Score:  [0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 10.7373
+Averaged Test Accurancy: 0.0667
+Averaged Test AUC: 0.4616
+Averaged Test F1_score: 0.0100
+Averaged Test Recal score: 0.0830
+Std Test Accurancy: 0.0000
+Std Test AUC: 0.0087
+Std Test F1: 0.0000
+Std Test Recall: 0.0000
+[94mEpoch: 0|  NKD Loss: 2.3145 | CT Loss: 0.0| [0m
+[91mEpoch: 0|  Loss:  4.6717 |Global loss: 4.7243| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.2543 | CT Loss: 0.0| [0m
+[91mEpoch: 1|  Loss:  4.3453 |Global loss: 4.4871| Local H loss: 0.0002  | Global H loss: 0.0002 [0m
+[94mEpoch: 2|  NKD Loss: 2.0093 | CT Loss: 0.0| [0m
+[91mEpoch: 2|  Loss:  3.8502 |Global loss: 4.1497| Local H loss: 0.0008  | Global H loss: 0.0008 [0m
+[94mEpoch: 3|  NKD Loss: 1.8218 | CT Loss: 0.0| [0m
+[91mEpoch: 3|  Loss:  3.4505 |Global loss: 3.9088| Local H loss: 0.0014  | Global H loss: 0.0015 [0m
+[94mEpoch: 0|  NKD Loss: 2.3164 | CT Loss: 0.0| [0m
+[91mEpoch: 0|  Loss:  4.6748 |Global loss: 4.7334| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.2822 | CT Loss: 0.0| [0m
+[91mEpoch: 1|  Loss:  4.3793 |Global loss: 4.5354| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.0037 | CT Loss: 0.0| [0m
+[91mEpoch: 2|  Loss:  3.8629 |Global loss: 4.2094| Local H loss: 0.0011  | Global H loss: 0.0011 [0m
+[94mEpoch: 3|  NKD Loss: 1.7563 | CT Loss: 0.0| [0m
+[91mEpoch: 3|  Loss:  3.3939 |Global loss: 3.9222| Local H loss: 0.0021  | Global H loss: 0.0023 [0m
+[94mEpoch: 0|  NKD Loss: 2.3159 | CT Loss: 0.0| [0m
+[91mEpoch: 0|  Loss:  4.661 |Global loss: 4.7216| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.2838 | CT Loss: 0.0| [0m
+[91mEpoch: 1|  Loss:  4.3409 |Global loss: 4.507| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.056 | CT Loss: 0.0| [0m
+[91mEpoch: 2|  Loss:  3.8525 |Global loss: 4.1885| Local H loss: 0.0009  | Global H loss: 0.0009 [0m
+[94mEpoch: 3|  NKD Loss: 1.7787 | CT Loss: 0.0| [0m
+[91mEpoch: 3|  Loss:  3.3064 |Global loss: 3.819| Local H loss: 0.0019  | Global H loss: 0.0021 [0m
+Traceback (most recent call last):
+  File "/home/datpd1/datpd/Fed_2024/system/main.py", line 611, in <module>
+    run(args)
+  File "/home/datpd1/datpd/Fed_2024/system/main.py", line 422, in run
+    server.train()
+  File "/home/datpd1/datpd/Fed_2024/system/flcore/servers/serverkdx.py", line 44, in train
+    client.train()
+  File "/home/datpd1/datpd/Fed_2024/system/flcore/clients/clientkdx.py", line 187, in train
+    self.decomposition()
+  File "/home/datpd1/datpd/Fed_2024/system/flcore/clients/clientkdx.py", line 282, in decomposition
+    u, sigma, v = np.linalg.svd(param_cpu, full_matrices=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/miniconda3/envs/datpd1/lib/python3.12/site-packages/numpy/linalg/linalg.py", line 1681, in svd
+    u, s, vh = gufunc(a, signature=signature, extobj=extobj)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

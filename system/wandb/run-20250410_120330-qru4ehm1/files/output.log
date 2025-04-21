@@ -1,0 +1,49 @@
+True True True
+True True True
+True True True
+True True True
+True True True
+True True True
+True True True
+True True True
+True True True
+
+Join ratio / total clients: 0.4 / 9
+Finished creating server and clients.
+Chosen Clients:  [5, 7, 4]
+
+-------------Round number: 0-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8]
+Accuracy in each clients:  [0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067]
+AUC in each clients:  [55.643, 56.061, 56.199, 55.794, 55.242, 54.867, 54.586, 56.946, 53.139]
+F1 Score:  [0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Recall Score:  [0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120]
+Traceback (most recent call last):
+  File "/home/datpd1/datpd/Fed_2024/system/main.py", line 609, in <module>
+    run(args)
+  File "/home/datpd1/datpd/Fed_2024/system/main.py", line 422, in run
+    server.train()
+  File "/home/datpd1/datpd/Fed_2024/system/flcore/servers/serverkdx.py", line 41, in train
+    self.evaluate()
+  File "/home/datpd1/datpd/Fed_2024/system/flcore/servers/serverbase.py", line 306, in evaluate
+    stats_train = self.train_metrics()
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/datpd/Fed_2024/system/flcore/servers/serverbase.py", line 295, in train_metrics
+    cl, ns = c.train_metrics()
+             ^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/datpd/Fed_2024/system/flcore/clients/clientkdx.py", line 260, in train_metrics
+    loss_ct = self.contras_loss(rep, rep_g)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/miniconda3/envs/datpd1/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/miniconda3/envs/datpd1/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/datpd/Fed_2024/system/flcore/clients/helper_function.py", line 56, in forward
+    sim_matrix = sim_matrix.masked_select(mask).view(2 * batch_size, -1)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

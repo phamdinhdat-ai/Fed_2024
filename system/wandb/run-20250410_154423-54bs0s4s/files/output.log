@@ -1,0 +1,43 @@
+False False False
+False False False
+False False False
+False False False
+False False False
+False False False
+False False False
+False False False
+False False False
+
+Join ratio / total clients: 0.4 / 9
+Finished creating server and clients.
+Chosen Clients:  [2, 1, 3]
+
+-------------Round number: 0-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8]
+Accuracy in each clients:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+AUC in each clients:  [24.413, 23.836, 24.577, 26.681, 22.018, 28.126, 24.397, 25.945, 20.961]
+F1 Score:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Recall Score:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Number of sample in client:  [87, 76, 86, 80, 76, 82, 77, 71, 72]
+Averaged Train Loss: 10.4737
+Averaged Test Accurancy: 0.0000
+Averaged Test AUC: 0.3125
+Averaged Test F1_score: 0.0000
+Averaged Test Recal score: 0.0000
+Std Test Accurancy: 0.0000
+Std Test AUC: 0.0277
+Std Test F1: 0.0000
+Std Test Recall: 0.0000
+Traceback (most recent call last):
+  File "/home/datpd1/datpd/Fed_2024/system/main.py", line 610, in <module>
+    run(args)
+  File "/home/datpd1/datpd/Fed_2024/system/main.py", line 422, in run
+    server.train()
+  File "/home/datpd1/datpd/Fed_2024/system/flcore/servers/serverkdx.py", line 44, in train
+    client.train()
+  File "/home/datpd1/datpd/Fed_2024/system/flcore/clients/clientkdx.py", line 181, in train
+    print(f"\033[94mEpoch: {epoch}|  NKD Loss: {round(loss_nkd_e/len(trainloader), 4)} | CT Loss: {round(loss_ct_e/len(trainloader), 4)}| \033[0m")
+                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: type Tensor doesn't define __round__ method

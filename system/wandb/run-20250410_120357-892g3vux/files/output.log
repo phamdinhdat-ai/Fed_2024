@@ -1,0 +1,59 @@
+True True True
+True True True
+True True True
+True True True
+True True True
+True True True
+True True True
+True True True
+True True True
+
+Join ratio / total clients: 0.4 / 9
+Finished creating server and clients.
+Chosen Clients:  [6, 2, 7]
+
+-------------Round number: 0-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8]
+Accuracy in each clients:  [0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067, 0.067]
+AUC in each clients:  [55.643, 56.061, 56.199, 55.794, 55.242, 54.867, 54.586, 56.946, 53.139]
+F1 Score:  [0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
+Recall Score:  [0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083, 0.083]
+Number of sample in client:  [120, 120, 120, 120, 120, 120, 120, 120, 120]
+Averaged Train Loss: 10.7373
+Averaged Test Accurancy: 0.0667
+Averaged Test AUC: 0.4616
+Averaged Test F1_score: 0.0100
+Averaged Test Recal score: 0.0830
+Std Test Accurancy: 0.0000
+Std Test AUC: 0.0087
+Std Test F1: 0.0000
+Std Test Recall: 0.0000
+[94mEpoch: 0|  NKD Loss: 2.3147 | CT Loss: 3.5618| [0m
+[91mEpoch: 0|  Loss:  8.242 |Global loss: 8.2972| Local H loss: 0.0  | Global H loss: 0.0 [0m
+[94mEpoch: 1|  NKD Loss: 2.2784 | CT Loss: 3.5442| [0m
+[91mEpoch: 1|  Loss:  7.9186 |Global loss: 8.062| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+[94mEpoch: 2|  NKD Loss: 2.0144 | CT Loss: 3.5198| [0m
+[91mEpoch: 2|  Loss:  7.3539 |Global loss: 7.6673| Local H loss: 0.001  | Global H loss: 0.0011 [0m
+[94mEpoch: 3|  NKD Loss: 1.7245 | CT Loss: 3.505| [0m
+[91mEpoch: 3|  Loss:  6.8309 |Global loss: 7.339| Local H loss: 0.0021  | Global H loss: 0.0022 [0m
+[94mEpoch: 0|  NKD Loss: 2.3185 | CT Loss: 3.5431| [0m
+[91mEpoch: 0|  Loss:  8.2269 |Global loss: 8.2795| Local H loss: 0.0  | Global H loss: 0.0 [0m
+Traceback (most recent call last):
+  File "/home/datpd1/datpd/Fed_2024/system/main.py", line 609, in <module>
+    run(args)
+  File "/home/datpd1/datpd/Fed_2024/system/main.py", line 422, in run
+    server.train()
+  File "/home/datpd1/datpd/Fed_2024/system/flcore/servers/serverkdx.py", line 44, in train
+    client.train()
+  File "/home/datpd1/datpd/Fed_2024/system/flcore/clients/clientkdx.py", line 164, in train
+    loss.backward(retain_graph=True)
+  File "/home/datpd1/miniconda3/envs/datpd1/lib/python3.12/site-packages/torch/_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "/home/datpd1/miniconda3/envs/datpd1/lib/python3.12/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/home/datpd1/miniconda3/envs/datpd1/lib/python3.12/site-packages/torch/autograd/graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

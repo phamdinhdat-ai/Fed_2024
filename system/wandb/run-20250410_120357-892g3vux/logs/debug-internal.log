@@ -1,0 +1,11 @@
+{"time":"2025-04-10T12:03:57.450792742+07:00","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-04-10T12:03:57.450816665+07:00","level":"INFO","msg":"created symlink","path":"/home/datpd1/datpd/Fed_2024/system/wandb/run-20250410_120357-892g3vux/logs/debug-core.log"}
+{"time":"2025-04-10T12:03:57.556201019+07:00","level":"INFO","msg":"created new stream","id":"892g3vux"}
+{"time":"2025-04-10T12:03:57.556228878+07:00","level":"INFO","msg":"stream: started","id":"892g3vux"}
+{"time":"2025-04-10T12:03:57.556274377+07:00","level":"INFO","msg":"handler: started","stream_id":"892g3vux"}
+{"time":"2025-04-10T12:03:57.556252598+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"892g3vux"}
+{"time":"2025-04-10T12:03:57.556316715+07:00","level":"INFO","msg":"sender: started","stream_id":"892g3vux"}
+{"time":"2025-04-10T12:03:57.945311151+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T12:04:00.219190681+07:00","level":"INFO","msg":"stream: closing","id":"892g3vux"}
+{"time":"2025-04-10T12:04:00.219209825+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-10T12:04:00.21957629+07:00","level":"INFO","msg":"Stopped system monitor"}

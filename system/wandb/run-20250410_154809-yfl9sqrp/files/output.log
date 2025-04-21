@@ -1,0 +1,124 @@
+False False False
+False False False
+False False False
+False False False
+False False False
+False False False
+False False False
+False False False
+False False False
+
+Join ratio / total clients: 0.4 / 9
+Finished creating server and clients.
+Chosen Clients:  [1, 4, 6]
+
+-------------Round number: 0-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8]
+Accuracy in each clients:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+AUC in each clients:  [24.413, 23.836, 24.577, 26.681, 22.018, 28.126, 24.397, 25.945, 20.961]
+F1 Score:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Recall Score:  [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Number of sample in client:  [87, 76, 86, 80, 76, 82, 77, 71, 72]
+Averaged Train Loss: 10.4737
+Averaged Test Accurancy: 0.0000
+Averaged Test AUC: 0.3125
+Averaged Test F1_score: 0.0000
+Averaged Test Recal score: 0.0000
+Std Test Accurancy: 0.0000
+Std Test AUC: 0.0277
+Std Test F1: 0.0000
+Std Test Recall: 0.0000
+0 25.47856640815735
+[94mEpoch: 0|  NKD Loss: 0.0 | CT Loss: 3.6398| [0m
+[91mEpoch: 0|  Loss:  6.0666 |Global loss: 6.0666| Local H loss: 0.0  | Global H loss: 0.0 [0m
+0 25.249724864959717
+[94mEpoch: 1|  NKD Loss: 0.0 | CT Loss: 3.6071| [0m
+[91mEpoch: 1|  Loss:  5.8312 |Global loss: 5.8312| Local H loss: 0.0  | Global H loss: 0.0 [0m
+0 25.093470096588135
+[94mEpoch: 2|  NKD Loss: 0.0 | CT Loss: 3.5848| [0m
+[91mEpoch: 2|  Loss:  5.5824 |Global loss: 5.5824| Local H loss: 0.0  | Global H loss: 0.0 [0m
+0 24.89836835861206
+[94mEpoch: 3|  NKD Loss: 0.0 | CT Loss: 3.5569| [0m
+[91mEpoch: 3|  Loss:  5.2947 |Global loss: 5.2947| Local H loss: 0.0  | Global H loss: 0.0 [0m
+0 25.414923906326294
+[94mEpoch: 0|  NKD Loss: 0.0 | CT Loss: 3.6307| [0m
+[91mEpoch: 0|  Loss:  6.0715 |Global loss: 6.0715| Local H loss: -0.0  | Global H loss: 0.0 [0m
+0 25.159993171691895
+[94mEpoch: 1|  NKD Loss: 0.0 | CT Loss: 3.5943| [0m
+[91mEpoch: 1|  Loss:  5.837 |Global loss: 5.837| Local H loss: -0.0  | Global H loss: 0.0 [0m
+0 24.936421394348145
+[94mEpoch: 2|  NKD Loss: 0.0 | CT Loss: 3.5623| [0m
+[91mEpoch: 2|  Loss:  5.5812 |Global loss: 5.5812| Local H loss: 0.0  | Global H loss: 0.0 [0m
+0 24.77840256690979
+[94mEpoch: 3|  NKD Loss: 0.0 | CT Loss: 3.5398| [0m
+[91mEpoch: 3|  Loss:  5.3181 |Global loss: 5.3181| Local H loss: 0.0  | Global H loss: 0.0 [0m
+0 25.468859672546387
+[94mEpoch: 0|  NKD Loss: 0.0 | CT Loss: 3.6384| [0m
+[91mEpoch: 0|  Loss:  6.083 |Global loss: 6.083| Local H loss: 0.0  | Global H loss: 0.0 [0m
+0 25.298730850219727
+[94mEpoch: 1|  NKD Loss: 0.0 | CT Loss: 3.6141| [0m
+[91mEpoch: 1|  Loss:  5.8709 |Global loss: 5.8709| Local H loss: 0.0  | Global H loss: 0.0 [0m
+0 25.075533151626587
+[94mEpoch: 2|  NKD Loss: 0.0 | CT Loss: 3.5822| [0m
+[91mEpoch: 2|  Loss:  5.6268 |Global loss: 5.6268| Local H loss: 0.0  | Global H loss: 0.0 [0m
+0 24.962702751159668
+[94mEpoch: 3|  NKD Loss: 0.0 | CT Loss: 3.5661| [0m
+[91mEpoch: 3|  Loss:  5.3812 |Global loss: 5.3812| Local H loss: 0.0  | Global H loss: 0.0 [0m
+------------------------- time cost ------------------------- 2.1586713790893555
+Chosen Clients:  [2, 4, 0]
+
+-------------Round number: 1-------------
+
+Evaluate personalized models
+Client ID:  [0, 1, 2, 3, 4, 5, 6, 7, 8]
+Accuracy in each clients:  [0.0, 0.579, 0.0, 0.0, 0.474, 0.0, 0.506, 0.0, 0.0]
+AUC in each clients:  [24.413, 71.579, 24.577, 26.681, 70.854, 28.126, 71.077, 25.945, 20.961]
+F1 Score:  [0.0, 0.498, 0.0, 0.0, 0.383, 0.0, 0.436, 0.0, 0.0]
+Recall Score:  [0.0, 0.608, 0.0, 0.0, 0.498, 0.0, 0.498, 0.0, 0.0]
+Number of sample in client:  [87, 76, 86, 80, 76, 82, 77, 71, 72]
+Averaged Train Loss: 10.8635
+Averaged Test Accurancy: 0.1683
+Averaged Test AUC: 0.5152
+Averaged Test F1_score: 0.1463
+Averaged Test Recal score: 0.1782
+Std Test Accurancy: 0.2463
+Std Test AUC: 0.2915
+Std Test F1: 0.0027
+Std Test Recall: 0.0033
+0 32.41611909866333
+[94mEpoch: 0|  NKD Loss: 0.0 | CT Loss: 4.6309| [0m
+[91mEpoch: 0|  Loss:  7.0532 |Global loss: 7.0918| Local H loss: 0.0001  | Global H loss: 0.0001 [0m
+0 30.847134113311768
+[94mEpoch: 1|  NKD Loss: 0.0 | CT Loss: 4.4067| [0m
+[91mEpoch: 1|  Loss:  6.6202 |Global loss: 6.8083| Local H loss: 0.0003  | Global H loss: 0.0003 [0m
+0 30.2655987739563
+[94mEpoch: 2|  NKD Loss: 0.0 | CT Loss: 4.3237| [0m
+[91mEpoch: 2|  Loss:  6.3163 |Global loss: 6.677| Local H loss: 0.0012  | Global H loss: 0.0012 [0m
+0 29.954574584960938
+[94mEpoch: 3|  NKD Loss: 0.0 | CT Loss: 4.2792| [0m
+[91mEpoch: 3|  Loss:  6.0399 |Global loss: 6.5792| Local H loss: 0.0032  | Global H loss: 0.003 [0m
+0 32.157893657684326
+[94mEpoch: 0|  NKD Loss: 0.0 | CT Loss: 4.594| [0m
+[91mEpoch: 0|  Loss:  6.1492 |Global loss: 7.0662| Local H loss: 0.0079  | Global H loss: 0.007 [0m
+Traceback (most recent call last):
+  File "/home/datpd1/datpd/Fed_2024/system/main.py", line 610, in <module>
+    run(args)
+  File "/home/datpd1/datpd/Fed_2024/system/main.py", line 422, in run
+    server.train()
+  File "/home/datpd1/datpd/Fed_2024/system/flcore/servers/serverkdx.py", line 44, in train
+    client.train()
+  File "/home/datpd1/datpd/Fed_2024/system/flcore/clients/clientkdx.py", line 114, in train
+    loss_ct = self.contras_loss(rep, rep_g)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/miniconda3/envs/datpd1/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/miniconda3/envs/datpd1/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/datpd1/datpd/Fed_2024/system/flcore/clients/helper_function.py", line 54, in forward
+    sim_matrix = torch.exp(torch.mm(out, out.t().contiguous()) / self.temperature)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
