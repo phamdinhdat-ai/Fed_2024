@@ -36,8 +36,8 @@ class clientKDX(Client):
         self.triplet_loss = HardTripletLoss(margin=0.5)
         self.compressed_param = {}
         self.energy = None
-        self.gamma = 0.7
-        self.lamda_ = 1.8
+        self.gamma = args.gamma
+        self.lamda_ = args.lamda
         self.use_nkd_loss = args.use_nkd_loss # using NDK Loss
         self.use_ct_loss  = args.use_ct_loss # using Contrastive loss
         self.use_dsvd = args.use_dsvd # Using SVD for factorize weighted matrix
@@ -78,8 +78,8 @@ class clientKDX(Client):
                 output_g = self.global_model.head(rep_g)
                 #normalized KD
                 N, c = output.shape
-                s_i = F.log_softmax(output)
-                t_i = F.softmax(output_g, dim=1)
+                # s_i = F.log_softmax(output)
+                # t_i = F.softmax(output_g, dim=1)
                 # random choice 2 sample in batch
                 # data_add_noise = x + torch.randn_like(x) * 0.1
                 # l_const = lipschitz_constant_v2(self.model, x, data_add_noise)
@@ -88,14 +88,10 @@ class clientKDX(Client):
                     label = torch.max(y, dim=1, keepdim=True)[1]
                 else:
                     label = y.view(len(y), 1)
-                # print("S_i: ",s_i.shape)
-                # print("T_i: ",t_i.shape)
-                # print("label: ", y.shape)
 
-
-                s_t = torch.gather(s_i, 1, label)
-                t_t = torch.gather(t_i, 1, label)
-                loss_t = -(t_t * s_t).mean()
+                # s_t = torch.gather(s_i, 1, label)
+                # t_t = torch.gather(t_i, 1, label)
+                # loss_t = -(t_t * s_t).mean()
 
                 mask = torch.ones_like(output).scatter_(1, label, 0).bool()
                 logit_s = output[mask].reshape(N, -1) # set local as student
@@ -105,13 +101,14 @@ class clientKDX(Client):
                 S_i = F.log_softmax(logit_s/1)
                 T_i = F.softmax(logit_t/1, dim=1)
 
-                loss_non =  (T_i * S_i).sum(dim=1).mean()
-                loss_non = - self.lamda_ * (self.gamma**2) * loss_non
+                # loss_non =  (T_i * S_i).sum(dim=1).mean()
+                # using KL divergence for loss non 
+                loss_non = F.kl_div(S_i, T_i, reduction='batchmean')
+                loss_nkd = - self.lamda_ * (self.gamma**2) * loss_non
 
-                loss_nkd = loss_t + loss_non
+                # loss_nkd = loss_t + loss_non
 
                 #contrastive loss
-                loss_ct = self.contras_loss(rep, rep_g)
 
                 #triplet loss
                 # tpl_local = self.triplet_loss(rep, label)
@@ -120,12 +117,8 @@ class clientKDX(Client):
                 CE_loss = self.loss(output, y)
                 CE_loss_g = self.loss(output_g, y)
 
-
-
-
-
-                L_d = self.KL(F.log_softmax(output, dim=1), F.softmax(output_g, dim=1)) / ( CE_loss + CE_loss_g)
-                L_d_g = self.KL(F.log_softmax(output_g, dim=1), F.softmax(output, dim=1)) / (CE_loss + CE_loss_g)
+                L_d = self.KL(F.log_softmax(output, dim=1), F.softmax(output_g, dim=1))
+                L_d_g = self.KL(F.log_softmax(output_g, dim=1), F.softmax(output, dim=1)) 
 
 
 
@@ -133,6 +126,7 @@ class clientKDX(Client):
 
                 # check all use loss: 
                 if self.use_nkd_loss and self.use_ct_loss:
+                    loss_ct = self.contras_loss(rep, rep_g)
                     loss = CE_loss + L_d + L_d_g + loss_nkd + loss_ct
                     loss_g = CE_loss_g + L_d + L_d_g + loss_nkd + loss_ct
                     loss_nkd_e += loss_nkd.item()
@@ -143,6 +137,7 @@ class clientKDX(Client):
                     loss_nkd_e += loss_nkd.item()
                     loss_ct_e += 0
                 elif not self.use_nkd_loss and self.use_ct_loss:
+                    loss_ct = self.contras_loss(rep, rep_g)
                     loss = CE_loss + L_d + L_d_g + loss_ct
                     loss_g = CE_loss_g + L_d + L_d_g + loss_ct
                     loss_nkd_e += 0
