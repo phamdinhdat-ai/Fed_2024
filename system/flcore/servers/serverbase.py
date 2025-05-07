@@ -77,10 +77,12 @@ class Server(object):
         self.use_nkd_loss = "nkd" if args.use_nkd_loss else '' 
         self.use_ct_loss  = "ct" if args.use_ct_loss else ''
         self.use_dsvd = "dsvd" if args.use_dsvd else ''
-        self.name_suffix = "server_" + str(self.model_name) + "_" + str(self.dataset) + "_" + str(self.algorithm) + "_" + str(self.num_classes) + "_" + str(self.use_nkd_loss) + "_" + str(self.use_ct_loss) + "_" + str(self.use_dsvd)
+        self.lamda = args.lamda
+        self.gamma = args.gamma
+        self.name_suffix = "server_" + str(self.model_name) + "_" + str(self.dataset) + "_" + str(self.algorithm) + "_" + str(self.num_classes) + "_" + str(self.use_nkd_loss) + "_" + str(self.use_ct_loss) + "_" + str(self.use_dsvd) + "_" + str(args.lamda) + "_" + str(args.gamma)
         # tracking performance of each client
         if self.wandb:
-            wandb.init(project='PFL-2025', name=self.name_suffix)
+            wandb.init(project='NKD-2025', name=self.name_suffix)
             
     def set_clients(self, clientObj):
         for i, train_slow, send_slow in zip(range(self.num_clients), self.train_slow_clients, self.send_slow_clients):
@@ -201,9 +203,9 @@ class Server(object):
             os.makedirs(result_path)
 
         if (len(self.rs_test_acc)):
-            algo = algo + "_" + self.goal + "_" + str(self.times) 
+            algo = algo + "_" + self.goal + "_" + str(self.times) + "_" + str(self.num_classes) + "_" + str(self.use_nkd_loss) + "_" + str(self.use_ct_loss)
             file_path = result_path + "{}.h5".format(algo)
-            other_file =  result_path + algo + "_" + str(self.args.T_start) + "_" + str(self.batch_size) + "_" + str(self.global_rounds) + "_" + str(self.num_clients) + "_" + time.strftime('%Y_%m_%d_%H_%M') +".pkl"
+            other_file =  result_path + algo + "_" + str(self.args.T_start) + "_" + str(self.batch_size) + "_" + str(self.global_rounds) + "_" + str(self.num_clients) + "_" + str(self.lamda) + "_" + str(self.gamma)+ "_" + time.strftime('%Y_%m_%d_%H_%M') +".pkl"
             all_results_file =  result_path + algo + "_" + "all_resuls" + "_" + str(self.args.T_start) + "_" + str(self.batch_size) + "_" + str(self.global_rounds) + "_" + str(self.num_clients) + "_" + time.strftime('%Y_%m_%d_%H_%M') +".pkl"
             print("File path: " + file_path)
             print("All Client results path: ", all_results_file)
