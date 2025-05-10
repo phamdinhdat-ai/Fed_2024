@@ -36,12 +36,12 @@ class clientKDX(Client):
         self.triplet_loss = HardTripletLoss(margin=0.5)
         self.compressed_param = {}
         self.energy = None
-        self.gamma = 0.7
-        self.lamda_ = 1.8
+        self.gamma = args.gamma
+        self.lamda_ = args.lamda
         self.use_nkd_loss = args.use_nkd_loss # using NDK Loss
         self.use_ct_loss  = args.use_ct_loss # using Contrastive loss
         self.use_dsvd = args.use_dsvd # Using SVD for factorize weighted matrix
-        print(self.use_nkd_loss, self.use_ct_loss, self.use_dsvd)
+        print(self.use_nkd_loss, self.use_ct_loss, self.use_dsvd, self.gamma, self.lamda_)  
 
     def train(self):
         trainloader = self.load_train_data()
