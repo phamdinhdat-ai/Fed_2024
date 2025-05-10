@@ -1,12 +1,10 @@
 #!/bin/bash
 
 
-#SBATCH --job-name=FED_KDX
+#SBATCH --job-name=NKD-2025
 #SBATCH --nodes=1
-#SBATCH --nodelist=hpc24
 #SBATCH --ntasks=1
-#SBATCH --partition=gpu
-#SBATCH --gres=gpu:1
+#SBATCH --partition=dgx-small
 #SBATCH --output=train_outs/small/out/%x.%j.out
 #SBATCH --error=train_outs/small/errors/%x.%j.err
 #SBATCH --mail-type=ALL
